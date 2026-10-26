@@ -1,0 +1,415 @@
+{
+  "status": "partial",
+  "imageQuality": 0.943,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        290,
+        365,
+        62,
+        76
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 1,
+      "row": 1
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.942,
+      "confidenceLevel": "high",
+      "bbox": [
+        349,
+        350,
+        68,
+        78
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 2,
+      "row": 1
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        421,
+        346,
+        73,
+        63
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 3,
+      "row": 1
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.942,
+      "confidenceLevel": "high",
+      "bbox": [
+        492,
+        325,
+        70,
+        65
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 4,
+      "row": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.94,
+      "confidenceLevel": "high",
+      "bbox": [
+        304,
+        456,
+        59,
+        72
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 5,
+      "row": 2
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.942,
+      "confidenceLevel": "high",
+      "bbox": [
+        518,
+        485,
+        63,
+        56
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 6,
+      "row": 2
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        319,
+        530,
+        70,
+        72
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 7,
+      "row": 3
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.942,
+      "confidenceLevel": "high",
+      "bbox": [
+        380,
+        514,
+        69,
+        72
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 8,
+      "row": 3
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.94,
+      "confidenceLevel": "high",
+      "bbox": [
+        452,
+        506,
+        67,
+        57
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 9,
+      "row": 3
+    },
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.788,
+      "confidenceLevel": "medium",
+      "bbox": [
+        263,
+        611,
+        70,
+        76
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 40,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 10,
+      "row": 4
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.929,
+      "confidenceLevel": "high",
+      "bbox": [
+        336,
+        609,
+        63,
+        63
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 11,
+      "row": 4
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.767,
+      "confidenceLevel": "medium",
+      "bbox": [
+        401,
+        596,
+        65,
+        55
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 2,
+        "maxSoleplateTemperatureC": 150
+      },
+      "position": 12,
+      "row": 4
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.867,
+      "confidenceLevel": "medium",
+      "bbox": [
+        527,
+        555,
+        65,
+        93
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 13,
+      "row": 4
+    },
+    {
+      "id": "wash_no",
+      "category": "wash",
+      "confidence": 0.827,
+      "confidenceLevel": "medium",
+      "bbox": [
+        493,
+        1112,
+        39,
+        57
+      ],
+      "name": "Стирка запрещена",
+      "components": [
+        "wash_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "wash"
+      },
+      "position": 14,
+      "row": 7
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        219,
+        374,
+        66,
+        81
+      ],
+      "confidence": 0.568,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_30_gentle",
+        "wash_hand"
+      ]
+    },
+    {
+      "bbox": [
+        215,
+        453,
+        80,
+        87
+      ],
+      "confidence": 0.382,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_40",
+        "iron_high",
+        "wash_60"
+      ]
+    },
+    {
+      "bbox": [
+        370,
+        453,
+        71,
+        51
+      ],
+      "confidence": 0.424,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_40",
+        "iron_medium"
+      ]
+    },
+    {
+      "bbox": [
+        336,
+        729,
+        28,
+        23
+      ],
+      "confidence": 0.355,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_dryclean",
+        "pro_reduced_moisture"
+      ]
+    },
+    {
+      "bbox": [
+        450,
+        900,
+        26,
+        36
+      ],
+      "confidence": 0.286,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "iron_medium",
+        "iron_no",
+        "iron_low"
+      ]
+    },
+    {
+      "bbox": [
+        449,
+        1121,
+        19,
+        35
+      ],
+      "confidence": 0.346,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_hand_30",
+        "pro_no",
+        "pro_dry_f_very_gentle"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": false,
+  "layout": "horizontal"
+}

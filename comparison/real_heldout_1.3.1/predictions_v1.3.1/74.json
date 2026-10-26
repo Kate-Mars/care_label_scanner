@@ -1,0 +1,92 @@
+{
+  "status": "partial",
+  "imageQuality": 0.913,
+  "recognizedSymbols": [
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        1201,
+        1863,
+        286,
+        262
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 1
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        1555,
+        1871,
+        408,
+        270
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 2
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        2057,
+        1898,
+        245,
+        246
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "solvent": "P",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 3
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        819,
+        1852,
+        251,
+        277
+      ],
+      "confidence": 0.493,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "bleach_no"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

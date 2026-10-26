@@ -1,0 +1,120 @@
+{
+  "status": "partial",
+  "imageQuality": 0.906,
+  "recognizedSymbols": [
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.916,
+      "confidenceLevel": "high",
+      "bbox": [
+        1869,
+        1162,
+        172,
+        73
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 1,
+      "row": 1,
+      "repeats": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.936,
+      "confidenceLevel": "high",
+      "bbox": [
+        1171,
+        3088,
+        152,
+        123
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2,
+      "row": 2
+    },
+    {
+      "id": "dry_tumble_medium",
+      "category": "dry",
+      "confidence": 0.933,
+      "confidenceLevel": "high",
+      "bbox": [
+        1365,
+        3075,
+        143,
+        110
+      ],
+      "name": "Машинная сушка — средняя температура",
+      "components": [
+        "dry_tumble_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "medium",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 3,
+      "row": 2
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.932,
+      "confidenceLevel": "high",
+      "bbox": [
+        1536,
+        3084,
+        196,
+        130
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 2,
+        "maxSoleplateTemperatureC": 150
+      },
+      "position": 4,
+      "row": 2
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        985,
+        3095,
+        179,
+        157
+      ],
+      "confidence": 0.614,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_40_very_gentle",
+        "wash_40"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal",
+  "duplicatesRemoved": 1
+}

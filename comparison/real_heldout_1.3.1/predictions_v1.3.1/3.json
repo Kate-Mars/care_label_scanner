@@ -1,0 +1,119 @@
+{
+  "status": "success",
+  "imageQuality": 0.782,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "confidence": 0.945,
+      "confidenceLevel": "high",
+      "bbox": [
+        110,
+        138,
+        95,
+        103
+      ],
+      "name": "Стирка до 30 °C, щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.945,
+      "confidenceLevel": "high",
+      "bbox": [
+        218,
+        146,
+        99,
+        85
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.851,
+      "confidenceLevel": "medium",
+      "bbox": [
+        317,
+        156,
+        59,
+        77
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 3
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.946,
+      "confidenceLevel": "high",
+      "bbox": [
+        383,
+        158,
+        89,
+        109
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 4
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.946,
+      "confidenceLevel": "high",
+      "bbox": [
+        481,
+        173,
+        81,
+        79
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 5
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

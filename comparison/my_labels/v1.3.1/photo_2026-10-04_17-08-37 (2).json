@@ -1,0 +1,97 @@
+{
+  "status": "success",
+  "imageQuality": 0.925,
+  "recognizedSymbols": [
+    {
+      "id": "wash_hand_30",
+      "category": "wash",
+      "confidence": 0.939,
+      "confidenceLevel": "high",
+      "bbox": [
+        284,
+        671,
+        110,
+        124
+      ],
+      "name": "Ручная стирка при температуре до 30 °C",
+      "components": [
+        "wash_hand",
+        "wash_30"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "hand_wash",
+        "maxTemperatureC": 30
+      },
+      "position": 1
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.939,
+      "confidenceLevel": "high",
+      "bbox": [
+        394,
+        705,
+        80,
+        56
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 2
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.939,
+      "confidenceLevel": "high",
+      "bbox": [
+        480,
+        701,
+        78,
+        65
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 3
+    },
+    {
+      "id": "dry_drip",
+      "category": "dry",
+      "confidence": 0.939,
+      "confidenceLevel": "high",
+      "bbox": [
+        567,
+        708,
+        85,
+        97
+      ],
+      "name": "Капельная сушка",
+      "components": [
+        "dry_drip"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "natural_dry",
+        "method": "drip"
+      },
+      "position": 4
+    }
+  ],
+  "labelDetected": false,
+  "layout": "horizontal"
+}

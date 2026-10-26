@@ -1,0 +1,161 @@
+{
+  "status": "success",
+  "imageQuality": 0.933,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_any",
+      "category": "bleach",
+      "confidence": 0.95,
+      "confidenceLevel": "high",
+      "bbox": [
+        343,
+        556,
+        76,
+        63
+      ],
+      "name": "Отбеливание разрешено",
+      "components": [
+        "bleach_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach"
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_chlorine",
+      "category": "bleach",
+      "confidence": 0.982,
+      "confidenceLevel": "high",
+      "bbox": [
+        458,
+        541,
+        76,
+        65
+      ],
+      "name": "Хлорное отбеливание (CL)",
+      "components": [
+        "bleach_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "chlorine"
+      },
+      "position": 2
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        575,
+        534,
+        76,
+        66
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "non_chlorine_only"
+      },
+      "position": 3
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "confidence": 0.975,
+      "confidenceLevel": "high",
+      "bbox": [
+        697,
+        540,
+        73,
+        35
+      ],
+      "name": "Глажение разрешено без ограничения по точкам",
+      "components": [
+        "iron_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron"
+      },
+      "position": 4
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        818,
+        525,
+        82,
+        50
+      ],
+      "name": "Глажение запрещено",
+      "components": [
+        "iron_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "iron"
+      },
+      "position": 5
+    },
+    {
+      "id": "bleach_any",
+      "category": "bleach",
+      "confidence": 0.95,
+      "confidenceLevel": "high",
+      "bbox": [
+        950,
+        505,
+        74,
+        70
+      ],
+      "name": "Отбеливание разрешено",
+      "components": [
+        "bleach_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach"
+      },
+      "position": 6
+    },
+    {
+      "id": "wash_30_very_gentle",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        1073,
+        497,
+        74,
+        61
+      ],
+      "name": "Стирка до 30 °C, очень щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_very_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "very_mild",
+        "underlines": 2
+      },
+      "position": 7
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

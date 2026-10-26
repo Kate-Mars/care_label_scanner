@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "imageQuality": 0.882,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_any",
+      "category": "bleach",
+      "confidence": 0.811,
+      "confidenceLevel": "medium",
+      "bbox": [
+        489,
+        943,
+        34,
+        28
+      ],
+      "name": "Отбеливание разрешено",
+      "components": [
+        "bleach_any"
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.932,
+      "confidenceLevel": "high",
+      "bbox": [
+        537,
+        942,
+        47,
+        36
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ]
+    }
+  ],
+  "labelDetected": false,
+  "layout": "horizontal"
+}

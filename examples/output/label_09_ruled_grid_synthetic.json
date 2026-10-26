@@ -1,0 +1,119 @@
+{
+  "status": "success",
+  "imageQuality": 0.979,
+  "recognizedSymbols": [
+    {
+      "id": "pro_wet",
+      "category": "professional_care",
+      "confidence": 0.997,
+      "confidenceLevel": "high",
+      "bbox": [
+        79,
+        683,
+        97,
+        95
+      ],
+      "name": "Профессиональная влажная чистка (W)",
+      "components": [
+        "pro_wet"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_wet_clean",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.996,
+      "confidenceLevel": "high",
+      "bbox": [
+        189,
+        680,
+        96,
+        86
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "non_chlorine_only"
+      },
+      "position": 2
+    },
+    {
+      "id": "iron_no_steam",
+      "category": "iron",
+      "confidence": 0.992,
+      "confidenceLevel": "high",
+      "bbox": [
+        299,
+        677,
+        107,
+        87
+      ],
+      "name": "Паровая обработка запрещена",
+      "components": [
+        "iron_no_steam"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "steam": "prohibited"
+      },
+      "position": 3
+    },
+    {
+      "id": "wash_hand",
+      "category": "wash",
+      "confidence": 0.997,
+      "confidenceLevel": "high",
+      "bbox": [
+        421,
+        684,
+        93,
+        68
+      ],
+      "name": "Ручная стирка",
+      "components": [
+        "wash_hand"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "hand_wash"
+      },
+      "position": 4
+    },
+    {
+      "id": "wash_machine_gentle",
+      "category": "wash",
+      "confidence": 0.706,
+      "confidenceLevel": "medium",
+      "bbox": [
+        531,
+        674,
+        95,
+        72
+      ],
+      "name": "Машинная стирка, щадящий режим",
+      "components": [
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 5
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

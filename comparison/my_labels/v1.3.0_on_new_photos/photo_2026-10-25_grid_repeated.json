@@ -1,0 +1,124 @@
+{
+  "status": "success",
+  "imageQuality": 0.909,
+  "recognizedSymbols": [
+    {
+      "id": "wash_no",
+      "category": "wash",
+      "confidence": 0.747,
+      "confidenceLevel": "medium",
+      "bbox": [
+        497,
+        690,
+        22,
+        19
+      ],
+      "name": "Стирка запрещена",
+      "components": [
+        "wash_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "wash"
+      },
+      "position": 1,
+      "row": 1,
+      "repeats": 4
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.749,
+      "confidenceLevel": "medium",
+      "bbox": [
+        531,
+        699,
+        24,
+        24
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2,
+      "row": 1,
+      "repeats": 4
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.937,
+      "confidenceLevel": "high",
+      "bbox": [
+        567,
+        702,
+        29,
+        25
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 3,
+      "row": 1,
+      "repeats": 3
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "confidence": 0.937,
+      "confidenceLevel": "high",
+      "bbox": [
+        605,
+        709,
+        27,
+        25
+      ],
+      "name": "Глажение запрещено",
+      "components": [
+        "iron_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "iron"
+      },
+      "position": 4,
+      "row": 1,
+      "repeats": 4
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.937,
+      "confidenceLevel": "high",
+      "bbox": [
+        644,
+        714,
+        28,
+        21
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 5,
+      "row": 2,
+      "repeats": 4
+    }
+  ],
+  "labelDetected": false,
+  "layout": "horizontal",
+  "duplicatesRemoved": 20
+}

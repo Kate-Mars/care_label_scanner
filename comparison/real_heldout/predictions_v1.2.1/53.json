@@ -1,0 +1,54 @@
+{
+  "status": "none",
+  "imageQuality": 0.929,
+  "recognizedSymbols": [],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        2414,
+        322,
+        233,
+        133
+      ],
+      "confidence": 0.61,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "iron_no",
+        "iron_medium",
+        "pro_dry_f_very_gentle"
+      ]
+    },
+    {
+      "bbox": [
+        1626,
+        1359,
+        38,
+        59
+      ],
+      "confidence": 0.485,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "bleach_no",
+        "wash_hand_30"
+      ]
+    },
+    {
+      "bbox": [
+        2452,
+        1983,
+        81,
+        66
+      ],
+      "confidence": 0.347,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "iron_no",
+        "bleach_no",
+        "wash_40"
+      ]
+    }
+  ],
+  "message": "Символы ухода за одеждой не обнаружены.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

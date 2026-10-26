@@ -1,0 +1,1201 @@
+{
+  "synthetic": {
+    "suites": [
+      {
+        "set": "01_ideal",
+        "images": 25,
+        "gtSymbols": 85,
+        "detectionRecall": 1.0,
+        "recognizedShare": 0.941,
+        "correctShareOfGT": 0.941,
+        "precisionOfRecognized": 1.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 5,
+        "missed": 0,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 2,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.8,
+        "exactSetMatchRate": 0.8,
+        "imagesWithoutAnyWrongOutput": 1.0,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 20,
+          "partial": 4,
+          "none": 1
+        },
+        "meanTimeS": 0.9
+      },
+      {
+        "set": "02_small_tilt",
+        "images": 25,
+        "gtSymbols": 103,
+        "detectionRecall": 0.981,
+        "recognizedShare": 0.961,
+        "correctShareOfGT": 0.961,
+        "precisionOfRecognized": 0.99,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 2,
+        "missed": 2,
+        "falsePositivesRecognized": 1,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.04,
+        "exactMatchRate": 0.8,
+        "exactSetMatchRate": 0.8,
+        "imagesWithoutAnyWrongOutput": 0.96,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 23,
+          "partial": 2
+        },
+        "meanTimeS": 1.16
+      },
+      {
+        "set": "03_strong_perspective",
+        "images": 25,
+        "gtSymbols": 106,
+        "detectionRecall": 0.934,
+        "recognizedShare": 0.868,
+        "correctShareOfGT": 0.84,
+        "precisionOfRecognized": 0.967,
+        "wrongClassRecognized": 3,
+        "uncertainOnGT": 7,
+        "missed": 7,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.68,
+        "exactSetMatchRate": 0.72,
+        "imagesWithoutAnyWrongOutput": 0.88,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 20,
+          "partial": 5
+        },
+        "meanTimeS": 1.51
+      },
+      {
+        "set": "04_low_light",
+        "images": 25,
+        "gtSymbols": 104,
+        "detectionRecall": 0.933,
+        "recognizedShare": 0.913,
+        "correctShareOfGT": 0.894,
+        "precisionOfRecognized": 0.959,
+        "wrongClassRecognized": 2,
+        "uncertainOnGT": 2,
+        "missed": 7,
+        "falsePositivesRecognized": 2,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.08,
+        "exactMatchRate": 0.64,
+        "exactSetMatchRate": 0.64,
+        "imagesWithoutAnyWrongOutput": 0.88,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 22,
+          "partial": 2,
+          "none": 1
+        },
+        "meanTimeS": 1.49
+      },
+      {
+        "set": "05_bright_light",
+        "images": 25,
+        "gtSymbols": 93,
+        "detectionRecall": 0.968,
+        "recognizedShare": 0.914,
+        "correctShareOfGT": 0.914,
+        "precisionOfRecognized": 0.988,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 5,
+        "missed": 3,
+        "falsePositivesRecognized": 1,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.04,
+        "exactMatchRate": 0.72,
+        "exactSetMatchRate": 0.72,
+        "imagesWithoutAnyWrongOutput": 0.96,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 21,
+          "partial": 3,
+          "none": 1
+        },
+        "meanTimeS": 1.82
+      },
+      {
+        "set": "06_shadow",
+        "images": 25,
+        "gtSymbols": 105,
+        "detectionRecall": 1.0,
+        "recognizedShare": 0.924,
+        "correctShareOfGT": 0.895,
+        "precisionOfRecognized": 0.959,
+        "wrongClassRecognized": 3,
+        "uncertainOnGT": 8,
+        "missed": 0,
+        "falsePositivesRecognized": 1,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.04,
+        "exactMatchRate": 0.64,
+        "exactSetMatchRate": 0.68,
+        "imagesWithoutAnyWrongOutput": 0.88,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 18,
+          "partial": 7
+        },
+        "meanTimeS": 1.15
+      },
+      {
+        "set": "07_blur",
+        "images": 25,
+        "gtSymbols": 100,
+        "detectionRecall": 0.93,
+        "recognizedShare": 0.77,
+        "correctShareOfGT": 0.75,
+        "precisionOfRecognized": 0.962,
+        "wrongClassRecognized": 2,
+        "uncertainOnGT": 16,
+        "missed": 7,
+        "falsePositivesRecognized": 1,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.04,
+        "exactMatchRate": 0.32,
+        "exactSetMatchRate": 0.32,
+        "imagesWithoutAnyWrongOutput": 0.88,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "partial": 13,
+          "success": 12
+        },
+        "meanTimeS": 1.36
+      },
+      {
+        "set": "08_crumpled",
+        "images": 25,
+        "gtSymbols": 100,
+        "detectionRecall": 0.99,
+        "recognizedShare": 0.94,
+        "correctShareOfGT": 0.92,
+        "precisionOfRecognized": 0.979,
+        "wrongClassRecognized": 2,
+        "uncertainOnGT": 5,
+        "missed": 1,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.72,
+        "exactSetMatchRate": 0.76,
+        "imagesWithoutAnyWrongOutput": 0.92,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 21,
+          "partial": 4
+        },
+        "meanTimeS": 1.19
+      },
+      {
+        "set": "09_small_symbols",
+        "images": 25,
+        "gtSymbols": 104,
+        "detectionRecall": 0.894,
+        "recognizedShare": 0.75,
+        "correctShareOfGT": 0.712,
+        "precisionOfRecognized": 0.949,
+        "wrongClassRecognized": 4,
+        "uncertainOnGT": 15,
+        "missed": 11,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.48,
+        "exactSetMatchRate": 0.48,
+        "imagesWithoutAnyWrongOutput": 0.92,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "none": 3,
+          "success": 15,
+          "partial": 7
+        },
+        "meanTimeS": 1.68
+      },
+      {
+        "set": "10_long_row_7",
+        "images": 20,
+        "gtSymbols": 136,
+        "detectionRecall": 0.956,
+        "recognizedShare": 0.904,
+        "correctShareOfGT": 0.897,
+        "precisionOfRecognized": 0.992,
+        "wrongClassRecognized": 1,
+        "uncertainOnGT": 7,
+        "missed": 6,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.5,
+        "exactSetMatchRate": 0.5,
+        "imagesWithoutAnyWrongOutput": 0.95,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "partial": 6,
+          "success": 14
+        },
+        "meanTimeS": 0.73
+      },
+      {
+        "set": "11_three_symbols",
+        "images": 20,
+        "gtSymbols": 57,
+        "detectionRecall": 0.982,
+        "recognizedShare": 0.93,
+        "correctShareOfGT": 0.93,
+        "precisionOfRecognized": 1.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 3,
+        "missed": 1,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.8,
+        "exactSetMatchRate": 0.8,
+        "imagesWithoutAnyWrongOutput": 1.0,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 17,
+          "partial": 3
+        },
+        "meanTimeS": 0.98
+      },
+      {
+        "set": "12_five_symbols",
+        "images": 20,
+        "gtSymbols": 112,
+        "detectionRecall": 0.973,
+        "recognizedShare": 0.929,
+        "correctShareOfGT": 0.92,
+        "precisionOfRecognized": 0.99,
+        "wrongClassRecognized": 1,
+        "uncertainOnGT": 5,
+        "missed": 3,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.65,
+        "exactSetMatchRate": 0.65,
+        "imagesWithoutAnyWrongOutput": 0.95,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 15,
+          "partial": 5
+        },
+        "meanTimeS": 0.9
+      },
+      {
+        "set": "13_dark_woven_label",
+        "images": 20,
+        "gtSymbols": 76,
+        "detectionRecall": 0.987,
+        "recognizedShare": 0.934,
+        "correctShareOfGT": 0.934,
+        "precisionOfRecognized": 1.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 4,
+        "missed": 1,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": 0.8,
+        "exactSetMatchRate": 0.8,
+        "imagesWithoutAnyWrongOutput": 1.0,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 17,
+          "partial": 3
+        },
+        "meanTimeS": 2.52
+      },
+      {
+        "set": "14_random_mix",
+        "images": 120,
+        "gtSymbols": 457,
+        "detectionRecall": 0.967,
+        "recognizedShare": 0.923,
+        "correctShareOfGT": 0.908,
+        "precisionOfRecognized": 0.981,
+        "wrongClassRecognized": 7,
+        "uncertainOnGT": 20,
+        "missed": 15,
+        "falsePositivesRecognized": 1,
+        "falsePositivesUncertain": 1,
+        "fpPerImage": 0.008,
+        "exactMatchRate": 0.742,
+        "exactSetMatchRate": 0.742,
+        "imagesWithoutAnyWrongOutput": 0.942,
+        "negativeImagesStatusNone": null,
+        "statuses": {
+          "success": 102,
+          "partial": 17,
+          "none": 1
+        },
+        "meanTimeS": 1.35
+      },
+      {
+        "set": "N1_text_only_label",
+        "images": 25,
+        "gtSymbols": 0,
+        "detectionRecall": null,
+        "recognizedShare": null,
+        "correctShareOfGT": null,
+        "precisionOfRecognized": 0.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 0,
+        "missed": 0,
+        "falsePositivesRecognized": 5,
+        "falsePositivesUncertain": 38,
+        "fpPerImage": 0.2,
+        "exactMatchRate": null,
+        "exactSetMatchRate": null,
+        "imagesWithoutAnyWrongOutput": null,
+        "negativeImagesStatusNone": 0.84,
+        "statuses": {
+          "none": 21,
+          "success": 2,
+          "partial": 2
+        },
+        "meanTimeS": 6.08
+      },
+      {
+        "set": "N2_logo_label",
+        "images": 20,
+        "gtSymbols": 0,
+        "detectionRecall": null,
+        "recognizedShare": null,
+        "correctShareOfGT": null,
+        "precisionOfRecognized": 0.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 0,
+        "missed": 0,
+        "falsePositivesRecognized": 8,
+        "falsePositivesUncertain": 15,
+        "fpPerImage": 0.4,
+        "exactMatchRate": null,
+        "exactSetMatchRate": null,
+        "imagesWithoutAnyWrongOutput": null,
+        "negativeImagesStatusNone": 0.65,
+        "statuses": {
+          "none": 13,
+          "success": 6,
+          "partial": 1
+        },
+        "meanTimeS": 3.86
+      },
+      {
+        "set": "N3_bare_fabric",
+        "images": 15,
+        "gtSymbols": 0,
+        "detectionRecall": null,
+        "recognizedShare": null,
+        "correctShareOfGT": null,
+        "precisionOfRecognized": 0.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 0,
+        "missed": 0,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 0,
+        "fpPerImage": 0.0,
+        "exactMatchRate": null,
+        "exactSetMatchRate": null,
+        "imagesWithoutAnyWrongOutput": null,
+        "negativeImagesStatusNone": 0.867,
+        "statuses": {
+          "none": 13,
+          "image_quality_too_low": 2
+        },
+        "meanTimeS": 1.65
+      },
+      {
+        "set": "N4_other_object",
+        "images": 15,
+        "gtSymbols": 0,
+        "detectionRecall": null,
+        "recognizedShare": null,
+        "correctShareOfGT": null,
+        "precisionOfRecognized": 0.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 0,
+        "missed": 0,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 9,
+        "fpPerImage": 0.0,
+        "exactMatchRate": null,
+        "exactSetMatchRate": null,
+        "imagesWithoutAnyWrongOutput": null,
+        "negativeImagesStatusNone": 1.0,
+        "statuses": {
+          "none": 15
+        },
+        "meanTimeS": 2.83
+      },
+      {
+        "set": "N5_face_like",
+        "images": 10,
+        "gtSymbols": 0,
+        "detectionRecall": null,
+        "recognizedShare": null,
+        "correctShareOfGT": null,
+        "precisionOfRecognized": 0.0,
+        "wrongClassRecognized": 0,
+        "uncertainOnGT": 0,
+        "missed": 0,
+        "falsePositivesRecognized": 0,
+        "falsePositivesUncertain": 3,
+        "fpPerImage": 0.0,
+        "exactMatchRate": null,
+        "exactSetMatchRate": null,
+        "imagesWithoutAnyWrongOutput": null,
+        "negativeImagesStatusNone": 1.0,
+        "statuses": {
+          "none": 10
+        },
+        "meanTimeS": 2.81
+      }
+    ],
+    "byAttribute": {
+      "plain": {
+        "gt": 725,
+        "correct": 680,
+        "wrong": 1,
+        "uncertain": 29,
+        "missed": 15,
+        "accuracyOfRecognized": 0.999,
+        "correctShareOfGT": 0.938
+      },
+      "crossed (prohibitions)": {
+        "gt": 245,
+        "correct": 208,
+        "wrong": 1,
+        "uncertain": 4,
+        "missed": 32,
+        "accuracyOfRecognized": 0.995,
+        "correctShareOfGT": 0.849
+      },
+      "contains dots": {
+        "gt": 484,
+        "correct": 405,
+        "wrong": 17,
+        "uncertain": 51,
+        "missed": 11,
+        "accuracyOfRecognized": 0.96,
+        "correctShareOfGT": 0.837
+      },
+      "contains bars": {
+        "gt": 330,
+        "correct": 294,
+        "wrong": 9,
+        "uncertain": 22,
+        "missed": 5,
+        "accuracyOfRecognized": 0.97,
+        "correctShareOfGT": 0.891
+      },
+      "wash temperature": {
+        "gt": 213,
+        "correct": 177,
+        "wrong": 13,
+        "uncertain": 17,
+        "missed": 6,
+        "accuracyOfRecognized": 0.932,
+        "correctShareOfGT": 0.831
+      },
+      "letters A/P/F/W": {
+        "gt": 214,
+        "correct": 187,
+        "wrong": 2,
+        "uncertain": 15,
+        "missed": 10,
+        "accuracyOfRecognized": 0.989,
+        "correctShareOfGT": 0.874
+      }
+    },
+    "bySymbolSize": {
+      "35-60px": {
+        "gt": 378,
+        "recognized": 318,
+        "correct": 311,
+        "wrong": 7,
+        "correctShareOfGT": 0.823,
+        "accuracyOfRecognized": 0.978
+      },
+      "60-100px": {
+        "gt": 642,
+        "recognized": 593,
+        "correct": 584,
+        "wrong": 9,
+        "correctShareOfGT": 0.91,
+        "accuracyOfRecognized": 0.985
+      },
+      "<35px": {
+        "gt": 81,
+        "recognized": 55,
+        "correct": 53,
+        "wrong": 2,
+        "correctShareOfGT": 0.654,
+        "accuracyOfRecognized": 0.964
+      },
+      ">=100px": {
+        "gt": 637,
+        "recognized": 604,
+        "correct": 597,
+        "wrong": 7,
+        "correctShareOfGT": 0.937,
+        "accuracyOfRecognized": 0.988
+      }
+    },
+    "topConfusions": [
+      {
+        "true": "wash_60",
+        "predicted": "wash_95",
+        "count": 3
+      },
+      {
+        "true": "dry_tumble_very_gentle",
+        "predicted": "dry_tumble",
+        "count": 2
+      },
+      {
+        "true": "dry_tumble_medium",
+        "predicted": "dry_tumble_low",
+        "count": 2
+      },
+      {
+        "true": "dry_tumble_very_gentle",
+        "predicted": "dry_tumble_gentle",
+        "count": 2
+      },
+      {
+        "true": "wash_60",
+        "predicted": "wash_50",
+        "count": 2
+      },
+      {
+        "true": "pro_short_cycle",
+        "predicted": "dry_natural",
+        "count": 1
+      },
+      {
+        "true": "wash_40_very_gentle",
+        "predicted": "wash_30_very_gentle",
+        "count": 1
+      },
+      {
+        "true": "wash_70",
+        "predicted": "wash_50",
+        "count": 1
+      },
+      {
+        "true": "dry_tumble_gentle",
+        "predicted": "dry_tumble",
+        "count": 1
+      },
+      {
+        "true": "iron_low",
+        "predicted": "iron_medium",
+        "count": 1
+      },
+      {
+        "true": "pro_wet_max_gentle",
+        "predicted": "pro_wet",
+        "count": 1
+      },
+      {
+        "true": "pro_wet_no",
+        "predicted": "pro_no",
+        "count": 1
+      },
+      {
+        "true": "iron_medium",
+        "predicted": "iron_any",
+        "count": 1
+      },
+      {
+        "true": "wash_50_gentle",
+        "predicted": "wash_30_gentle",
+        "count": 1
+      },
+      {
+        "true": "wash_40",
+        "predicted": "wash_hand",
+        "count": 1
+      },
+      {
+        "true": "wash_50",
+        "predicted": "wash_machine",
+        "count": 1
+      },
+      {
+        "true": "wash_30_very_gentle",
+        "predicted": "wash_machine_very_gentle",
+        "count": 1
+      },
+      {
+        "true": "wash_40",
+        "predicted": "wash_30",
+        "count": 1
+      },
+      {
+        "true": "wash_50",
+        "predicted": "wash_95",
+        "count": 1
+      }
+    ],
+    "falsePositiveExamples": [
+      {
+        "meta": {
+          "kind": "symbols",
+          "suite": "02_small_tilt",
+          "seed": 901001
+        },
+        "ids": [
+          "wash_60"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "symbols",
+          "suite": "04_low_light",
+          "seed": 903000
+        },
+        "ids": [
+          "bleach_any"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "symbols",
+          "suite": "04_low_light",
+          "seed": 903009
+        },
+        "ids": [
+          "iron_no"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "symbols",
+          "suite": "05_bright_light",
+          "seed": 904015
+        },
+        "ids": [
+          "iron_medium"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "symbols",
+          "suite": "06_shadow",
+          "seed": 905003
+        },
+        "ids": [
+          "dry_tumble_no"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "symbols",
+          "suite": "07_blur",
+          "seed": 906002
+        },
+        "ids": [
+          "wash_no"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "symbols",
+          "suite": "14_random_mix",
+          "seed": 913112
+        },
+        "ids": [
+          "iron_medium"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "text",
+          "suite": "N1_text_only_label",
+          "seed": 914004
+        },
+        "ids": [
+          "bleach_no"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "text",
+          "suite": "N1_text_only_label",
+          "seed": 914009
+        },
+        "ids": [
+          "dry_tumble_no",
+          "dry_tumble_no"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "text",
+          "suite": "N1_text_only_label",
+          "seed": 914014
+        },
+        "ids": [
+          "bleach_no"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "text",
+          "suite": "N1_text_only_label",
+          "seed": 914018
+        },
+        "ids": [
+          "pro_dry_a"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "logo",
+          "suite": "N2_logo_label",
+          "seed": 915004
+        },
+        "ids": [
+          "pro_dry_p"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "logo",
+          "suite": "N2_logo_label",
+          "seed": 915006
+        },
+        "ids": [
+          "dry_tumble_no"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "logo",
+          "suite": "N2_logo_label",
+          "seed": 915008
+        },
+        "ids": [
+          "pro_dry_f",
+          "wash_40"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "logo",
+          "suite": "N2_logo_label",
+          "seed": 915009
+        },
+        "ids": [
+          "wash_hand_30"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "logo",
+          "suite": "N2_logo_label",
+          "seed": 915011
+        },
+        "ids": [
+          "wash_60"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "logo",
+          "suite": "N2_logo_label",
+          "seed": 915016
+        },
+        "ids": [
+          "pro_dry_p"
+        ]
+      },
+      {
+        "meta": {
+          "kind": "logo",
+          "suite": "N2_logo_label",
+          "seed": 915018
+        },
+        "ids": [
+          "pro_wet_max_gentle"
+        ]
+      }
+    ],
+    "perClass": {
+      "bleach_any": {
+        "uncertain": 3,
+        "gt": 88,
+        "correct": 83,
+        "missed": 2
+      },
+      "bleach_chlorine": {
+        "correct": 79,
+        "gt": 85,
+        "uncertain": 3,
+        "missed": 3
+      },
+      "bleach_no": {
+        "correct": 74,
+        "gt": 93,
+        "missed": 19
+      },
+      "bleach_non_chlorine": {
+        "correct": 87,
+        "gt": 89,
+        "missed": 1,
+        "uncertain": 1
+      },
+      "dry_drip": {
+        "correct": 18,
+        "gt": 18
+      },
+      "dry_drip_shade": {
+        "correct": 10,
+        "gt": 10
+      },
+      "dry_flat": {
+        "correct": 13,
+        "gt": 13
+      },
+      "dry_flat_drip": {
+        "correct": 16,
+        "gt": 18,
+        "uncertain": 2
+      },
+      "dry_flat_shade": {
+        "correct": 11,
+        "gt": 11
+      },
+      "dry_line": {
+        "correct": 19,
+        "gt": 20,
+        "missed": 1
+      },
+      "dry_line_shade": {
+        "correct": 20,
+        "gt": 23,
+        "uncertain": 2,
+        "missed": 1
+      },
+      "dry_natural": {
+        "correct": 12,
+        "gt": 13,
+        "uncertain": 1
+      },
+      "dry_no": {
+        "correct": 19,
+        "gt": 21,
+        "missed": 1,
+        "uncertain": 1
+      },
+      "dry_shade": {
+        "correct": 15,
+        "gt": 16,
+        "uncertain": 1
+      },
+      "dry_tumble": {
+        "correct": 11,
+        "gt": 13,
+        "uncertain": 2
+      },
+      "dry_tumble_gentle": {
+        "correct": 12,
+        "gt": 16,
+        "wrong": 1,
+        "uncertain": 3
+      },
+      "dry_tumble_high": {
+        "correct": 11,
+        "gt": 13,
+        "missed": 1,
+        "uncertain": 1
+      },
+      "dry_tumble_low": {
+        "correct": 11,
+        "gt": 13,
+        "uncertain": 1,
+        "missed": 1
+      },
+      "dry_tumble_low_gentle": {
+        "correct": 17,
+        "gt": 20,
+        "uncertain": 3
+      },
+      "dry_tumble_low_very_gentle": {
+        "correct": 15,
+        "gt": 16,
+        "uncertain": 1
+      },
+      "dry_tumble_medium": {
+        "uncertain": 7,
+        "gt": 19,
+        "correct": 10,
+        "wrong": 2
+      },
+      "dry_tumble_medium_gentle": {
+        "correct": 15,
+        "gt": 17,
+        "uncertain": 1,
+        "missed": 1
+      },
+      "dry_tumble_no": {
+        "correct": 12,
+        "gt": 14,
+        "missed": 1,
+        "uncertain": 1
+      },
+      "dry_tumble_no_heat": {
+        "correct": 8,
+        "gt": 10,
+        "uncertain": 2
+      },
+      "dry_tumble_very_gentle": {
+        "correct": 9,
+        "gt": 15,
+        "missed": 1,
+        "wrong": 4,
+        "uncertain": 1
+      },
+      "iron_any": {
+        "correct": 71,
+        "gt": 72,
+        "uncertain": 1
+      },
+      "iron_high": {
+        "correct": 51,
+        "gt": 59,
+        "uncertain": 7,
+        "missed": 1
+      },
+      "iron_low": {
+        "correct": 54,
+        "gt": 59,
+        "wrong": 1,
+        "uncertain": 3,
+        "missed": 1
+      },
+      "iron_medium": {
+        "correct": 61,
+        "gt": 74,
+        "uncertain": 10,
+        "missed": 2,
+        "wrong": 1
+      },
+      "iron_no": {
+        "correct": 51,
+        "gt": 51
+      },
+      "iron_no_steam": {
+        "correct": 52,
+        "gt": 53,
+        "missed": 1
+      },
+      "pro_dry_a": {
+        "correct": 14,
+        "gt": 18,
+        "missed": 1,
+        "uncertain": 3
+      },
+      "pro_dry_f": {
+        "correct": 17,
+        "gt": 20,
+        "uncertain": 2,
+        "missed": 1
+      },
+      "pro_dry_f_max_gentle": {
+        "correct": 10,
+        "gt": 10
+      },
+      "pro_dry_f_very_gentle": {
+        "correct": 14,
+        "gt": 14
+      },
+      "pro_dry_p": {
+        "correct": 22,
+        "gt": 26,
+        "uncertain": 4
+      },
+      "pro_dry_p_max_gentle": {
+        "correct": 25,
+        "gt": 25
+      },
+      "pro_dry_p_very_gentle": {
+        "correct": 18,
+        "gt": 18
+      },
+      "pro_dryclean": {
+        "correct": 13,
+        "gt": 23,
+        "uncertain": 10
+      },
+      "pro_low_heat": {
+        "correct": 23,
+        "gt": 25,
+        "missed": 2
+      },
+      "pro_no": {
+        "correct": 17,
+        "gt": 18,
+        "uncertain": 1
+      },
+      "pro_no_steam": {
+        "correct": 30,
+        "gt": 30
+      },
+      "pro_reduced_moisture": {
+        "correct": 21,
+        "gt": 23,
+        "missed": 2
+      },
+      "pro_short_cycle": {
+        "correct": 22,
+        "gt": 25,
+        "wrong": 1,
+        "missed": 2
+      },
+      "pro_wet": {
+        "correct": 14,
+        "gt": 19,
+        "uncertain": 4,
+        "missed": 1
+      },
+      "pro_wet_max_gentle": {
+        "correct": 19,
+        "gt": 21,
+        "wrong": 1,
+        "uncertain": 1
+      },
+      "pro_wet_no": {
+        "correct": 9,
+        "gt": 17,
+        "missed": 7,
+        "wrong": 1
+      },
+      "pro_wet_very_gentle": {
+        "correct": 25,
+        "gt": 26,
+        "uncertain": 1
+      },
+      "wash_30": {
+        "correct": 10,
+        "gt": 11,
+        "missed": 1
+      },
+      "wash_30_gentle": {
+        "correct": 15,
+        "gt": 15
+      },
+      "wash_30_very_gentle": {
+        "correct": 19,
+        "gt": 22,
+        "uncertain": 2,
+        "wrong": 1
+      },
+      "wash_40": {
+        "correct": 20,
+        "gt": 24,
+        "wrong": 2,
+        "uncertain": 2
+      },
+      "wash_40_gentle": {
+        "uncertain": 3,
+        "gt": 15,
+        "correct": 12
+      },
+      "wash_40_very_gentle": {
+        "correct": 8,
+        "gt": 10,
+        "wrong": 1,
+        "missed": 1
+      },
+      "wash_50": {
+        "uncertain": 3,
+        "gt": 16,
+        "correct": 11,
+        "wrong": 2
+      },
+      "wash_50_gentle": {
+        "correct": 11,
+        "gt": 16,
+        "uncertain": 2,
+        "missed": 2,
+        "wrong": 1
+      },
+      "wash_60": {
+        "correct": 15,
+        "gt": 21,
+        "uncertain": 1,
+        "wrong": 5
+      },
+      "wash_60_gentle": {
+        "correct": 14,
+        "gt": 17,
+        "uncertain": 3
+      },
+      "wash_70": {
+        "correct": 12,
+        "gt": 14,
+        "wrong": 1,
+        "uncertain": 1
+      },
+      "wash_95": {
+        "correct": 13,
+        "gt": 13
+      },
+      "wash_hand": {
+        "correct": 20,
+        "gt": 21,
+        "uncertain": 1
+      },
+      "wash_hand_30": {
+        "correct": 17,
+        "gt": 19,
+        "missed": 2
+      },
+      "wash_machine": {
+        "correct": 16,
+        "gt": 16
+      },
+      "wash_machine_gentle": {
+        "correct": 18,
+        "gt": 18
+      },
+      "wash_machine_very_gentle": {
+        "correct": 18,
+        "gt": 19,
+        "uncertain": 1
+      },
+      "wash_no": {
+        "correct": 13,
+        "gt": 15,
+        "missed": 2
+      },
+      "wash_no_wring": {
+        "correct": 13,
+        "gt": 16,
+        "uncertain": 1,
+        "missed": 2
+      },
+      "wash_wring": {
+        "correct": 10,
+        "gt": 10
+      }
+    }
+  },
+  "real": {
+    "note": "no real photos with annotations found in examples/real/ – real-photo metrics not available"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "status": "partial",
+  "imageQuality": 0.934,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.836,
+      "confidenceLevel": "medium",
+      "bbox": [
+        191,
+        488,
+        35,
+        30
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ]
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.967,
+      "confidenceLevel": "high",
+      "bbox": [
+        243,
+        495,
+        26,
+        28
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ]
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.948,
+      "confidenceLevel": "high",
+      "bbox": [
+        295,
+        497,
+        31,
+        30
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ]
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.966,
+      "confidenceLevel": "high",
+      "bbox": [
+        352,
+        503,
+        31,
+        28
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ]
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.969,
+      "confidenceLevel": "high",
+      "bbox": [
+        408,
+        507,
+        29,
+        28
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ]
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        322,
+        346,
+        23,
+        27
+      ],
+      "confidence": 0.383,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_40",
+        "wash_40_very_gentle"
+      ]
+    },
+    {
+      "bbox": [
+        291,
+        400,
+        30,
+        31
+      ],
+      "confidence": 0.395,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "iron_medium",
+        "iron_low",
+        "wash_40"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": false,
+  "layout": "horizontal"
+}

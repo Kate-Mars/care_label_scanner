@@ -1,0 +1,88 @@
+{
+  "status": "success",
+  "imageQuality": 0.967,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        124,
+        285,
+        61,
+        52
+      ],
+      "name": "Стирка до 30 °C",
+      "components": [
+        "wash_30"
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        175,
+        281,
+        64,
+        53
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        228,
+        275,
+        73,
+        55
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ]
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        290,
+        275,
+        80,
+        53
+      ],
+      "name": "Глажение запрещено",
+      "components": [
+        "iron_no"
+      ]
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        375,
+        280,
+        52,
+        41
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ]
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

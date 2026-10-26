@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "imageQuality": 0.937,
+  "recognizedSymbols": [
+    {
+      "id": "wash_no",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        418,
+        1008,
+        116,
+        93
+      ],
+      "name": "Стирка запрещена",
+      "components": [
+        "wash_no"
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        575,
+        988,
+        79,
+        70
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ]
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        639,
+        960,
+        78,
+        78
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ]
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

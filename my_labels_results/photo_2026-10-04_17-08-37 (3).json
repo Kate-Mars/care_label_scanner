@@ -1,0 +1,125 @@
+{
+  "status": "success",
+  "imageQuality": 0.935,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "confidence": 0.966,
+      "confidenceLevel": "high",
+      "bbox": [
+        267,
+        770,
+        97,
+        51
+      ],
+      "name": "Стирка до 30 °C, щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        341,
+        763,
+        91,
+        62
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        441,
+        767,
+        70,
+        58
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "low",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 3
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        519,
+        768,
+        112,
+        59
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 4
+    },
+    {
+      "id": "pro_dry_p_very_gentle",
+      "category": "professional_care",
+      "confidence": 0.866,
+      "confidenceLevel": "medium",
+      "bbox": [
+        602,
+        765,
+        78,
+        62
+      ],
+      "name": "Сухая чистка P, очень щадящий режим",
+      "components": [
+        "pro_dry_p_very_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "solvent": "P",
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 5
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

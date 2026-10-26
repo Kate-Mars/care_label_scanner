@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "imageQuality": 0.916,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.817,
+      "confidenceLevel": "medium",
+      "bbox": [
+        1118,
+        1933,
+        249,
+        159
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ]
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.937,
+      "confidenceLevel": "high",
+      "bbox": [
+        1709,
+        1942,
+        240,
+        159
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ]
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.926,
+      "confidenceLevel": "high",
+      "bbox": [
+        2359,
+        1967,
+        193,
+        190
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ]
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

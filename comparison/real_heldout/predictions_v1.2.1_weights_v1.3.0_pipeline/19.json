@@ -1,0 +1,117 @@
+{
+  "status": "partial",
+  "imageQuality": 0.939,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "confidence": 0.969,
+      "confidenceLevel": "high",
+      "bbox": [
+        923,
+        2009,
+        179,
+        166
+      ],
+      "name": "Стирка до 30 °C, щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 1
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.969,
+      "confidenceLevel": "high",
+      "bbox": [
+        1257,
+        2012,
+        159,
+        123
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "low",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 2
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.967,
+      "confidenceLevel": "high",
+      "bbox": [
+        1434,
+        2012,
+        226,
+        125
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 3
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.969,
+      "confidenceLevel": "high",
+      "bbox": [
+        1673,
+        1987,
+        255,
+        177
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 4
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        1109,
+        2018,
+        143,
+        105
+      ],
+      "confidence": 0.69,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "bleach_no"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": false,
+  "layout": "horizontal"
+}

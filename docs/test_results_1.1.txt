@@ -1,0 +1,15 @@
+Care-label recognition v1.1.0 — validation record
+Date: 2026-10-24
+
+Automated tests:
+  python -m unittest discover -s tests -t . -v
+  Result: 40 tests passed (40.207 s on the working container).
+
+Bundled end-to-end examples:
+  5 positive label photos, 24 annotated care symbols: 24/24 confidently recognized.
+  2 negative photos (text-only label and object without care symbols): 0 false recognized symbols.
+  The blurred long-row label now reports success with all 7 symbols, including bleach_chlorine (CL).
+
+Scope:
+  The CNN weights were not retrained and the 0.70 recognition threshold is unchanged.
+  Validation covers the repository's bundled examples and automated tests, not a new held-out real-world dataset.

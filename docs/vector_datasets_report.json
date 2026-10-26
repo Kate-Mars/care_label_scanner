@@ -1,0 +1,551 @@
+{
+ "sources": {
+  "kobo": {
+   "root": "/home/claude/data/datasets/kobo-care-label-symbols",
+   "svg_files": 31,
+   "other_exports": 0,
+   "annotation": "one SVG per symbol, class given by file name; no photos, no boxes, no scenes",
+   "license": "MIT License",
+   "copyright": "Copyright (c) 2026 Kobo Labs Research",
+   "imported": 31,
+   "classes": {
+    "bleach_any": 1,
+    "bleach_no": 1,
+    "bleach_non_chlorine": 1,
+    "dry_drip": 1,
+    "dry_flat": 1,
+    "dry_line": 1,
+    "dry_tumble_no": 1,
+    "dry_tumble_low_gentle": 1,
+    "dry_tumble_high": 1,
+    "dry_tumble_low": 1,
+    "dry_tumble_medium": 1,
+    "pro_dry_a": 1,
+    "pro_no": 1,
+    "pro_dry_f": 1,
+    "pro_dry_p": 1,
+    "iron_no": 1,
+    "iron_high": 1,
+    "iron_low": 1,
+    "iron_medium": 1,
+    "wash_no": 1,
+    "wash_30_gentle": 1,
+    "wash_40_gentle": 1,
+    "wash_hand": 1,
+    "wash_30": 1,
+    "wash_40": 1,
+    "wash_50": 1,
+    "wash_60": 1,
+    "wash_70": 1,
+    "wash_95": 1,
+    "wash_30_very_gentle": 1,
+    "wash_40_very_gentle": 1
+   }
+  },
+  "hechen": {
+   "root": "/home/claude/data/datasets/hechen-care-label-symbols",
+   "svg_files": 43,
+   "other_exports": 172,
+   "annotation": "one SVG per symbol, class given by file name; no photos, no boxes, no scenes",
+   "license": "MIT License",
+   "copyright": "Copyright (c) 2026 Chen He",
+   "imported": 42,
+   "classes": {
+    "bleach_any": 1,
+    "bleach_no": 1,
+    "bleach_non_chlorine": 1,
+    "dry_drip": 1,
+    "dry_drip_shade": 1,
+    "dry_flat": 1,
+    "dry_flat_shade": 1,
+    "dry_line": 1,
+    "dry_line_shade": 1,
+    "dry_shade": 1,
+    "dry_tumble_no": 1,
+    "dry_tumble_gentle": 1,
+    "dry_tumble_high": 1,
+    "dry_tumble_low": 1,
+    "dry_tumble_medium": 1,
+    "dry_tumble_no_heat": 1,
+    "dry_tumble": 1,
+    "pro_dry_a": 1,
+    "pro_no": 1,
+    "pro_dry_p_very_gentle": 1,
+    "pro_dry_f": 1,
+    "pro_dry_p": 1,
+    "pro_dry_p_max_gentle": 1,
+    "iron_no": 1,
+    "iron_high": 1,
+    "iron_low": 1,
+    "iron_medium": 1,
+    "wash_30": 1,
+    "wash_40": 1,
+    "wash_50": 1,
+    "wash_60": 1,
+    "wash_70": 1,
+    "wash_95": 1,
+    "wash_no": 1,
+    "wash_machine_gentle": 1,
+    "wash_hand": 1,
+    "wash_machine": 1,
+    "wash_machine_very_gentle": 1,
+    "pro_wet": 1,
+    "pro_wet_no": 1,
+    "pro_wet_very_gentle": 1,
+    "pro_wet_max_gentle": 1
+   }
+  },
+  "tvler": {
+   "root": "/home/claude/ext/gh/tvler_laundry-symbols",
+   "svg_files": 37,
+   "other_exports": 0,
+   "annotation": "one SVG per symbol, class given by file name; no photos, no boxes, no scenes",
+   "license": "The MIT License (MIT)",
+   "copyright": "Copyright (c) 2020 Tyler Deitz",
+   "imported": 36,
+   "classes": {
+    "bleach_non_chlorine": 1,
+    "bleach_any": 1,
+    "bleach_no": 1,
+    "pro_no": 1,
+    "dry_no": 1,
+    "iron_no": 1,
+    "wash_no": 1,
+    "dry_tumble_no": 1,
+    "wash_no_wring": 1,
+    "dry_drip": 1,
+    "pro_dry_a": 1,
+    "pro_dry_f": 1,
+    "pro_dry_p": 1,
+    "pro_dryclean": 1,
+    "dry_flat": 1,
+    "dry_shade": 1,
+    "wash_hand": 1,
+    "dry_line": 1,
+    "iron_high": 1,
+    "iron_low": 1,
+    "iron_medium": 1,
+    "wash_30": 1,
+    "wash_machine_very_gentle": 1,
+    "wash_50": 1,
+    "wash_machine": 1,
+    "wash_machine_gentle": 1,
+    "wash_60": 1,
+    "wash_40": 1,
+    "pro_wet": 1,
+    "dry_tumble_low_very_gentle": 1,
+    "dry_tumble_high": 1,
+    "dry_tumble_low": 1,
+    "dry_tumble_medium": 1,
+    "dry_tumble_no_heat": 1,
+    "dry_tumble": 1,
+    "dry_tumble_low_gentle": 1
+   }
+  },
+  "fereber": {
+   "root": "/home/claude/ext/gh/fereber_LaundryCareSymbols",
+   "svg_files": 25,
+   "other_exports": 0,
+   "annotation": "one SVG per symbol, class given by file name; no photos, no boxes, no scenes",
+   "license": "# Laundry Care Symbols License (icons: CC BY 4.0)",
+   "copyright": "?",
+   "imported": 25,
+   "classes": {
+    "wash_machine": 1,
+    "wash_30": 1,
+    "wash_40": 1,
+    "wash_50": 1,
+    "wash_hand": 1,
+    "wash_no": 1,
+    "bleach_any": 1,
+    "bleach_non_chlorine": 1,
+    "bleach_chlorine": 1,
+    "bleach_no": 2,
+    "dry_natural": 1,
+    "dry_tumble": 1,
+    "dry_tumble_low": 1,
+    "dry_tumble_medium": 1,
+    "dry_tumble_no": 1,
+    "iron_any": 1,
+    "iron_low": 1,
+    "iron_medium": 1,
+    "iron_high": 1,
+    "iron_no": 1,
+    "pro_dryclean": 1,
+    "pro_dry_p": 1,
+    "pro_dry_f": 1,
+    "pro_no": 1
+   }
+  }
+ },
+ "excluded": [
+  {
+   "source": "hechen",
+   "file": "iron_no_steam.svg",
+   "reason": "drawing has no crossed steam lines under the iron (only a bar on top) - does not depict ISO 'no steam'; excluded instead of training a wrong label"
+  },
+  {
+   "source": "tvler",
+   "file": "iron-no-steam.svg",
+   "reason": "drawn as an iron with an x INSIDE plus steam lines - visually the same as tvler's do-not-iron; ambiguous, excluded"
+  }
+ ],
+ "notes": [
+  {
+   "source": "kobo",
+   "file": "dryclean-fluorocarbon.svg",
+   "class": "pro_dry_f",
+   "note": "file name says fluorocarbon, drawing shows F -> mapped to pro_dry_f by the drawing"
+  },
+  {
+   "source": "kobo",
+   "file": "dryclean-petroleum.svg",
+   "class": "pro_dry_p",
+   "note": "file name says petroleum, drawing shows P -> mapped to pro_dry_p by the drawing"
+  },
+  {
+   "source": "hechen",
+   "file": "dryclean_gentle.svg",
+   "class": "pro_dry_p_very_gentle",
+   "note": "P with ONE bar; project id pro_dry_p_very_gentle (bars=1)"
+  },
+  {
+   "source": "hechen",
+   "file": "dryclean_pce.svg",
+   "class": "pro_dry_f",
+   "note": "file name says PCE, drawing shows F -> mapped to pro_dry_f by the drawing"
+  },
+  {
+   "source": "hechen",
+   "file": "dryclean_petroleum.svg",
+   "class": "pro_dry_p",
+   "note": "file name says petroleum, drawing shows P -> mapped to pro_dry_p by the drawing"
+  },
+  {
+   "source": "hechen",
+   "file": "dryclean_very_gentle.svg",
+   "class": "pro_dry_p_max_gentle",
+   "note": "P with TWO bars; project id pro_dry_p_max_gentle (bars=2)"
+  },
+  {
+   "source": "hechen",
+   "file": "wash_normal.svg",
+   "class": "wash_machine",
+   "note": "tub without temperature -> wash_machine"
+  },
+  {
+   "source": "hechen",
+   "file": "wetclean_gentle.svg",
+   "class": "pro_wet_very_gentle",
+   "note": "W with ONE bar; project id pro_wet_very_gentle (bars=1)"
+  },
+  {
+   "source": "hechen",
+   "file": "wetclean_very_gentle.svg",
+   "class": "pro_wet_max_gentle",
+   "note": "W with TWO bars; project id pro_wet_max_gentle (bars=2)"
+  },
+  {
+   "source": "tvler",
+   "file": "machine-wash-cold.svg",
+   "class": "wash_30",
+   "note": "ASTM dots: 1 dot = 30 C (taxonomy variant astm_dots)"
+  },
+  {
+   "source": "tvler",
+   "file": "tumble-dry-delicate.svg",
+   "class": "dry_tumble_low_very_gentle",
+   "note": "one dot + two bars"
+  },
+  {
+   "source": "tvler",
+   "file": "tumble-dry-permanent-press.svg",
+   "class": "dry_tumble_low_gentle",
+   "note": "one dot + one bar"
+  },
+  {
+   "source": "fereber",
+   "file": "bleach-no.glyph",
+   "class": "bleach_no",
+   "note": "filled crossed triangle (legacy variant)"
+  },
+  {
+   "source": "fereber",
+   "file": "dry-tumble-normal.glyph",
+   "class": "dry_tumble_medium",
+   "note": "glyph shows TWO dots -> dry_tumble_medium by the drawing"
+  },
+  {
+   "source": "fereber",
+   "file": "clean-pce.glyph",
+   "class": "pro_dry_p",
+   "note": "P (PCE)"
+  },
+  {
+   "source": "fereber",
+   "file": "clean-hcs.glyph",
+   "class": "pro_dry_f",
+   "note": "F (hydrocarbon solvent)"
+  }
+ ],
+ "duplicates": [
+  {
+   "type": "near_identical_drawing",
+   "distance": 1,
+   "items": [
+    "kobo/bleach-any (bleach_any)",
+    "hechen/bleach_any (bleach_any)"
+   ]
+  },
+  {
+   "type": "near_identical_drawing",
+   "distance": 5,
+   "items": [
+    "kobo/dry-flat (dry_flat)",
+    "hechen/dry_flat (dry_flat)"
+   ]
+  },
+  {
+   "type": "near_identical_drawing",
+   "distance": 3,
+   "items": [
+    "kobo/dry-line (dry_line)",
+    "hechen/dry_line (dry_line)"
+   ]
+  },
+  {
+   "type": "matches_project_template",
+   "items": [
+    "fereber/dry",
+    "dry/dry_natural__proc_iso.png"
+   ]
+  },
+  {
+   "type": "matches_project_template",
+   "items": [
+    "tvler/dry-clean",
+    "professional_care/pro_dryclean__proc_astm.png"
+   ]
+  }
+ ],
+ "fine_detail_pairs": [
+  {
+   "distance": 3,
+   "items": [
+    "kobo/dryclean-fluorocarbon (pro_dry_f)",
+    "kobo/dryclean-petroleum (pro_dry_p)"
+   ]
+  },
+  {
+   "distance": 2,
+   "items": [
+    "kobo/wash-gentle-30 (wash_30_gentle)",
+    "kobo/wash-gentle-40 (wash_40_gentle)"
+   ]
+  },
+  {
+   "distance": 4,
+   "items": [
+    "kobo/wash-normal-30 (wash_30)",
+    "kobo/wash-normal-40 (wash_40)"
+   ]
+  },
+  {
+   "distance": 3,
+   "items": [
+    "kobo/wash-normal-30 (wash_30)",
+    "kobo/wash-normal-50 (wash_50)"
+   ]
+  },
+  {
+   "distance": 4,
+   "items": [
+    "kobo/wash-normal-30 (wash_30)",
+    "kobo/wash-normal-60 (wash_60)"
+   ]
+  },
+  {
+   "distance": 4,
+   "items": [
+    "kobo/wash-normal-40 (wash_40)",
+    "kobo/wash-normal-60 (wash_60)"
+   ]
+  },
+  {
+   "distance": 5,
+   "items": [
+    "kobo/wash-normal-40 (wash_40)",
+    "kobo/wash-normal-70 (wash_70)"
+   ]
+  },
+  {
+   "distance": 3,
+   "items": [
+    "kobo/wash-normal-50 (wash_50)",
+    "kobo/wash-normal-60 (wash_60)"
+   ]
+  },
+  {
+   "distance": 3,
+   "items": [
+    "kobo/wash-very-gentle-30 (wash_30_very_gentle)",
+    "kobo/wash-very-gentle-40 (wash_40_very_gentle)"
+   ]
+  },
+  {
+   "distance": 2,
+   "items": [
+    "hechen/dry_flat_shade (dry_flat_shade)",
+    "hechen/dry_shade (dry_shade)"
+   ]
+  },
+  {
+   "distance": 6,
+   "items": [
+    "hechen/dry_tumble_low (dry_tumble_low)",
+    "hechen/dry_tumble_medium (dry_tumble_medium)"
+   ]
+  },
+  {
+   "distance": 4,
+   "items": [
+    "hechen/dry_tumble_low (dry_tumble_low)",
+    "hechen/dry_tumble_normal (dry_tumble)"
+   ]
+  },
+  {
+   "distance": 6,
+   "items": [
+    "hechen/dry_tumble_medium (dry_tumble_medium)",
+    "hechen/dry_tumble_normal (dry_tumble)"
+   ]
+  },
+  {
+   "distance": 4,
+   "items": [
+    "hechen/wash_30 (wash_30)",
+    "hechen/wash_50 (wash_50)"
+   ]
+  },
+  {
+   "distance": 6,
+   "items": [
+    "hechen/wash_30 (wash_30)",
+    "hechen/wash_60 (wash_60)"
+   ]
+  },
+  {
+   "distance": 2,
+   "items": [
+    "hechen/wash_50 (wash_50)",
+    "hechen/wash_60 (wash_60)"
+   ]
+  },
+  {
+   "distance": 4,
+   "items": [
+    "tvler/dry-flat (dry_flat)",
+    "fereber/dry (dry_natural)"
+   ]
+  },
+  {
+   "distance": 6,
+   "items": [
+    "tvler/machine-wash-cold (wash_30)",
+    "tvler/machine-wash-normal (wash_machine)"
+   ]
+  },
+  {
+   "distance": 6,
+   "items": [
+    "tvler/tumble-dry-low (dry_tumble_low)",
+    "tvler/tumble-dry-normal (dry_tumble)"
+   ]
+  },
+  {
+   "distance": 4,
+   "items": [
+    "fereber/wash-30 (wash_30)",
+    "fereber/wash-50 (wash_50)"
+   ]
+  }
+ ],
+ "errors": [],
+ "policy": "Only one rasterisation per vector drawing is imported; the hechen PNG 1x/2x/3x and PDF exports depict the same drawings and are not used as additional samples. The vector sets contain no photos, so they cannot leak real test photos.",
+ "taxonomy_coverage": {
+  "classes_covered": 54,
+  "taxonomy_classes": 68,
+  "covered": [
+   "bleach_any",
+   "bleach_chlorine",
+   "bleach_no",
+   "bleach_non_chlorine",
+   "dry_drip",
+   "dry_drip_shade",
+   "dry_flat",
+   "dry_flat_shade",
+   "dry_line",
+   "dry_line_shade",
+   "dry_natural",
+   "dry_no",
+   "dry_shade",
+   "dry_tumble",
+   "dry_tumble_gentle",
+   "dry_tumble_high",
+   "dry_tumble_low",
+   "dry_tumble_low_gentle",
+   "dry_tumble_low_very_gentle",
+   "dry_tumble_medium",
+   "dry_tumble_no",
+   "dry_tumble_no_heat",
+   "iron_any",
+   "iron_high",
+   "iron_low",
+   "iron_medium",
+   "iron_no",
+   "pro_dry_a",
+   "pro_dry_f",
+   "pro_dry_p",
+   "pro_dry_p_max_gentle",
+   "pro_dry_p_very_gentle",
+   "pro_dryclean",
+   "pro_no",
+   "pro_wet",
+   "pro_wet_max_gentle",
+   "pro_wet_no",
+   "pro_wet_very_gentle",
+   "wash_30",
+   "wash_30_gentle",
+   "wash_30_very_gentle",
+   "wash_40",
+   "wash_40_gentle",
+   "wash_40_very_gentle",
+   "wash_50",
+   "wash_60",
+   "wash_70",
+   "wash_95",
+   "wash_hand",
+   "wash_machine",
+   "wash_machine_gentle",
+   "wash_machine_very_gentle",
+   "wash_no",
+   "wash_no_wring"
+  ],
+  "not_covered": [
+   "dry_flat_drip",
+   "dry_tumble_medium_gentle",
+   "dry_tumble_very_gentle",
+   "iron_no_steam",
+   "pro_dry_f_max_gentle",
+   "pro_dry_f_very_gentle",
+   "pro_low_heat",
+   "pro_no_steam",
+   "pro_reduced_moisture",
+   "pro_short_cycle",
+   "wash_50_gentle",
+   "wash_60_gentle",
+   "wash_hand_30",
+   "wash_wring"
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+# training / synthetic data / evaluation (not needed at runtime)
+-r requirements.txt
+lxml>=4.9          # DOCX parsing (extract_docx_templates.py)
+# fonts: any TrueType/OpenType fonts; synth/fonts.py lists the pools used (DejaVu, Liberation, FreeFont, Inter, TeX Gyre, Poppins, Caladea)
+# tests run with the standard library:  python -m unittest discover -s tests -t .
+# (pytest works too:  pytest tests)

@@ -1,0 +1,329 @@
+{
+  "status": "partial",
+  "imageQuality": 0.938,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.924,
+      "confidenceLevel": "high",
+      "bbox": [
+        692,
+        2242,
+        190,
+        203
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 40,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 1,
+      "row": 1
+    },
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.83,
+      "confidenceLevel": "medium",
+      "bbox": [
+        866,
+        2052,
+        179,
+        205
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 40,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 2,
+      "row": 2
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.94,
+      "confidenceLevel": "high",
+      "bbox": [
+        1043,
+        2114,
+        216,
+        220
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 3,
+      "row": 2
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.865,
+      "confidenceLevel": "medium",
+      "bbox": [
+        1263,
+        2200,
+        209,
+        201
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 2,
+        "maxSoleplateTemperatureC": 150
+      },
+      "position": 4,
+      "row": 2
+    },
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.758,
+      "confidenceLevel": "medium",
+      "bbox": [
+        602,
+        2480,
+        205,
+        223
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 40,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 5,
+      "row": 4
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.94,
+      "confidenceLevel": "high",
+      "bbox": [
+        882,
+        2323,
+        201,
+        198
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "non_chlorine_only"
+      },
+      "position": 6,
+      "row": 5
+    },
+    {
+      "id": "dry_tumble_medium",
+      "category": "dry",
+      "confidence": 0.932,
+      "confidenceLevel": "high",
+      "bbox": [
+        1126,
+        2379,
+        194,
+        201
+      ],
+      "name": "Машинная сушка — средняя температура",
+      "components": [
+        "dry_tumble_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "medium",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 7,
+      "row": 5
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.892,
+      "confidenceLevel": "medium",
+      "bbox": [
+        1325,
+        2456,
+        223,
+        196
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 2,
+        "maxSoleplateTemperatureC": 150
+      },
+      "position": 8,
+      "row": 5
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.939,
+      "confidenceLevel": "high",
+      "bbox": [
+        1600,
+        2531,
+        141,
+        159
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "solvent": "P",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 9,
+      "row": 6
+    },
+    {
+      "id": "bleach_chlorine",
+      "category": "bleach",
+      "confidence": 0.747,
+      "confidenceLevel": "medium",
+      "bbox": [
+        794,
+        2562,
+        212,
+        220
+      ],
+      "name": "Хлорное отбеливание (CL)",
+      "components": [
+        "bleach_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "chlorine"
+      },
+      "position": 10,
+      "row": 6
+    },
+    {
+      "id": "pro_dryclean",
+      "category": "professional_care",
+      "confidence": 0.703,
+      "confidenceLevel": "medium",
+      "bbox": [
+        1320,
+        2683,
+        179,
+        196
+      ],
+      "name": "Сухая чистка (ASTM, пустой круг)",
+      "components": [
+        "pro_dryclean"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 11,
+      "row": 6
+    },
+    {
+      "id": "dry_tumble",
+      "category": "dry",
+      "confidence": 0.932,
+      "confidenceLevel": "high",
+      "bbox": [
+        1523,
+        2731,
+        170,
+        203
+      ],
+      "name": "Машинная сушка — обычный режим",
+      "components": [
+        "dry_tumble"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "any",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 12,
+      "row": 7
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        1523,
+        2273,
+        150,
+        168
+      ],
+      "confidence": 0.474,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_dry_p",
+        "pro_wet"
+      ]
+    },
+    {
+      "bbox": [
+        1001,
+        2614,
+        284,
+        331
+      ],
+      "confidence": 0.47,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "iron_high",
+        "iron_medium"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": false,
+  "layout": "horizontal"
+}

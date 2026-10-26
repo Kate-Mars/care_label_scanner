@@ -1,0 +1,123 @@
+{
+  "status": "success",
+  "imageQuality": 0.939,
+  "recognizedSymbols": [
+    {
+      "id": "wash_hand",
+      "category": "wash",
+      "confidence": 0.886,
+      "confidenceLevel": "medium",
+      "bbox": [
+        97,
+        740,
+        48,
+        40
+      ],
+      "name": "Ручная стирка",
+      "components": [
+        "wash_hand"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "hand_wash"
+      },
+      "position": 1,
+      "row": 1
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        92,
+        797,
+        46,
+        38
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 2,
+      "row": 2
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        89,
+        852,
+        47,
+        44
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "solvent": "P",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 3,
+      "row": 3
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        86,
+        914,
+        44,
+        40
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 4,
+      "row": 4
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        81,
+        971,
+        45,
+        60
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 5,
+      "row": 5
+    }
+  ],
+  "labelDetected": true,
+  "layout": "vertical"
+}

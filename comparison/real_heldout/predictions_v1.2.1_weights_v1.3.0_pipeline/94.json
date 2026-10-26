@@ -1,0 +1,160 @@
+{
+  "status": "partial",
+  "imageQuality": 0.921,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        852,
+        2424,
+        123,
+        122
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 40,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 1,
+      "row": 4
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        964,
+        2428,
+        130,
+        130
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2,
+      "row": 4
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        1090,
+        2402,
+        129,
+        99
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "low",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 3,
+      "row": 4
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        1357,
+        2358,
+        165,
+        132
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 4,
+      "row": 4
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        1520,
+        1863,
+        68,
+        60
+      ],
+      "confidence": 0.272,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_wet_no"
+      ]
+    },
+    {
+      "bbox": [
+        764,
+        2154,
+        66,
+        62
+      ],
+      "confidence": 0.188,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_wet_no",
+        "dry_tumble_no",
+        "wash_hand_30"
+      ]
+    },
+    {
+      "bbox": [
+        1547,
+        2115,
+        65,
+        57
+      ],
+      "confidence": 0.208,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_wet",
+        "wash_hand_30"
+      ]
+    },
+    {
+      "bbox": [
+        1202,
+        2910,
+        59,
+        39
+      ],
+      "confidence": 0.313,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_hand"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

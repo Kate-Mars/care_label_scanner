@@ -1,0 +1,3903 @@
+{
+ "dataset": "Roboflow laundry-labels-obuwg v1 (CC: Public Domain), 145 original photos / 3251 images; split by original photo",
+ "test": {
+  "photos": 36,
+  "images": 834
+ },
+ "baseline_v1_synthetic_only": {
+  "images": 834,
+  "gt": 6364,
+  "correct": 996,
+  "family_only": 311,
+  "wrong": 230,
+  "uncertain": 904,
+  "missed": 3923,
+  "unmatched_recognized": 106,
+  "recall_strict": 0.1565,
+  "recall_family": 0.2054,
+  "detected": 0.3836,
+  "precision_strict": 0.648,
+  "precision_family": 0.8504,
+  "sec_per_image": 3.44,
+  "status": {
+   "none": 303,
+   "partial": 301,
+   "success": 224,
+   "image_quality_too_low": 6
+  },
+  "per_class": {
+   "bleach_any": {
+    "uncertain": 4,
+    "gt": 23,
+    "missed": 17,
+    "wrong": 2
+   },
+   "bleach_chlorine": {
+    "uncertain": 1,
+    "gt": 23,
+    "correct": 19,
+    "missed": 3
+   },
+   "bleach_no": {
+    "missed": 710,
+    "gt": 933,
+    "correct": 167,
+    "uncertain": 47,
+    "wrong": 9
+   },
+   "bleach_non_chlorine": {
+    "correct": 28,
+    "gt": 92,
+    "wrong": 19,
+    "missed": 24,
+    "uncertain": 21
+   },
+   "dry_drip": {
+    "correct": 20,
+    "gt": 46,
+    "uncertain": 3,
+    "missed": 23
+   },
+   "dry_flat": {
+    "missed": 74,
+    "gt": 115,
+    "uncertain": 22,
+    "correct": 18,
+    "wrong": 1
+   },
+   "dry_line": {
+    "missed": 34,
+    "gt": 48,
+    "uncertain": 12,
+    "correct": 2
+   },
+   "dry_line_shade": {
+    "wrong": 8,
+    "gt": 23,
+    "missed": 9,
+    "uncertain": 6
+   },
+   "dry_natural": {
+    "missed": 16,
+    "gt": 23,
+    "uncertain": 7
+   },
+   "dry_no": {
+    "uncertain": 2,
+    "gt": 23,
+    "missed": 15,
+    "wrong": 6
+   },
+   "dry_shade": {
+    "wrong": 2,
+    "gt": 23,
+    "correct": 9,
+    "missed": 3,
+    "uncertain": 9
+   },
+   "dry_tumble": {
+    "correct": 22,
+    "gt": 67,
+    "uncertain": 11,
+    "wrong": 2,
+    "missed": 24,
+    "family": 8
+   },
+   "dry_tumble_low": {
+    "missed": 97,
+    "gt": 188,
+    "correct": 19,
+    "uncertain": 53,
+    "wrong": 9,
+    "family": 10
+   },
+   "dry_tumble_medium": {
+    "correct": 4,
+    "gt": 44,
+    "uncertain": 16,
+    "wrong": 2,
+    "missed": 21,
+    "family": 1
+   },
+   "dry_tumble_no": {
+    "missed": 427,
+    "gt": 582,
+    "uncertain": 62,
+    "correct": 79,
+    "wrong": 14
+   },
+   "dry_tumble_no_heat": {
+    "missed": 22,
+    "gt": 23,
+    "uncertain": 1
+   },
+   "iron_any": {
+    "correct": 9,
+    "gt": 23,
+    "uncertain": 10,
+    "wrong": 4
+   },
+   "iron_high": {
+    "correct": 12,
+    "gt": 101,
+    "wrong": 6,
+    "uncertain": 11,
+    "missed": 72
+   },
+   "iron_low": {
+    "missed": 209,
+    "gt": 323,
+    "wrong": 20,
+    "uncertain": 37,
+    "correct": 57
+   },
+   "iron_medium": {
+    "correct": 68,
+    "gt": 282,
+    "uncertain": 64,
+    "missed": 146,
+    "wrong": 4
+   },
+   "iron_no": {
+    "missed": 253,
+    "gt": 365,
+    "uncertain": 37,
+    "correct": 54,
+    "wrong": 21
+   },
+   "iron_no_steam": {
+    "missed": 18,
+    "gt": 23,
+    "uncertain": 2,
+    "wrong": 3
+   },
+   "pro_dry_a": {
+    "correct": 8,
+    "gt": 23,
+    "wrong": 3,
+    "uncertain": 10,
+    "missed": 2
+   },
+   "pro_dry_f": {
+    "family": 39,
+    "gt": 69,
+    "correct": 6,
+    "missed": 6,
+    "wrong": 6,
+    "uncertain": 12
+   },
+   "pro_dry_p": {
+    "missed": 278,
+    "gt": 449,
+    "correct": 75,
+    "family": 27,
+    "uncertain": 58,
+    "wrong": 11
+   },
+   "pro_dryclean": {
+    "uncertain": 7,
+    "gt": 23,
+    "missed": 14,
+    "wrong": 2
+   },
+   "pro_low_heat": {
+    "correct": 3,
+    "gt": 23,
+    "missed": 17,
+    "uncertain": 3
+   },
+   "pro_no": {
+    "missed": 271,
+    "gt": 487,
+    "uncertain": 63,
+    "wrong": 7,
+    "correct": 146
+   },
+   "pro_no_steam": {
+    "correct": 7,
+    "gt": 23,
+    "uncertain": 4,
+    "missed": 12
+   },
+   "pro_reduced_moisture": {
+    "correct": 12,
+    "gt": 23,
+    "missed": 7,
+    "uncertain": 4
+   },
+   "pro_short_cycle": {
+    "correct": 3,
+    "gt": 23,
+    "uncertain": 15,
+    "missed": 4,
+    "wrong": 1
+   },
+   "pro_wet": {
+    "family": 43,
+    "gt": 69,
+    "uncertain": 2,
+    "missed": 24
+   },
+   "wash_30": {
+    "missed": 308,
+    "gt": 511,
+    "uncertain": 80,
+    "family": 63,
+    "wrong": 17,
+    "correct": 43
+   },
+   "wash_40": {
+    "missed": 304,
+    "gt": 450,
+    "uncertain": 63,
+    "correct": 12,
+    "family": 56,
+    "wrong": 15
+   },
+   "wash_50": {
+    "uncertain": 6,
+    "gt": 46,
+    "missed": 16,
+    "family": 22,
+    "wrong": 2
+   },
+   "wash_60": {
+    "missed": 38,
+    "gt": 115,
+    "wrong": 10,
+    "uncertain": 41,
+    "correct": 2,
+    "family": 24
+   },
+   "wash_70": {
+    "missed": 12,
+    "gt": 23,
+    "uncertain": 9,
+    "correct": 2
+   },
+   "wash_95": {
+    "uncertain": 39,
+    "gt": 144,
+    "correct": 23,
+    "missed": 76,
+    "wrong": 6
+   },
+   "wash_hand": {
+    "uncertain": 21,
+    "gt": 138,
+    "missed": 110,
+    "wrong": 2,
+    "correct": 5
+   },
+   "wash_machine": {
+    "uncertain": 3,
+    "gt": 23,
+    "correct": 11,
+    "missed": 6,
+    "family": 3
+   },
+   "wash_machine_gentle": {
+    "uncertain": 4,
+    "gt": 23,
+    "family": 15,
+    "correct": 3,
+    "missed": 1
+   },
+   "wash_machine_very_gentle": {
+    "missed": 7,
+    "gt": 23,
+    "correct": 13,
+    "uncertain": 3
+   },
+   "wash_no": {
+    "missed": 131,
+    "gt": 167,
+    "uncertain": 15,
+    "wrong": 2,
+    "correct": 19
+   },
+   "wash_no_wring": {
+    "uncertain": 4,
+    "gt": 73,
+    "wrong": 14,
+    "missed": 39,
+    "correct": 16
+   },
+   "wash_wring": {
+    "missed": 23,
+    "gt": 23
+   }
+  },
+  "by_size": {
+   ">=64": {
+    "missed": 1838,
+    "gt": 2663,
+    "uncertain": 303,
+    "correct": 323,
+    "wrong": 88,
+    "family": 111
+   },
+   "40-64": {
+    "correct": 489,
+    "gt": 2542,
+    "missed": 1295,
+    "uncertain": 443,
+    "wrong": 125,
+    "family": 190
+   },
+   "24-40": {
+    "missed": 770,
+    "gt": 1139,
+    "uncertain": 158,
+    "correct": 184,
+    "wrong": 17,
+    "family": 10
+   },
+   "<24": {
+    "missed": 20,
+    "gt": 20
+   }
+  },
+  "top_confusions": [
+   [
+    "bleach_non_chlorine -> bleach_chlorine",
+    15
+   ],
+   [
+    "wash_no_wring -> pro_wet_no",
+    13
+   ],
+   [
+    "wash_60 -> wash_40_very_gentle",
+    9
+   ],
+   [
+    "iron_no -> bleach_no",
+    9
+   ],
+   [
+    "iron_low -> pro_no",
+    9
+   ],
+   [
+    "wash_30 -> wash_95",
+    9
+   ],
+   [
+    "dry_line_shade -> dry_shade",
+    8
+   ],
+   [
+    "wash_40 -> wash_95",
+    8
+   ],
+   [
+    "dry_tumble_no -> dry_drip",
+    6
+   ],
+   [
+    "iron_no -> pro_wet_very_gentle",
+    6
+   ],
+   [
+    "dry_tumble_no -> pro_wet_no",
+    6
+   ],
+   [
+    "pro_dry_f -> pro_dry_p_max_gentle",
+    6
+   ],
+   [
+    "dry_no -> pro_no",
+    6
+   ],
+   [
+    "pro_dry_p -> pro_wet",
+    5
+   ],
+   [
+    "pro_no -> pro_wet_no",
+    4
+   ],
+   [
+    "dry_tumble_low -> dry_tumble_high",
+    4
+   ],
+   [
+    "iron_low -> wash_30",
+    4
+   ],
+   [
+    "iron_no -> wash_no",
+    4
+   ],
+   [
+    "iron_any -> iron_no_steam",
+    4
+   ],
+   [
+    "bleach_no -> wash_no_wring",
+    4
+   ],
+   [
+    "wash_95 -> wash_40_very_gentle",
+    4
+   ],
+   [
+    "iron_low -> iron_medium",
+    3
+   ],
+   [
+    "bleach_no -> iron_no",
+    3
+   ],
+   [
+    "pro_dry_p -> pro_wet_max_gentle",
+    3
+   ],
+   [
+    "iron_no_steam -> iron_no",
+    3
+   ]
+  ]
+ },
+ "v2_real_finetuned": {
+  "images": 834,
+  "gt": 6364,
+  "correct": 2906,
+  "family_only": 87,
+  "wrong": 184,
+  "uncertain": 1433,
+  "missed": 1754,
+  "unmatched_recognized": 189,
+  "recall_strict": 0.4566,
+  "recall_family": 0.4703,
+  "detected": 0.7244,
+  "precision_strict": 0.9147,
+  "precision_family": 0.9421,
+  "sec_per_image": 3.22,
+  "status": {
+   "partial": 632,
+   "success": 157,
+   "none": 39,
+   "image_quality_too_low": 6
+  },
+  "per_class": {
+   "bleach_any": {
+    "uncertain": 3,
+    "gt": 23,
+    "missed": 15,
+    "correct": 5
+   },
+   "bleach_chlorine": {
+    "uncertain": 12,
+    "gt": 23,
+    "correct": 11
+   },
+   "bleach_no": {
+    "correct": 516,
+    "gt": 933,
+    "uncertain": 138,
+    "missed": 274,
+    "wrong": 5
+   },
+   "bleach_non_chlorine": {
+    "correct": 65,
+    "gt": 92,
+    "wrong": 21,
+    "missed": 1,
+    "uncertain": 5
+   },
+   "dry_drip": {
+    "correct": 39,
+    "gt": 46,
+    "uncertain": 5,
+    "missed": 2
+   },
+   "dry_flat": {
+    "correct": 38,
+    "gt": 115,
+    "uncertain": 31,
+    "missed": 44,
+    "wrong": 2
+   },
+   "dry_line": {
+    "correct": 23,
+    "gt": 48,
+    "uncertain": 8,
+    "missed": 17
+   },
+   "dry_line_shade": {
+    "wrong": 11,
+    "gt": 23,
+    "uncertain": 12
+   },
+   "dry_natural": {
+    "uncertain": 17,
+    "gt": 23,
+    "correct": 5,
+    "wrong": 1
+   },
+   "dry_no": {
+    "uncertain": 5,
+    "gt": 23,
+    "missed": 15,
+    "wrong": 3
+   },
+   "dry_shade": {
+    "wrong": 2,
+    "gt": 23,
+    "correct": 13,
+    "uncertain": 8
+   },
+   "dry_tumble": {
+    "correct": 40,
+    "gt": 67,
+    "uncertain": 10,
+    "missed": 17
+   },
+   "dry_tumble_low": {
+    "correct": 86,
+    "gt": 188,
+    "missed": 48,
+    "uncertain": 54
+   },
+   "dry_tumble_medium": {
+    "correct": 19,
+    "gt": 44,
+    "uncertain": 9,
+    "missed": 14,
+    "wrong": 2
+   },
+   "dry_tumble_no": {
+    "missed": 148,
+    "gt": 582,
+    "correct": 299,
+    "uncertain": 130,
+    "wrong": 5
+   },
+   "dry_tumble_no_heat": {
+    "missed": 21,
+    "gt": 23,
+    "uncertain": 2
+   },
+   "iron_any": {
+    "correct": 22,
+    "gt": 23,
+    "uncertain": 1
+   },
+   "iron_high": {
+    "correct": 61,
+    "gt": 101,
+    "uncertain": 9,
+    "missed": 31
+   },
+   "iron_low": {
+    "missed": 106,
+    "gt": 323,
+    "uncertain": 62,
+    "correct": 152,
+    "wrong": 3
+   },
+   "iron_medium": {
+    "correct": 190,
+    "gt": 282,
+    "uncertain": 39,
+    "missed": 52,
+    "wrong": 1
+   },
+   "iron_no": {
+    "correct": 170,
+    "gt": 365,
+    "missed": 98,
+    "uncertain": 85,
+    "wrong": 12
+   },
+   "iron_no_steam": {
+    "wrong": 15,
+    "gt": 23,
+    "missed": 3,
+    "uncertain": 5
+   },
+   "pro_dry_a": {
+    "correct": 22,
+    "gt": 23,
+    "uncertain": 1
+   },
+   "pro_dry_f": {
+    "family": 22,
+    "gt": 69,
+    "correct": 23,
+    "uncertain": 17,
+    "missed": 6,
+    "wrong": 1
+   },
+   "pro_dry_p": {
+    "correct": 259,
+    "gt": 449,
+    "missed": 117,
+    "uncertain": 66,
+    "family": 7
+   },
+   "pro_dryclean": {
+    "uncertain": 8,
+    "gt": 23,
+    "missed": 10,
+    "correct": 5
+   },
+   "pro_low_heat": {
+    "correct": 18,
+    "gt": 23,
+    "missed": 4,
+    "uncertain": 1
+   },
+   "pro_no": {
+    "correct": 272,
+    "gt": 487,
+    "uncertain": 70,
+    "missed": 137,
+    "wrong": 8
+   },
+   "pro_no_steam": {
+    "correct": 20,
+    "gt": 23,
+    "uncertain": 2,
+    "missed": 1
+   },
+   "pro_reduced_moisture": {
+    "correct": 18,
+    "gt": 23,
+    "uncertain": 4,
+    "missed": 1
+   },
+   "pro_short_cycle": {
+    "correct": 10,
+    "gt": 23,
+    "uncertain": 10,
+    "missed": 3
+   },
+   "pro_wet": {
+    "uncertain": 15,
+    "gt": 69,
+    "family": 29,
+    "missed": 25
+   },
+   "wash_30": {
+    "uncertain": 181,
+    "gt": 511,
+    "missed": 166,
+    "correct": 140,
+    "family": 18,
+    "wrong": 6
+   },
+   "wash_40": {
+    "missed": 147,
+    "gt": 450,
+    "uncertain": 178,
+    "wrong": 15,
+    "correct": 103,
+    "family": 7
+   },
+   "wash_50": {
+    "uncertain": 12,
+    "gt": 46,
+    "correct": 22,
+    "missed": 12
+   },
+   "wash_60": {
+    "wrong": 18,
+    "gt": 115,
+    "uncertain": 45,
+    "correct": 16,
+    "missed": 32,
+    "family": 4
+   },
+   "wash_70": {
+    "uncertain": 16,
+    "gt": 23,
+    "correct": 2,
+    "missed": 3,
+    "wrong": 2
+   },
+   "wash_95": {
+    "uncertain": 49,
+    "gt": 144,
+    "correct": 35,
+    "missed": 46,
+    "wrong": 14
+   },
+   "wash_hand": {
+    "uncertain": 47,
+    "gt": 138,
+    "missed": 54,
+    "correct": 20,
+    "wrong": 17
+   },
+   "wash_machine": {
+    "correct": 14,
+    "gt": 23,
+    "missed": 6,
+    "uncertain": 3
+   },
+   "wash_machine_gentle": {
+    "correct": 21,
+    "gt": 23,
+    "missed": 1,
+    "uncertain": 1
+   },
+   "wash_machine_very_gentle": {
+    "uncertain": 2,
+    "gt": 23,
+    "correct": 19,
+    "missed": 2
+   },
+   "wash_no": {
+    "wrong": 3,
+    "gt": 167,
+    "missed": 42,
+    "uncertain": 43,
+    "correct": 79
+   },
+   "wash_no_wring": {
+    "correct": 34,
+    "gt": 73,
+    "wrong": 17,
+    "missed": 11,
+    "uncertain": 11
+   },
+   "wash_wring": {
+    "uncertain": 1,
+    "gt": 23,
+    "missed": 22
+   }
+  },
+  "by_size": {
+   ">=64": {
+    "uncertain": 651,
+    "gt": 2663,
+    "correct": 1099,
+    "missed": 763,
+    "wrong": 122,
+    "family": 28
+   },
+   "40-64": {
+    "correct": 1267,
+    "gt": 2542,
+    "uncertain": 520,
+    "missed": 640,
+    "wrong": 57,
+    "family": 58
+   },
+   "24-40": {
+    "uncertain": 261,
+    "gt": 1139,
+    "correct": 536,
+    "missed": 336,
+    "wrong": 5,
+    "family": 1
+   },
+   "<24": {
+    "missed": 15,
+    "gt": 20,
+    "correct": 4,
+    "uncertain": 1
+   }
+  },
+  "top_confusions": [
+   [
+    "bleach_non_chlorine -> bleach_no",
+    20
+   ],
+   [
+    "wash_hand -> wash_30",
+    16
+   ],
+   [
+    "iron_no_steam -> iron_no",
+    15
+   ],
+   [
+    "wash_no_wring -> bleach_no",
+    13
+   ],
+   [
+    "iron_no -> bleach_no",
+    12
+   ],
+   [
+    "wash_60 -> wash_40",
+    12
+   ],
+   [
+    "wash_40 -> wash_30",
+    11
+   ],
+   [
+    "dry_line_shade -> dry_shade",
+    10
+   ],
+   [
+    "wash_95 -> wash_30",
+    9
+   ],
+   [
+    "wash_60 -> wash_30",
+    6
+   ],
+   [
+    "pro_no -> dry_tumble_no",
+    5
+   ],
+   [
+    "bleach_no -> iron_no",
+    5
+   ],
+   [
+    "wash_no_wring -> pro_wet_no",
+    4
+   ],
+   [
+    "wash_30 -> iron_no",
+    4
+   ],
+   [
+    "wash_95 -> wash_40",
+    4
+   ],
+   [
+    "wash_40 -> dry_tumble_no",
+    3
+   ],
+   [
+    "wash_no -> bleach_no",
+    3
+   ],
+   [
+    "iron_low -> iron_medium",
+    3
+   ],
+   [
+    "dry_no -> dry_tumble_no",
+    3
+   ],
+   [
+    "dry_flat -> dry_shade",
+    2
+   ],
+   [
+    "dry_shade -> dry_line_shade",
+    2
+   ],
+   [
+    "wash_70 -> wash_40",
+    2
+   ],
+   [
+    "dry_tumble_medium -> wash_no",
+    2
+   ],
+   [
+    "pro_no -> pro_dry_p",
+    2
+   ],
+   [
+    "dry_tumble_no -> pro_no",
+    2
+   ]
+  ]
+ },
+ "v2_val_subset": {
+  "images": 166,
+  "gt": 1394,
+  "correct": 582,
+  "family_only": 54,
+  "wrong": 22,
+  "uncertain": 300,
+  "missed": 436,
+  "unmatched_recognized": 105,
+  "recall_strict": 0.4175,
+  "recall_family": 0.4562,
+  "detected": 0.6872,
+  "precision_strict": 0.8845,
+  "precision_family": 0.9666,
+  "sec_per_image": 2.95,
+  "status": {
+   "success": 23,
+   "partial": 120,
+   "none": 23
+  },
+  "per_class": {
+   "bleach_any": {
+    "correct": 6,
+    "gt": 10,
+    "uncertain": 4
+   },
+   "bleach_chlorine": {
+    "correct": 8,
+    "gt": 10,
+    "missed": 2
+   },
+   "bleach_no": {
+    "missed": 66,
+    "gt": 137,
+    "uncertain": 18,
+    "correct": 53
+   },
+   "bleach_non_chlorine": {
+    "uncertain": 10,
+    "gt": 23,
+    "missed": 2,
+    "wrong": 1,
+    "correct": 10
+   },
+   "dry_drip": {
+    "correct": 10,
+    "gt": 10
+   },
+   "dry_flat": {
+    "missed": 8,
+    "gt": 20,
+    "uncertain": 3,
+    "correct": 9
+   },
+   "dry_line": {
+    "missed": 11,
+    "gt": 23,
+    "correct": 11,
+    "uncertain": 1
+   },
+   "dry_line_shade": {
+    "wrong": 9,
+    "gt": 10,
+    "missed": 1
+   },
+   "dry_natural": {
+    "correct": 6,
+    "gt": 10,
+    "uncertain": 4
+   },
+   "dry_shade": {
+    "correct": 10,
+    "gt": 10
+   },
+   "dry_tumble": {
+    "correct": 9,
+    "gt": 22,
+    "uncertain": 12,
+    "family": 1
+   },
+   "dry_tumble_low": {
+    "uncertain": 15,
+    "gt": 36,
+    "missed": 3,
+    "correct": 18
+   },
+   "dry_tumble_medium": {
+    "correct": 19,
+    "gt": 23,
+    "uncertain": 4
+   },
+   "dry_tumble_no": {
+    "missed": 39,
+    "gt": 79,
+    "correct": 24,
+    "uncertain": 15,
+    "wrong": 1
+   },
+   "iron_any": {
+    "missed": 6,
+    "gt": 10,
+    "correct": 4
+   },
+   "iron_high": {
+    "correct": 7,
+    "gt": 10,
+    "missed": 3
+   },
+   "iron_low": {
+    "missed": 12,
+    "gt": 63,
+    "correct": 46,
+    "uncertain": 5
+   },
+   "iron_medium": {
+    "correct": 21,
+    "gt": 23,
+    "missed": 2
+   },
+   "iron_no": {
+    "missed": 43,
+    "gt": 113,
+    "correct": 57,
+    "uncertain": 12,
+    "wrong": 1
+   },
+   "pro_dry_a": {
+    "missed": 3,
+    "gt": 10,
+    "correct": 7
+   },
+   "pro_dry_f": {
+    "correct": 10,
+    "gt": 30,
+    "family": 20
+   },
+   "pro_dry_p": {
+    "correct": 22,
+    "gt": 42,
+    "missed": 9,
+    "family": 11
+   },
+   "pro_dryclean": {
+    "uncertain": 10,
+    "gt": 10
+   },
+   "pro_no": {
+    "uncertain": 18,
+    "gt": 138,
+    "missed": 57,
+    "correct": 62,
+    "wrong": 1
+   },
+   "pro_wet": {
+    "correct": 9,
+    "gt": 30,
+    "family": 20,
+    "missed": 1
+   },
+   "wash_30": {
+    "missed": 31,
+    "gt": 84,
+    "uncertain": 31,
+    "correct": 20,
+    "wrong": 2
+   },
+   "wash_40": {
+    "missed": 20,
+    "gt": 66,
+    "uncertain": 21,
+    "correct": 25
+   },
+   "wash_50": {
+    "missed": 5,
+    "gt": 41,
+    "wrong": 1,
+    "correct": 22,
+    "uncertain": 13
+   },
+   "wash_60": {
+    "missed": 5,
+    "gt": 41,
+    "uncertain": 25,
+    "wrong": 1,
+    "correct": 10
+   },
+   "wash_70": {
+    "missed": 1,
+    "gt": 28,
+    "uncertain": 12,
+    "correct": 15
+   },
+   "wash_95": {
+    "missed": 12,
+    "gt": 18,
+    "uncertain": 5,
+    "wrong": 1
+   },
+   "wash_hand": {
+    "missed": 16,
+    "gt": 42,
+    "correct": 18,
+    "uncertain": 8
+   },
+   "wash_machine": {
+    "missed": 16,
+    "gt": 44,
+    "uncertain": 19,
+    "correct": 4,
+    "family": 2,
+    "wrong": 3
+   },
+   "wash_machine_gentle": {
+    "missed": 7,
+    "gt": 22,
+    "uncertain": 7,
+    "correct": 7,
+    "wrong": 1
+   },
+   "wash_machine_very_gentle": {
+    "missed": 20,
+    "gt": 35,
+    "uncertain": 6,
+    "correct": 9
+   },
+   "wash_no": {
+    "uncertain": 17,
+    "gt": 52,
+    "missed": 21,
+    "correct": 14
+   },
+   "wash_no_wring": {
+    "missed": 14,
+    "gt": 19,
+    "uncertain": 5
+   }
+  },
+  "by_size": {
+   ">=64": {
+    "correct": 444,
+    "gt": 925,
+    "missed": 206,
+    "uncertain": 201,
+    "wrong": 20,
+    "family": 54
+   },
+   "40-64": {
+    "missed": 182,
+    "gt": 357,
+    "uncertain": 79,
+    "correct": 95,
+    "wrong": 1
+   },
+   "24-40": {
+    "missed": 48,
+    "gt": 112,
+    "uncertain": 20,
+    "correct": 43,
+    "wrong": 1
+   }
+  },
+  "top_confusions": [
+   [
+    "dry_line_shade -> dry_shade",
+    9
+   ],
+   [
+    "wash_machine -> dry_shade",
+    3
+   ],
+   [
+    "wash_30 -> dry_tumble_low",
+    2
+   ],
+   [
+    "wash_50 -> wash_30",
+    1
+   ],
+   [
+    "iron_no -> dry_no",
+    1
+   ],
+   [
+    "wash_60 -> wash_95",
+    1
+   ],
+   [
+    "dry_tumble_no -> wash_no",
+    1
+   ],
+   [
+    "wash_95 -> wash_70",
+    1
+   ],
+   [
+    "bleach_non_chlorine -> dry_drip",
+    1
+   ],
+   [
+    "pro_no -> pro_wet_no",
+    1
+   ],
+   [
+    "wash_machine_gentle -> dry_shade",
+    1
+   ]
+  ]
+ },
+ "unmatched_audit": {
+  "sample": 48,
+  "non_symbol_fp": 9,
+  "unlabeled_symbol_wrong_class": 3,
+  "unlabeled_symbol_correct": 36
+ },
+ "v3_plus_github_photos": {
+  "images": 834,
+  "gt": 6364,
+  "correct": 2961,
+  "family_only": 81,
+  "wrong": 182,
+  "uncertain": 1456,
+  "missed": 1684,
+  "unmatched_recognized": 189,
+  "recall_strict": 0.4653,
+  "recall_family": 0.478,
+  "detected": 0.7354,
+  "precision_strict": 0.9184,
+  "precision_family": 0.9435,
+  "sec_per_image": 3.4,
+  "status": {
+   "partial": 626,
+   "success": 175,
+   "none": 27,
+   "image_quality_too_low": 6
+  },
+  "per_class": {
+   "bleach_any": {
+    "uncertain": 3,
+    "gt": 23,
+    "missed": 15,
+    "correct": 5
+   },
+   "bleach_chlorine": {
+    "uncertain": 15,
+    "gt": 23,
+    "correct": 8
+   },
+   "bleach_no": {
+    "correct": 520,
+    "gt": 933,
+    "uncertain": 143,
+    "missed": 267,
+    "wrong": 3
+   },
+   "bleach_non_chlorine": {
+    "correct": 66,
+    "gt": 92,
+    "missed": 1,
+    "uncertain": 6,
+    "wrong": 19
+   },
+   "dry_drip": {
+    "correct": 41,
+    "gt": 46,
+    "uncertain": 4,
+    "missed": 1
+   },
+   "dry_flat": {
+    "correct": 45,
+    "gt": 115,
+    "missed": 41,
+    "uncertain": 29
+   },
+   "dry_line": {
+    "uncertain": 16,
+    "gt": 48,
+    "missed": 18,
+    "correct": 14
+   },
+   "dry_line_shade": {
+    "wrong": 11,
+    "gt": 23,
+    "uncertain": 11,
+    "missed": 1
+   },
+   "dry_natural": {
+    "uncertain": 15,
+    "gt": 23,
+    "correct": 7,
+    "wrong": 1
+   },
+   "dry_no": {
+    "correct": 1,
+    "gt": 23,
+    "missed": 15,
+    "uncertain": 6,
+    "wrong": 1
+   },
+   "dry_shade": {
+    "uncertain": 6,
+    "gt": 23,
+    "correct": 17
+   },
+   "dry_tumble": {
+    "correct": 39,
+    "gt": 67,
+    "uncertain": 9,
+    "missed": 19
+   },
+   "dry_tumble_low": {
+    "correct": 91,
+    "gt": 188,
+    "missed": 34,
+    "uncertain": 61,
+    "wrong": 2
+   },
+   "dry_tumble_medium": {
+    "correct": 17,
+    "gt": 44,
+    "uncertain": 12,
+    "missed": 12,
+    "wrong": 3
+   },
+   "dry_tumble_no": {
+    "missed": 148,
+    "gt": 582,
+    "correct": 292,
+    "uncertain": 136,
+    "wrong": 6
+   },
+   "dry_tumble_no_heat": {
+    "missed": 21,
+    "gt": 23,
+    "uncertain": 2
+   },
+   "iron_any": {
+    "correct": 12,
+    "gt": 23,
+    "uncertain": 11
+   },
+   "iron_high": {
+    "correct": 67,
+    "gt": 101,
+    "missed": 28,
+    "uncertain": 6
+   },
+   "iron_low": {
+    "missed": 94,
+    "gt": 323,
+    "correct": 161,
+    "uncertain": 61,
+    "wrong": 7
+   },
+   "iron_medium": {
+    "correct": 185,
+    "gt": 282,
+    "uncertain": 33,
+    "missed": 63,
+    "wrong": 1
+   },
+   "iron_no": {
+    "correct": 175,
+    "gt": 365,
+    "missed": 101,
+    "uncertain": 78,
+    "wrong": 11
+   },
+   "iron_no_steam": {
+    "wrong": 11,
+    "gt": 23,
+    "uncertain": 9,
+    "missed": 3
+   },
+   "pro_dry_a": {
+    "correct": 20,
+    "gt": 23,
+    "uncertain": 3
+   },
+   "pro_dry_f": {
+    "family": 19,
+    "gt": 69,
+    "correct": 22,
+    "uncertain": 24,
+    "missed": 4
+   },
+   "pro_dry_p": {
+    "correct": 275,
+    "gt": 449,
+    "missed": 112,
+    "uncertain": 58,
+    "family": 4
+   },
+   "pro_dryclean": {
+    "uncertain": 10,
+    "gt": 23,
+    "correct": 12,
+    "missed": 1
+   },
+   "pro_low_heat": {
+    "correct": 19,
+    "gt": 23,
+    "missed": 3,
+    "uncertain": 1
+   },
+   "pro_no": {
+    "correct": 268,
+    "gt": 487,
+    "uncertain": 67,
+    "missed": 136,
+    "wrong": 16
+   },
+   "pro_no_steam": {
+    "correct": 21,
+    "gt": 23,
+    "uncertain": 1,
+    "missed": 1
+   },
+   "pro_reduced_moisture": {
+    "correct": 18,
+    "gt": 23,
+    "uncertain": 3,
+    "missed": 2
+   },
+   "pro_short_cycle": {
+    "correct": 19,
+    "gt": 23,
+    "missed": 3,
+    "uncertain": 1
+   },
+   "pro_wet": {
+    "uncertain": 19,
+    "gt": 69,
+    "family": 24,
+    "correct": 2,
+    "missed": 24
+   },
+   "wash_30": {
+    "uncertain": 181,
+    "gt": 511,
+    "missed": 173,
+    "correct": 138,
+    "family": 13,
+    "wrong": 6
+   },
+   "wash_40": {
+    "uncertain": 168,
+    "gt": 450,
+    "wrong": 8,
+    "missed": 142,
+    "correct": 116,
+    "family": 16
+   },
+   "wash_50": {
+    "uncertain": 18,
+    "gt": 46,
+    "correct": 20,
+    "missed": 8
+   },
+   "wash_60": {
+    "wrong": 18,
+    "gt": 115,
+    "uncertain": 53,
+    "correct": 14,
+    "missed": 25,
+    "family": 5
+   },
+   "wash_70": {
+    "wrong": 5,
+    "gt": 23,
+    "correct": 2,
+    "uncertain": 15,
+    "missed": 1
+   },
+   "wash_95": {
+    "uncertain": 51,
+    "gt": 144,
+    "correct": 34,
+    "missed": 45,
+    "wrong": 14
+   },
+   "wash_hand": {
+    "uncertain": 49,
+    "gt": 138,
+    "correct": 26,
+    "wrong": 20,
+    "missed": 43
+   },
+   "wash_machine": {
+    "uncertain": 6,
+    "gt": 23,
+    "correct": 11,
+    "missed": 6
+   },
+   "wash_machine_gentle": {
+    "correct": 21,
+    "gt": 23,
+    "missed": 1,
+    "uncertain": 1
+   },
+   "wash_machine_very_gentle": {
+    "correct": 21,
+    "gt": 23,
+    "missed": 2
+   },
+   "wash_no": {
+    "wrong": 3,
+    "gt": 167,
+    "missed": 35,
+    "uncertain": 44,
+    "correct": 85
+   },
+   "wash_no_wring": {
+    "correct": 34,
+    "gt": 73,
+    "wrong": 16,
+    "missed": 12,
+    "uncertain": 11
+   },
+   "wash_wring": {
+    "missed": 23,
+    "gt": 23
+   }
+  },
+  "by_size": {
+   ">=64": {
+    "uncertain": 664,
+    "gt": 2663,
+    "correct": 1110,
+    "missed": 740,
+    "wrong": 115,
+    "family": 34
+   },
+   "40-64": {
+    "correct": 1302,
+    "gt": 2542,
+    "uncertain": 545,
+    "missed": 586,
+    "wrong": 62,
+    "family": 47
+   },
+   "24-40": {
+    "uncertain": 244,
+    "gt": 1139,
+    "missed": 343,
+    "correct": 547,
+    "wrong": 5
+   },
+   "<24": {
+    "missed": 15,
+    "gt": 20,
+    "correct": 2,
+    "uncertain": 3
+   }
+  },
+  "top_confusions": [
+   [
+    "bleach_non_chlorine -> bleach_no",
+    19
+   ],
+   [
+    "wash_hand -> wash_30",
+    16
+   ],
+   [
+    "wash_no_wring -> bleach_no",
+    14
+   ],
+   [
+    "wash_60 -> wash_40",
+    12
+   ],
+   [
+    "iron_no_steam -> iron_no",
+    11
+   ],
+   [
+    "pro_no -> dry_tumble_no",
+    11
+   ],
+   [
+    "dry_line_shade -> dry_shade",
+    10
+   ],
+   [
+    "wash_95 -> wash_30",
+    10
+   ],
+   [
+    "iron_no -> bleach_no",
+    9
+   ],
+   [
+    "iron_low -> iron_medium",
+    6
+   ],
+   [
+    "wash_40 -> wash_30",
+    5
+   ],
+   [
+    "wash_70 -> wash_40",
+    5
+   ],
+   [
+    "wash_60 -> wash_30",
+    5
+   ],
+   [
+    "dry_tumble_no -> pro_no",
+    4
+   ],
+   [
+    "wash_95 -> wash_40",
+    4
+   ],
+   [
+    "pro_no -> dry_tumble_low",
+    3
+   ],
+   [
+    "bleach_no -> iron_no",
+    3
+   ],
+   [
+    "dry_tumble_low -> dry_tumble_no",
+    2
+   ],
+   [
+    "wash_40 -> dry_tumble_no",
+    2
+   ],
+   [
+    "wash_no -> bleach_no",
+    2
+   ],
+   [
+    "wash_hand -> iron_medium",
+    2
+   ],
+   [
+    "wash_no_wring -> pro_wet_no",
+    2
+   ],
+   [
+    "dry_tumble_medium -> wash_no",
+    2
+   ],
+   [
+    "wash_30 -> wash_40",
+    2
+   ],
+   [
+    "wash_hand -> wash_no",
+    2
+   ]
+  ]
+ },
+ "github_st-den_imagelevel_test": {
+  "source": "github.com/st-den/thesis-project dataset/labeled_photos.csv (VALIDATION+TEST rows, 38 photos)",
+  "by_model": {
+   "v1": {
+    "photos": 38,
+    "listed_symbols": 182,
+    "recall": 0.544,
+    "recall_incl_uncertain": 0.6758,
+    "recognized_in_vocab": 122,
+    "correct": 121,
+    "wrong": 1,
+    "other_classes": 5,
+    "precision": 0.9918,
+    "photos_complete_and_no_wrong": 4,
+    "status": {
+     "partial": 23,
+     "none": 5,
+     "success": 10
+    },
+    "wrong_examples": [
+     [
+      "bleach_no (photo: BLEACH_nonchlorine,DRY_tumble_yes,IRON_yes,PROF_dry_p,WASH_40)",
+      1
+     ]
+    ]
+   },
+   "v2": {
+    "photos": 38,
+    "listed_symbols": 182,
+    "recall": 0.6648,
+    "recall_incl_uncertain": 0.8022,
+    "recognized_in_vocab": 155,
+    "correct": 153,
+    "wrong": 2,
+    "other_classes": 3,
+    "precision": 0.9871,
+    "photos_complete_and_no_wrong": 6,
+    "status": {
+     "partial": 27,
+     "success": 9,
+     "none": 2
+    },
+    "wrong_examples": [
+     [
+      "pro_no (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_p,WASH_no)",
+      1
+     ],
+     [
+      "bleach_no (photo: BLEACH_nonchlorine,DRY_tumble_yes,IRON_yes,PROF_dry_p,WASH_40)",
+      1
+     ]
+    ]
+   },
+   "v3": {
+    "photos": 38,
+    "listed_symbols": 182,
+    "recall": 0.6813,
+    "recall_incl_uncertain": 0.8077,
+    "recognized_in_vocab": 161,
+    "correct": 159,
+    "wrong": 2,
+    "other_classes": 3,
+    "precision": 0.9876,
+    "photos_complete_and_no_wrong": 7,
+    "status": {
+     "partial": 26,
+     "none": 2,
+     "success": 10
+    },
+    "wrong_examples": [
+     [
+      "pro_no (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_p,WASH_no)",
+      1
+     ],
+     [
+      "bleach_no (photo: BLEACH_nonchlorine,DRY_tumble_yes,IRON_yes,PROF_dry_p,WASH_40)",
+      1
+     ]
+    ]
+   }
+  }
+ },
+ "v4_label2": {
+  "model": "v4 (v3 + Label2, then +synthetic negatives)",
+  "label2_test_v3": {
+   "images": 110,
+   "gt": 640,
+   "correct": 162,
+   "family_only": 1,
+   "wrong": 15,
+   "uncertain": 125,
+   "missed": 337,
+   "unmatched_recognized": 7,
+   "recall_strict": 0.2531,
+   "recall_family": 0.2547,
+   "detected": 0.4734,
+   "precision_strict": 0.9101,
+   "precision_family": 0.9157,
+   "sec_per_image": 6.47,
+   "status": {
+    "success": 23,
+    "partial": 45,
+    "none": 42
+   },
+   "per_class": {
+    "bleach_any": {
+     "wrong": 1,
+     "gt": 2,
+     "uncertain": 1
+    },
+    "bleach_chlorine": {
+     "wrong": 1,
+     "gt": 1
+    },
+    "bleach_no": {
+     "correct": 38,
+     "gt": 105,
+     "missed": 55,
+     "uncertain": 12
+    },
+    "bleach_non_chlorine": {
+     "missed": 6,
+     "gt": 9,
+     "correct": 2,
+     "wrong": 1
+    },
+    "dry_drip": {
+     "missed": 8,
+     "gt": 9,
+     "wrong": 1
+    },
+    "dry_drip_shade": {
+     "missed": 1,
+     "gt": 1
+    },
+    "dry_flat": {
+     "uncertain": 4,
+     "gt": 8,
+     "missed": 3,
+     "correct": 1
+    },
+    "dry_flat_shade": {
+     "missed": 2,
+     "gt": 2
+    },
+    "dry_line": {
+     "missed": 2,
+     "gt": 3,
+     "uncertain": 1
+    },
+    "dry_line_shade": {
+     "correct": 2,
+     "gt": 3,
+     "missed": 1
+    },
+    "dry_natural": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "dry_shade": {
+     "uncertain": 1,
+     "gt": 8,
+     "missed": 7
+    },
+    "dry_tumble": {
+     "missed": 4,
+     "gt": 6,
+     "uncertain": 1,
+     "correct": 1
+    },
+    "dry_tumble_high": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "dry_tumble_low": {
+     "uncertain": 6,
+     "gt": 26,
+     "correct": 5,
+     "missed": 14,
+     "wrong": 1
+    },
+    "dry_tumble_medium": {
+     "missed": 2,
+     "gt": 8,
+     "uncertain": 4,
+     "correct": 2
+    },
+    "dry_tumble_no": {
+     "correct": 22,
+     "gt": 66,
+     "missed": 28,
+     "wrong": 3,
+     "uncertain": 13
+    },
+    "dry_tumble_no_heat": {
+     "missed": 1,
+     "gt": 1
+    },
+    "iron_any": {
+     "missed": 1,
+     "gt": 1
+    },
+    "iron_high": {
+     "missed": 1,
+     "gt": 4,
+     "uncertain": 2,
+     "correct": 1
+    },
+    "iron_low": {
+     "correct": 19,
+     "gt": 49,
+     "uncertain": 9,
+     "missed": 19,
+     "wrong": 2
+    },
+    "iron_medium": {
+     "missed": 26,
+     "gt": 44,
+     "correct": 10,
+     "uncertain": 8
+    },
+    "iron_no": {
+     "uncertain": 8,
+     "gt": 23,
+     "missed": 6,
+     "correct": 8,
+     "wrong": 1
+    },
+    "iron_no_steam": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_dry_a": {
+     "uncertain": 2,
+     "gt": 2
+    },
+    "pro_dry_f": {
+     "uncertain": 1,
+     "gt": 2,
+     "missed": 1
+    },
+    "pro_dry_f_max_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_dry_f_very_gentle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_dry_p": {
+     "correct": 14,
+     "gt": 37,
+     "missed": 17,
+     "uncertain": 5,
+     "wrong": 1
+    },
+    "pro_dry_p_very_gentle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_dryclean": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_low_heat": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_no": {
+     "uncertain": 4,
+     "gt": 55,
+     "correct": 22,
+     "missed": 28,
+     "wrong": 1
+    },
+    "pro_no_steam": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_reduced_moisture": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_short_cycle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_wet": {
+     "missed": 2,
+     "gt": 2
+    },
+    "pro_wet_max_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_wet_no": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_wet_very_gentle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "wash_30": {
+     "missed": 35,
+     "gt": 53,
+     "uncertain": 12,
+     "wrong": 2,
+     "correct": 4
+    },
+    "wash_30_gentle": {
+     "family": 1,
+     "gt": 4,
+     "uncertain": 1,
+     "missed": 2
+    },
+    "wash_30_very_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "wash_40": {
+     "uncertain": 9,
+     "gt": 30,
+     "missed": 17,
+     "correct": 4
+    },
+    "wash_40_gentle": {
+     "missed": 2,
+     "gt": 2
+    },
+    "wash_40_very_gentle": {
+     "correct": 1,
+     "gt": 3,
+     "uncertain": 2
+    },
+    "wash_50": {
+     "uncertain": 1,
+     "gt": 3,
+     "missed": 2
+    },
+    "wash_60": {
+     "missed": 3,
+     "gt": 4,
+     "uncertain": 1
+    },
+    "wash_60_gentle": {
+     "correct": 1,
+     "gt": 1
+    },
+    "wash_70": {
+     "uncertain": 2,
+     "gt": 3,
+     "missed": 1
+    },
+    "wash_95": {
+     "missed": 3,
+     "gt": 5,
+     "uncertain": 2
+    },
+    "wash_hand": {
+     "correct": 5,
+     "gt": 23,
+     "missed": 16,
+     "uncertain": 2
+    },
+    "wash_machine_gentle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "wash_machine_very_gentle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "wash_no": {
+     "uncertain": 4,
+     "gt": 6,
+     "missed": 2
+    },
+    "wash_no_wring": {
+     "missed": 8,
+     "gt": 8
+    },
+    "wash_wring": {
+     "missed": 1,
+     "gt": 1
+    }
+   },
+   "by_size": {
+    ">=64": {
+     "correct": 51,
+     "gt": 131,
+     "missed": 42,
+     "uncertain": 35,
+     "wrong": 3
+    },
+    "40-64": {
+     "correct": 61,
+     "gt": 189,
+     "missed": 68,
+     "wrong": 9,
+     "family": 1,
+     "uncertain": 50
+    },
+    "24-40": {
+     "missed": 170,
+     "gt": 261,
+     "correct": 49,
+     "uncertain": 39,
+     "wrong": 3
+    },
+    "<24": {
+     "missed": 57,
+     "gt": 59,
+     "uncertain": 1,
+     "correct": 1
+    }
+   },
+   "top_confusions": [
+    [
+     "dry_tumble_no -> pro_no",
+     2
+    ],
+    [
+     "bleach_chlorine -> bleach_no",
+     1
+    ],
+    [
+     "bleach_any -> bleach_no",
+     1
+    ],
+    [
+     "bleach_non_chlorine -> bleach_no",
+     1
+    ],
+    [
+     "dry_tumble_no -> wash_no",
+     1
+    ],
+    [
+     "pro_dry_p -> pro_wet_no",
+     1
+    ],
+    [
+     "wash_30 -> iron_medium",
+     1
+    ],
+    [
+     "iron_low -> iron_medium",
+     1
+    ],
+    [
+     "pro_no -> dry_tumble_no",
+     1
+    ],
+    [
+     "dry_drip -> iron_medium",
+     1
+    ],
+    [
+     "iron_low -> iron_no",
+     1
+    ],
+    [
+     "wash_30 -> wash_machine",
+     1
+    ],
+    [
+     "dry_tumble_low -> dry_tumble",
+     1
+    ],
+    [
+     "iron_no -> bleach_no",
+     1
+    ]
+   ]
+  },
+  "label2_test_v4": {
+   "images": 110,
+   "gt": 640,
+   "correct": 179,
+   "family_only": 1,
+   "wrong": 18,
+   "uncertain": 125,
+   "missed": 317,
+   "unmatched_recognized": 10,
+   "recall_strict": 0.2797,
+   "recall_family": 0.2812,
+   "detected": 0.5047,
+   "precision_strict": 0.904,
+   "precision_family": 0.9091,
+   "sec_per_image": 6.14,
+   "status": {
+    "partial": 50,
+    "none": 38,
+    "success": 22
+   },
+   "per_class": {
+    "bleach_any": {
+     "uncertain": 2,
+     "gt": 2
+    },
+    "bleach_chlorine": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "bleach_no": {
+     "correct": 37,
+     "gt": 105,
+     "missed": 58,
+     "uncertain": 10
+    },
+    "bleach_non_chlorine": {
+     "missed": 5,
+     "gt": 9,
+     "correct": 2,
+     "uncertain": 2
+    },
+    "dry_drip": {
+     "uncertain": 1,
+     "gt": 9,
+     "missed": 7,
+     "correct": 1
+    },
+    "dry_drip_shade": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "dry_flat": {
+     "missed": 4,
+     "gt": 8,
+     "correct": 3,
+     "uncertain": 1
+    },
+    "dry_flat_shade": {
+     "missed": 2,
+     "gt": 2
+    },
+    "dry_line": {
+     "missed": 2,
+     "gt": 3,
+     "uncertain": 1
+    },
+    "dry_line_shade": {
+     "uncertain": 2,
+     "gt": 3,
+     "correct": 1
+    },
+    "dry_natural": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "dry_shade": {
+     "missed": 8,
+     "gt": 8
+    },
+    "dry_tumble": {
+     "uncertain": 2,
+     "gt": 6,
+     "correct": 3,
+     "missed": 1
+    },
+    "dry_tumble_high": {
+     "wrong": 1,
+     "gt": 1
+    },
+    "dry_tumble_low": {
+     "uncertain": 6,
+     "gt": 26,
+     "correct": 7,
+     "missed": 12,
+     "wrong": 1
+    },
+    "dry_tumble_medium": {
+     "wrong": 1,
+     "gt": 8,
+     "uncertain": 4,
+     "missed": 1,
+     "correct": 2
+    },
+    "dry_tumble_no": {
+     "correct": 24,
+     "gt": 66,
+     "missed": 25,
+     "uncertain": 15,
+     "wrong": 2
+    },
+    "dry_tumble_no_heat": {
+     "missed": 1,
+     "gt": 1
+    },
+    "iron_any": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "iron_high": {
+     "missed": 2,
+     "gt": 4,
+     "uncertain": 1,
+     "correct": 1
+    },
+    "iron_low": {
+     "correct": 21,
+     "gt": 49,
+     "uncertain": 9,
+     "missed": 19
+    },
+    "iron_medium": {
+     "missed": 26,
+     "gt": 44,
+     "correct": 10,
+     "uncertain": 8
+    },
+    "iron_no": {
+     "wrong": 2,
+     "gt": 23,
+     "missed": 7,
+     "uncertain": 5,
+     "correct": 9
+    },
+    "iron_no_steam": {
+     "wrong": 1,
+     "gt": 1
+    },
+    "pro_dry_a": {
+     "wrong": 2,
+     "gt": 2
+    },
+    "pro_dry_f": {
+     "wrong": 1,
+     "gt": 2,
+     "missed": 1
+    },
+    "pro_dry_f_max_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_dry_f_very_gentle": {
+     "wrong": 1,
+     "gt": 1
+    },
+    "pro_dry_p": {
+     "correct": 18,
+     "gt": 37,
+     "missed": 13,
+     "uncertain": 6
+    },
+    "pro_dry_p_very_gentle": {
+     "family": 1,
+     "gt": 1
+    },
+    "pro_dryclean": {
+     "wrong": 1,
+     "gt": 1
+    },
+    "pro_low_heat": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_no": {
+     "uncertain": 5,
+     "gt": 55,
+     "correct": 23,
+     "missed": 26,
+     "wrong": 1
+    },
+    "pro_no_steam": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_reduced_moisture": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_short_cycle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "pro_wet": {
+     "wrong": 1,
+     "gt": 2,
+     "missed": 1
+    },
+    "pro_wet_max_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "pro_wet_no": {
+     "wrong": 1,
+     "gt": 1
+    },
+    "pro_wet_very_gentle": {
+     "missed": 1,
+     "gt": 1
+    },
+    "wash_30": {
+     "missed": 35,
+     "gt": 53,
+     "uncertain": 11,
+     "correct": 5,
+     "wrong": 2
+    },
+    "wash_30_gentle": {
+     "uncertain": 2,
+     "gt": 4,
+     "missed": 2
+    },
+    "wash_30_very_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "wash_40": {
+     "uncertain": 7,
+     "gt": 30,
+     "missed": 18,
+     "correct": 5
+    },
+    "wash_40_gentle": {
+     "missed": 1,
+     "gt": 2,
+     "uncertain": 1
+    },
+    "wash_40_very_gentle": {
+     "correct": 1,
+     "gt": 3,
+     "uncertain": 2
+    },
+    "wash_50": {
+     "missed": 2,
+     "gt": 3,
+     "uncertain": 1
+    },
+    "wash_60": {
+     "missed": 2,
+     "gt": 4,
+     "uncertain": 2
+    },
+    "wash_60_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "wash_70": {
+     "uncertain": 1,
+     "gt": 3,
+     "missed": 2
+    },
+    "wash_95": {
+     "missed": 5,
+     "gt": 5
+    },
+    "wash_hand": {
+     "correct": 5,
+     "gt": 23,
+     "uncertain": 2,
+     "missed": 16
+    },
+    "wash_machine_gentle": {
+     "uncertain": 1,
+     "gt": 1
+    },
+    "wash_machine_very_gentle": {
+     "correct": 1,
+     "gt": 1
+    },
+    "wash_no": {
+     "uncertain": 4,
+     "gt": 6,
+     "missed": 2
+    },
+    "wash_no_wring": {
+     "missed": 7,
+     "gt": 8,
+     "uncertain": 1
+    },
+    "wash_wring": {
+     "missed": 1,
+     "gt": 1
+    }
+   },
+   "by_size": {
+    ">=64": {
+     "uncertain": 30,
+     "gt": 131,
+     "missed": 34,
+     "correct": 62,
+     "wrong": 5
+    },
+    "40-64": {
+     "correct": 65,
+     "gt": 189,
+     "missed": 66,
+     "uncertain": 47,
+     "wrong": 10,
+     "family": 1
+    },
+    "24-40": {
+     "missed": 163,
+     "gt": 261,
+     "correct": 50,
+     "uncertain": 45,
+     "wrong": 3
+    },
+    "<24": {
+     "missed": 54,
+     "gt": 59,
+     "correct": 2,
+     "uncertain": 3
+    }
+   },
+   "top_confusions": [
+    [
+     "pro_dry_a -> pro_dry_p",
+     2
+    ],
+    [
+     "dry_tumble_no -> pro_no",
+     1
+    ],
+    [
+     "pro_wet_no -> pro_no",
+     1
+    ],
+    [
+     "dry_tumble_medium -> dry_tumble_low",
+     1
+    ],
+    [
+     "pro_wet -> pro_dry_p",
+     1
+    ],
+    [
+     "pro_dryclean -> pro_dry_p",
+     1
+    ],
+    [
+     "dry_tumble_high -> pro_dry_p",
+     1
+    ],
+    [
+     "iron_no_steam -> dry_flat",
+     1
+    ],
+    [
+     "pro_dry_f -> pro_dry_p",
+     1
+    ],
+    [
+     "pro_dry_f_very_gentle -> pro_dry_p",
+     1
+    ],
+    [
+     "iron_no -> dry_flat",
+     1
+    ],
+    [
+     "dry_tumble_no -> wash_no",
+     1
+    ],
+    [
+     "pro_no -> dry_tumble_no",
+     1
+    ],
+    [
+     "wash_30 -> dry_tumble_no",
+     1
+    ],
+    [
+     "iron_no -> bleach_no",
+     1
+    ],
+    [
+     "wash_30 -> wash_machine",
+     1
+    ],
+    [
+     "dry_tumble_low -> dry_tumble",
+     1
+    ]
+   ]
+  },
+  "roboflow_v1_test_v4": {
+   "images": 834,
+   "gt": 6364,
+   "correct": 3211,
+   "family_only": 62,
+   "wrong": 157,
+   "uncertain": 1366,
+   "missed": 1568,
+   "unmatched_recognized": 226,
+   "recall_strict": 0.5046,
+   "recall_family": 0.5143,
+   "detected": 0.7536,
+   "precision_strict": 0.9362,
+   "precision_family": 0.9542,
+   "sec_per_image": 4.52,
+   "status": {
+    "partial": 602,
+    "success": 195,
+    "none": 31,
+    "image_quality_too_low": 6
+   },
+   "per_class": {
+    "bleach_any": {
+     "uncertain": 1,
+     "gt": 23,
+     "missed": 15,
+     "correct": 7
+    },
+    "bleach_chlorine": {
+     "uncertain": 8,
+     "gt": 23,
+     "correct": 9,
+     "wrong": 6
+    },
+    "bleach_no": {
+     "correct": 572,
+     "gt": 933,
+     "uncertain": 114,
+     "missed": 244,
+     "wrong": 3
+    },
+    "bleach_non_chlorine": {
+     "correct": 67,
+     "gt": 92,
+     "missed": 2,
+     "wrong": 19,
+     "uncertain": 4
+    },
+    "dry_drip": {
+     "correct": 41,
+     "gt": 46,
+     "uncertain": 4,
+     "missed": 1
+    },
+    "dry_flat": {
+     "uncertain": 30,
+     "gt": 115,
+     "missed": 42,
+     "correct": 43
+    },
+    "dry_line": {
+     "correct": 24,
+     "gt": 48,
+     "uncertain": 8,
+     "missed": 16
+    },
+    "dry_line_shade": {
+     "uncertain": 12,
+     "gt": 23,
+     "wrong": 10,
+     "missed": 1
+    },
+    "dry_natural": {
+     "uncertain": 12,
+     "gt": 23,
+     "correct": 11
+    },
+    "dry_no": {
+     "correct": 1,
+     "gt": 23,
+     "missed": 15,
+     "uncertain": 7
+    },
+    "dry_shade": {
+     "correct": 18,
+     "gt": 23,
+     "wrong": 2,
+     "uncertain": 2,
+     "missed": 1
+    },
+    "dry_tumble": {
+     "correct": 41,
+     "gt": 67,
+     "uncertain": 9,
+     "missed": 17
+    },
+    "dry_tumble_low": {
+     "correct": 137,
+     "gt": 188,
+     "missed": 18,
+     "uncertain": 33
+    },
+    "dry_tumble_medium": {
+     "correct": 21,
+     "gt": 44,
+     "uncertain": 11,
+     "missed": 11,
+     "wrong": 1
+    },
+    "dry_tumble_no": {
+     "missed": 149,
+     "gt": 582,
+     "correct": 313,
+     "uncertain": 116,
+     "wrong": 4
+    },
+    "dry_tumble_no_heat": {
+     "missed": 21,
+     "gt": 23,
+     "correct": 1,
+     "uncertain": 1
+    },
+    "iron_any": {
+     "correct": 9,
+     "gt": 23,
+     "uncertain": 13,
+     "wrong": 1
+    },
+    "iron_high": {
+     "correct": 57,
+     "gt": 101,
+     "uncertain": 11,
+     "missed": 28,
+     "wrong": 5
+    },
+    "iron_low": {
+     "missed": 92,
+     "gt": 323,
+     "uncertain": 58,
+     "correct": 168,
+     "wrong": 5
+    },
+    "iron_medium": {
+     "correct": 209,
+     "gt": 282,
+     "missed": 56,
+     "uncertain": 15,
+     "wrong": 2
+    },
+    "iron_no": {
+     "correct": 198,
+     "gt": 365,
+     "missed": 94,
+     "uncertain": 61,
+     "wrong": 12
+    },
+    "iron_no_steam": {
+     "wrong": 18,
+     "gt": 23,
+     "missed": 3,
+     "uncertain": 2
+    },
+    "pro_dry_a": {
+     "correct": 22,
+     "gt": 23,
+     "uncertain": 1
+    },
+    "pro_dry_f": {
+     "uncertain": 40,
+     "gt": 69,
+     "correct": 22,
+     "missed": 5,
+     "family": 1,
+     "wrong": 1
+    },
+    "pro_dry_p": {
+     "uncertain": 59,
+     "gt": 449,
+     "correct": 295,
+     "wrong": 2,
+     "missed": 93
+    },
+    "pro_dryclean": {
+     "uncertain": 5,
+     "gt": 23,
+     "missed": 12,
+     "correct": 6
+    },
+    "pro_low_heat": {
+     "correct": 12,
+     "gt": 23,
+     "missed": 3,
+     "uncertain": 8
+    },
+    "pro_no": {
+     "correct": 283,
+     "gt": 487,
+     "uncertain": 43,
+     "missed": 134,
+     "wrong": 27
+    },
+    "pro_no_steam": {
+     "correct": 20,
+     "gt": 23,
+     "uncertain": 2,
+     "missed": 1
+    },
+    "pro_reduced_moisture": {
+     "correct": 19,
+     "gt": 23,
+     "uncertain": 3,
+     "missed": 1
+    },
+    "pro_short_cycle": {
+     "correct": 19,
+     "gt": 23,
+     "missed": 3,
+     "uncertain": 1
+    },
+    "pro_wet": {
+     "uncertain": 32,
+     "gt": 69,
+     "correct": 2,
+     "missed": 28,
+     "family": 7
+    },
+    "wash_30": {
+     "uncertain": 219,
+     "gt": 511,
+     "correct": 121,
+     "missed": 149,
+     "family": 19,
+     "wrong": 3
+    },
+    "wash_40": {
+     "missed": 125,
+     "gt": 450,
+     "uncertain": 166,
+     "family": 29,
+     "correct": 128,
+     "wrong": 2
+    },
+    "wash_50": {
+     "correct": 23,
+     "gt": 46,
+     "uncertain": 12,
+     "missed": 9,
+     "wrong": 2
+    },
+    "wash_60": {
+     "wrong": 5,
+     "gt": 115,
+     "correct": 26,
+     "uncertain": 57,
+     "missed": 24,
+     "family": 3
+    },
+    "wash_70": {
+     "uncertain": 18,
+     "gt": 23,
+     "correct": 5
+    },
+    "wash_95": {
+     "uncertain": 59,
+     "gt": 144,
+     "correct": 27,
+     "missed": 52,
+     "wrong": 6
+    },
+    "wash_hand": {
+     "correct": 43,
+     "gt": 138,
+     "uncertain": 53,
+     "missed": 33,
+     "wrong": 9
+    },
+    "wash_machine": {
+     "correct": 13,
+     "gt": 23,
+     "missed": 6,
+     "uncertain": 1,
+     "family": 3
+    },
+    "wash_machine_gentle": {
+     "correct": 21,
+     "gt": 23,
+     "missed": 1,
+     "uncertain": 1
+    },
+    "wash_machine_very_gentle": {
+     "uncertain": 2,
+     "gt": 23,
+     "correct": 20,
+     "missed": 1
+    },
+    "wash_no": {
+     "missed": 29,
+     "gt": 167,
+     "wrong": 3,
+     "correct": 109,
+     "uncertain": 26
+    },
+    "wash_no_wring": {
+     "correct": 28,
+     "gt": 73,
+     "uncertain": 23,
+     "missed": 13,
+     "wrong": 9
+    },
+    "wash_wring": {
+     "uncertain": 3,
+     "gt": 23,
+     "missed": 20
+    }
+   },
+   "by_size": {
+    ">=64": {
+     "uncertain": 624,
+     "gt": 2663,
+     "correct": 1244,
+     "missed": 663,
+     "family": 41,
+     "wrong": 91
+    },
+    "40-64": {
+     "correct": 1339,
+     "gt": 2542,
+     "uncertain": 554,
+     "missed": 587,
+     "family": 15,
+     "wrong": 47
+    },
+    "24-40": {
+     "uncertain": 188,
+     "gt": 1139,
+     "missed": 303,
+     "correct": 623,
+     "family": 6,
+     "wrong": 19
+    },
+    "<24": {
+     "missed": 15,
+     "gt": 20,
+     "correct": 5
+    }
+   },
+   "top_confusions": [
+    [
+     "pro_no -> dry_tumble_no",
+     21
+    ],
+    [
+     "bleach_non_chlorine -> bleach_no",
+     19
+    ],
+    [
+     "iron_no_steam -> iron_no",
+     18
+    ],
+    [
+     "dry_line_shade -> dry_shade",
+     10
+    ],
+    [
+     "wash_no_wring -> bleach_no",
+     9
+    ],
+    [
+     "iron_no -> bleach_no",
+     8
+    ],
+    [
+     "bleach_chlorine -> bleach_any",
+     6
+    ],
+    [
+     "pro_no -> dry_tumble_low",
+     6
+    ],
+    [
+     "iron_high -> iron_medium",
+     5
+    ],
+    [
+     "iron_low -> iron_medium",
+     5
+    ],
+    [
+     "wash_hand -> wash_30",
+     5
+    ],
+    [
+     "dry_tumble_no -> dry_tumble_low",
+     4
+    ],
+    [
+     "iron_no -> dry_tumble_no",
+     4
+    ],
+    [
+     "wash_no -> bleach_no",
+     3
+    ],
+    [
+     "wash_95 -> wash_40_very_gentle",
+     3
+    ],
+    [
+     "wash_hand -> wash_95",
+     3
+    ],
+    [
+     "wash_60 -> wash_40",
+     2
+    ],
+    [
+     "wash_95 -> wash_60",
+     2
+    ],
+    [
+     "dry_shade -> dry_line_shade",
+     2
+    ],
+    [
+     "wash_50 -> wash_30",
+     2
+    ],
+    [
+     "bleach_no -> iron_no",
+     2
+    ],
+    [
+     "wash_30 -> iron_no",
+     2
+    ],
+    [
+     "wash_60 -> pro_no",
+     2
+    ],
+    [
+     "pro_dry_p -> dry_tumble_medium",
+     1
+    ],
+    [
+     "wash_40 -> wash_60",
+     1
+    ]
+   ]
+  },
+  "github_test_v4": {
+   "photos": 38,
+   "listed_symbols": 182,
+   "recall": 0.7198,
+   "recall_incl_uncertain": 0.8242,
+   "recognized_in_vocab": 174,
+   "correct": 170,
+   "wrong": 4,
+   "other_classes": 3,
+   "precision": 0.977,
+   "photos_complete_and_no_wrong": 8,
+   "status": {
+    "partial": 25,
+    "success": 13
+   },
+   "wrong_examples": [
+    [
+     "iron_no (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_p,WASH_30)",
+     1
+    ],
+    [
+     "wash_40_very_gentle (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_no,WASH_30)",
+     1
+    ],
+    [
+     "iron_no (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_p,WASH_40)",
+     1
+    ],
+    [
+     "bleach_no (photo: BLEACH_nonchlorine,DRY_tumble_yes,IRON_yes,PROF_dry_p,WASH_40)",
+     1
+    ]
+   ]
+  },
+  "label2_split": {
+   "photos_total": 815,
+   "dropped_dup_of_earlier_test": 66,
+   "train_only_dup_of_earlier_train": 201,
+   "new_train": 383,
+   "val": 55,
+   "test": 110
+  }
+ },
+ "v5_round5": {
+  "shipped": "v5b (second fine-tune)",
+  "tests": {
+   "lv3": {
+    "v4": {
+     "images": 69,
+     "gt": 343,
+     "correct": 157,
+     "family_only": 3,
+     "wrong": 5,
+     "uncertain": 64,
+     "missed": 114,
+     "unmatched_recognized": 7,
+     "recall_strict": 0.4577,
+     "recall_family": 0.4665,
+     "detected": 0.6676,
+     "precision_strict": 0.9515,
+     "precision_family": 0.9697,
+     "sec_per_image": 5.83,
+     "status": {
+      "partial": 44,
+      "success": 14,
+      "none": 11
+     },
+     "top_confusions": [
+      [
+       "dry_tumble_no -> bleach_no",
+       1
+      ],
+      [
+       "iron_low -> iron_medium",
+       1
+      ],
+      [
+       "wash_hand -> wash_30",
+       1
+      ],
+      [
+       "wash_40 -> iron_medium",
+       1
+      ],
+      [
+       "bleach_non_chlorine -> bleach_no",
+       1
+      ]
+     ]
+    },
+    "v5": {
+     "images": 69,
+     "gt": 343,
+     "correct": 174,
+     "family_only": 2,
+     "wrong": 3,
+     "uncertain": 74,
+     "missed": 90,
+     "unmatched_recognized": 8,
+     "recall_strict": 0.5073,
+     "recall_family": 0.5131,
+     "detected": 0.7376,
+     "precision_strict": 0.9721,
+     "precision_family": 0.9832,
+     "sec_per_image": 5.2,
+     "status": {
+      "partial": 43,
+      "success": 18,
+      "none": 8
+     },
+     "top_confusions": [
+      [
+       "iron_medium -> bleach_no",
+       1
+      ],
+      [
+       "bleach_no -> wash_40",
+       1
+      ],
+      [
+       "bleach_non_chlorine -> bleach_no",
+       1
+      ]
+     ]
+    }
+   },
+   "vs": {
+    "v4": {
+     "images": 27,
+     "gt": 156,
+     "correct": 94,
+     "family_only": 3,
+     "wrong": 2,
+     "uncertain": 25,
+     "missed": 32,
+     "unmatched_recognized": 11,
+     "recall_strict": 0.6026,
+     "recall_family": 0.6218,
+     "detected": 0.7949,
+     "precision_strict": 0.9495,
+     "precision_family": 0.9798,
+     "sec_per_image": 5.88,
+     "status": {
+      "partial": 21,
+      "success": 4,
+      "none": 2
+     },
+     "top_confusions": [
+      [
+       "iron_low -> iron_medium",
+       1
+      ],
+      [
+       "bleach_no -> pro_no",
+       1
+      ]
+     ]
+    },
+    "v5": {
+     "images": 27,
+     "gt": 156,
+     "correct": 99,
+     "family_only": 1,
+     "wrong": 3,
+     "uncertain": 23,
+     "missed": 30,
+     "unmatched_recognized": 16,
+     "recall_strict": 0.6346,
+     "recall_family": 0.641,
+     "detected": 0.8077,
+     "precision_strict": 0.9612,
+     "precision_family": 0.9709,
+     "sec_per_image": 4.26,
+     "status": {
+      "partial": 21,
+      "success": 5,
+      "none": 1
+     },
+     "top_confusions": [
+      [
+       "wash_30 -> wash_40",
+       1
+      ],
+      [
+       "iron_low -> iron_medium",
+       1
+      ],
+      [
+       "bleach_no -> pro_no",
+       1
+      ]
+     ]
+    }
+   },
+   "ws": {
+    "v4": {
+     "images": 188,
+     "gt": 633,
+     "correct": 161,
+     "family_only": 0,
+     "wrong": 27,
+     "uncertain": 101,
+     "missed": 344,
+     "unmatched_recognized": 100,
+     "recall_strict": 0.2543,
+     "recall_family": 0.2543,
+     "detected": 0.4566,
+     "precision_strict": 0.8564,
+     "precision_family": 0.8564,
+     "sec_per_image": 10.19,
+     "status": {
+      "partial": 72,
+      "none": 58,
+      "success": 58
+     },
+     "top_confusions": [
+      [
+       "bleach_any -> bleach_non_chlorine",
+       4
+      ],
+      [
+       "iron_high -> iron_medium",
+       4
+      ],
+      [
+       "iron_low -> iron_medium",
+       3
+      ],
+      [
+       "grp:wash30 -> wash_40_very_gentle",
+       1
+      ],
+      [
+       "iron_medium -> bleach_no",
+       1
+      ],
+      [
+       "grp:dryclean -> wash_30",
+       1
+      ],
+      [
+       "iron_medium -> wash_30",
+       1
+      ],
+      [
+       "grp:wash30 -> wash_40",
+       1
+      ],
+      [
+       "iron_low -> iron_no",
+       1
+      ],
+      [
+       "grp:tumble -> bleach_non_chlorine",
+       1
+      ],
+      [
+       "iron_no -> dry_tumble_no",
+       1
+      ],
+      [
+       "grp:wash50 -> wash_30",
+       1
+      ],
+      [
+       "wash_no -> bleach_any",
+       1
+      ],
+      [
+       "bleach_no -> bleach_non_chlorine",
+       1
+      ],
+      [
+       "grp:wash40 -> dry_tumble_no",
+       1
+      ],
+      [
+       "pro_no -> dry_tumble_no",
+       1
+      ],
+      [
+       "iron_medium -> iron_no",
+       1
+      ],
+      [
+       "grp:wash50 -> iron_any",
+       1
+      ],
+      [
+       "wash_no -> wash_machine_gentle",
+       1
+      ]
+     ]
+    },
+    "v5": {
+     "images": 188,
+     "gt": 633,
+     "correct": 191,
+     "family_only": 0,
+     "wrong": 25,
+     "uncertain": 81,
+     "missed": 336,
+     "unmatched_recognized": 120,
+     "recall_strict": 0.3017,
+     "recall_family": 0.3017,
+     "detected": 0.4692,
+     "precision_strict": 0.8843,
+     "precision_family": 0.8843,
+     "sec_per_image": 9.35,
+     "status": {
+      "partial": 74,
+      "none": 52,
+      "success": 62
+     },
+     "top_confusions": [
+      [
+       "bleach_any -> bleach_non_chlorine",
+       4
+      ],
+      [
+       "grp:wash30 -> wash_40",
+       4
+      ],
+      [
+       "iron_low -> iron_medium",
+       2
+      ],
+      [
+       "iron_high -> iron_medium",
+       2
+      ],
+      [
+       "grp:wash30 -> wash_hand",
+       1
+      ],
+      [
+       "grp:wash30 -> wash_40_very_gentle",
+       1
+      ],
+      [
+       "pro_no -> pro_wet_no",
+       1
+      ],
+      [
+       "dry_tumble_no -> wash_no",
+       1
+      ],
+      [
+       "iron_no -> dry_tumble_no",
+       1
+      ],
+      [
+       "bleach_no -> wash_no_wring",
+       1
+      ],
+      [
+       "grp:wash50 -> wash_40",
+       1
+      ],
+      [
+       "wash_no -> bleach_any",
+       1
+      ],
+      [
+       "grp:wash40 -> iron_low",
+       1
+      ],
+      [
+       "grp:wash30 -> dry_tumble_no",
+       1
+      ],
+      [
+       "iron_no -> wash_no",
+       1
+      ],
+      [
+       "iron_medium -> iron_low",
+       1
+      ],
+      [
+       "grp:wash50 -> iron_low",
+       1
+      ]
+     ]
+    }
+   },
+   "label2": {
+    "v4": {
+     "images": 110,
+     "gt": 640,
+     "correct": 179,
+     "family_only": 1,
+     "wrong": 18,
+     "uncertain": 125,
+     "missed": 317,
+     "unmatched_recognized": 10,
+     "recall_strict": 0.2797,
+     "recall_family": 0.2812,
+     "detected": 0.5047,
+     "precision_strict": 0.904,
+     "precision_family": 0.9091,
+     "sec_per_image": 6.14,
+     "status": {
+      "partial": 50,
+      "none": 38,
+      "success": 22
+     },
+     "top_confusions": [
+      [
+       "pro_dry_a -> pro_dry_p",
+       2
+      ],
+      [
+       "dry_tumble_no -> pro_no",
+       1
+      ],
+      [
+       "pro_wet_no -> pro_no",
+       1
+      ],
+      [
+       "dry_tumble_medium -> dry_tumble_low",
+       1
+      ],
+      [
+       "pro_wet -> pro_dry_p",
+       1
+      ],
+      [
+       "pro_dryclean -> pro_dry_p",
+       1
+      ],
+      [
+       "dry_tumble_high -> pro_dry_p",
+       1
+      ],
+      [
+       "iron_no_steam -> dry_flat",
+       1
+      ],
+      [
+       "pro_dry_f -> pro_dry_p",
+       1
+      ],
+      [
+       "pro_dry_f_very_gentle -> pro_dry_p",
+       1
+      ],
+      [
+       "iron_no -> dry_flat",
+       1
+      ],
+      [
+       "dry_tumble_no -> wash_no",
+       1
+      ],
+      [
+       "pro_no -> dry_tumble_no",
+       1
+      ],
+      [
+       "wash_30 -> dry_tumble_no",
+       1
+      ],
+      [
+       "iron_no -> bleach_no",
+       1
+      ],
+      [
+       "wash_30 -> wash_machine",
+       1
+      ],
+      [
+       "dry_tumble_low -> dry_tumble",
+       1
+      ]
+     ]
+    },
+    "v5": {
+     "images": 110,
+     "gt": 640,
+     "correct": 209,
+     "family_only": 1,
+     "wrong": 25,
+     "uncertain": 118,
+     "missed": 287,
+     "unmatched_recognized": 13,
+     "recall_strict": 0.3266,
+     "recall_family": 0.3281,
+     "detected": 0.5516,
+     "precision_strict": 0.8894,
+     "precision_family": 0.8936,
+     "sec_per_image": 7.9,
+     "status": {
+      "success": 26,
+      "partial": 48,
+      "none": 36
+     },
+     "top_confusions": [
+      [
+       "dry_tumble_no -> pro_no",
+       2
+      ],
+      [
+       "pro_no -> dry_tumble_no",
+       2
+      ],
+      [
+       "pro_dry_a -> pro_dry_p",
+       2
+      ],
+      [
+       "dry_line_shade -> dry_line",
+       1
+      ],
+      [
+       "pro_wet_no -> pro_no",
+       1
+      ],
+      [
+       "wash_30 -> wash_40",
+       1
+      ],
+      [
+       "pro_wet -> pro_dry_p",
+       1
+      ],
+      [
+       "pro_dryclean -> pro_dry_p",
+       1
+      ],
+      [
+       "dry_flat_shade -> dry_line_shade",
+       1
+      ],
+      [
+       "dry_tumble_high -> pro_dry_p",
+       1
+      ],
+      [
+       "iron_no_steam -> dry_flat",
+       1
+      ],
+      [
+       "pro_dry_f -> pro_dry_p",
+       1
+      ],
+      [
+       "pro_dry_f_very_gentle -> pro_dry_p",
+       1
+      ],
+      [
+       "dry_tumble_no -> wash_no",
+       1
+      ],
+      [
+       "pro_dry_p -> pro_wet_no",
+       1
+      ],
+      [
+       "wash_30 -> dry_tumble_no",
+       1
+      ],
+      [
+       "dry_drip -> dry_flat",
+       1
+      ],
+      [
+       "iron_no -> bleach_no",
+       1
+      ],
+      [
+       "wash_40 -> wash_hand",
+       1
+      ],
+      [
+       "iron_medium -> iron_high",
+       1
+      ],
+      [
+       "dry_flat -> dry_line",
+       1
+      ],
+      [
+       "dry_tumble_low -> dry_tumble",
+       1
+      ]
+     ]
+    }
+   },
+   "v1": {
+    "v4": {
+     "images": 834,
+     "gt": 6364,
+     "correct": 3211,
+     "family_only": 62,
+     "wrong": 157,
+     "uncertain": 1366,
+     "missed": 1568,
+     "unmatched_recognized": 226,
+     "recall_strict": 0.5046,
+     "recall_family": 0.5143,
+     "detected": 0.7536,
+     "precision_strict": 0.9362,
+     "precision_family": 0.9542,
+     "sec_per_image": 4.52,
+     "status": {
+      "partial": 602,
+      "success": 195,
+      "none": 31,
+      "image_quality_too_low": 6
+     },
+     "top_confusions": [
+      [
+       "pro_no -> dry_tumble_no",
+       21
+      ],
+      [
+       "bleach_non_chlorine -> bleach_no",
+       19
+      ],
+      [
+       "iron_no_steam -> iron_no",
+       18
+      ],
+      [
+       "dry_line_shade -> dry_shade",
+       10
+      ],
+      [
+       "wash_no_wring -> bleach_no",
+       9
+      ],
+      [
+       "iron_no -> bleach_no",
+       8
+      ],
+      [
+       "bleach_chlorine -> bleach_any",
+       6
+      ],
+      [
+       "pro_no -> dry_tumble_low",
+       6
+      ],
+      [
+       "iron_high -> iron_medium",
+       5
+      ],
+      [
+       "iron_low -> iron_medium",
+       5
+      ],
+      [
+       "wash_hand -> wash_30",
+       5
+      ],
+      [
+       "dry_tumble_no -> dry_tumble_low",
+       4
+      ],
+      [
+       "iron_no -> dry_tumble_no",
+       4
+      ],
+      [
+       "wash_no -> bleach_no",
+       3
+      ],
+      [
+       "wash_95 -> wash_40_very_gentle",
+       3
+      ],
+      [
+       "wash_hand -> wash_95",
+       3
+      ],
+      [
+       "wash_60 -> wash_40",
+       2
+      ],
+      [
+       "wash_95 -> wash_60",
+       2
+      ],
+      [
+       "dry_shade -> dry_line_shade",
+       2
+      ],
+      [
+       "wash_50 -> wash_30",
+       2
+      ],
+      [
+       "bleach_no -> iron_no",
+       2
+      ],
+      [
+       "wash_30 -> iron_no",
+       2
+      ],
+      [
+       "wash_60 -> pro_no",
+       2
+      ],
+      [
+       "pro_dry_p -> dry_tumble_medium",
+       1
+      ],
+      [
+       "wash_40 -> wash_60",
+       1
+      ]
+     ]
+    },
+    "v5": {
+     "images": 834,
+     "gt": 6364,
+     "correct": 3491,
+     "family_only": 44,
+     "wrong": 210,
+     "uncertain": 1114,
+     "missed": 1505,
+     "unmatched_recognized": 259,
+     "recall_strict": 0.5486,
+     "recall_family": 0.5555,
+     "detected": 0.7635,
+     "precision_strict": 0.9322,
+     "precision_family": 0.9439,
+     "sec_per_image": 5.31,
+     "status": {
+      "success": 255,
+      "partial": 551,
+      "none": 22,
+      "image_quality_too_low": 6
+     },
+     "top_confusions": [
+      [
+       "iron_no_steam -> iron_no",
+       20
+      ],
+      [
+       "dry_line_shade -> dry_shade",
+       20
+      ],
+      [
+       "pro_no -> dry_tumble_no",
+       19
+      ],
+      [
+       "bleach_non_chlorine -> bleach_no",
+       17
+      ],
+      [
+       "bleach_chlorine -> bleach_any",
+       15
+      ],
+      [
+       "wash_no_wring -> bleach_no",
+       15
+      ],
+      [
+       "wash_60 -> wash_40",
+       10
+      ],
+      [
+       "iron_no -> bleach_no",
+       10
+      ],
+      [
+       "wash_30 -> wash_40_very_gentle",
+       8
+      ],
+      [
+       "wash_50 -> wash_30",
+       7
+      ],
+      [
+       "pro_no -> dry_tumble_low",
+       7
+      ],
+      [
+       "wash_60 -> wash_40_very_gentle",
+       5
+      ],
+      [
+       "iron_high -> iron_medium",
+       4
+      ],
+      [
+       "wash_95 -> wash_40_very_gentle",
+       4
+      ],
+      [
+       "wash_95 -> wash_40",
+       4
+      ],
+      [
+       "wash_40 -> wash_30",
+       3
+      ],
+      [
+       "bleach_no -> wash_no",
+       3
+      ],
+      [
+       "wash_30 -> wash_40",
+       3
+      ],
+      [
+       "dry_tumble_no -> dry_tumble_low",
+       3
+      ],
+      [
+       "wash_hand -> wash_30",
+       3
+      ],
+      [
+       "iron_no -> dry_tumble_no",
+       3
+      ],
+      [
+       "wash_hand -> wash_95",
+       3
+      ],
+      [
+       "wash_95 -> wash_60",
+       2
+      ],
+      [
+       "dry_tumble_low -> dry_tumble_medium",
+       2
+      ],
+      [
+       "wash_30 -> iron_no",
+       2
+      ]
+     ]
+    }
+   }
+  },
+  "github": {
+   "v4": {
+    "photos": 38,
+    "listed_symbols": 182,
+    "recall": 0.7198,
+    "recall_incl_uncertain": 0.8242,
+    "recognized_in_vocab": 174,
+    "correct": 170,
+    "wrong": 4,
+    "other_classes": 3,
+    "precision": 0.977,
+    "photos_complete_and_no_wrong": 8,
+    "status": {
+     "partial": 25,
+     "success": 13
+    },
+    "wrong_examples": [
+     [
+      "iron_no (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_p,WASH_30)",
+      1
+     ],
+     [
+      "wash_40_very_gentle (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_no,WASH_30)",
+      1
+     ],
+     [
+      "iron_no (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_p,WASH_40)",
+      1
+     ],
+     [
+      "bleach_no (photo: BLEACH_nonchlorine,DRY_tumble_yes,IRON_yes,PROF_dry_p,WASH_40)",
+      1
+     ]
+    ]
+   },
+   "v5": {
+    "photos": 38,
+    "listed_symbols": 182,
+    "recall": 0.7198,
+    "recall_incl_uncertain": 0.8242,
+    "recognized_in_vocab": 174,
+    "correct": 171,
+    "wrong": 3,
+    "other_classes": 0,
+    "precision": 0.9828,
+    "photos_complete_and_no_wrong": 8,
+    "status": {
+     "partial": 26,
+     "none": 2,
+     "success": 10
+    },
+    "wrong_examples": [
+     [
+      "wash_no (photo: BLEACH_no,DRY_tumble_no,IRON_yes,PROF_dry_no,WASH_30)",
+      1
+     ],
+     [
+      "bleach_no (photo: BLEACH_nonchlorine,DRY_tumble_yes,IRON_yes,PROF_dry_p,WASH_40)",
+      1
+     ],
+     [
+      "wash_30 (photo: BLEACH_nonchlorine,DRY_tumble_yes,IRON_yes,PROF_dry_p,WASH_40)",
+      1
+     ]
+    ]
+   }
+  }
+ }
+}

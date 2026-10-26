@@ -1,0 +1,117 @@
+{
+  "status": "partial",
+  "imageQuality": 0.846,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30",
+      "category": "wash",
+      "confidence": 0.907,
+      "confidenceLevel": "high",
+      "bbox": [
+        345,
+        916,
+        76,
+        59
+      ],
+      "name": "Стирка до 30 °C",
+      "components": [
+        "wash_30"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.928,
+      "confidenceLevel": "high",
+      "bbox": [
+        413,
+        923,
+        60,
+        60
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.825,
+      "confidenceLevel": "medium",
+      "bbox": [
+        475,
+        921,
+        66,
+        57
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 3
+    },
+    {
+      "id": "dry_tumble",
+      "category": "dry",
+      "confidence": 0.771,
+      "confidenceLevel": "medium",
+      "bbox": [
+        619,
+        925,
+        50,
+        55
+      ],
+      "name": "Машинная сушка — обычный режим",
+      "components": [
+        "dry_tumble"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "any",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 4
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        546,
+        924,
+        49,
+        55
+      ],
+      "confidence": 0.489,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_dry_f",
+        "pro_dry_p"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

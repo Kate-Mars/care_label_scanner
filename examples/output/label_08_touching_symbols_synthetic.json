@@ -1,0 +1,115 @@
+{
+  "status": "success",
+  "imageQuality": 0.913,
+  "recognizedSymbols": [
+    {
+      "id": "wash_no_wring",
+      "category": "wash",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        234,
+        375,
+        105,
+        84
+      ],
+      "name": "Не отжимать / не выкручивать",
+      "components": [
+        "wash_no_wring"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "wring"
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.934,
+      "confidenceLevel": "high",
+      "bbox": [
+        341,
+        378,
+        82,
+        83
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "non_chlorine_only"
+      },
+      "position": 2
+    },
+    {
+      "id": "dry_flat",
+      "category": "dry",
+      "confidence": 0.934,
+      "confidenceLevel": "high",
+      "bbox": [
+        425,
+        376,
+        93,
+        95
+      ],
+      "name": "Сушить в расправленном виде",
+      "components": [
+        "dry_flat"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "natural_dry",
+        "method": "flat"
+      },
+      "position": 3
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "confidence": 0.937,
+      "confidenceLevel": "high",
+      "bbox": [
+        520,
+        409,
+        90,
+        51
+      ],
+      "name": "Глажение разрешено без ограничения по точкам",
+      "components": [
+        "iron_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron"
+      },
+      "position": 4
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.874,
+      "confidenceLevel": "medium",
+      "bbox": [
+        609,
+        385,
+        171,
+        102
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 5
+    }
+  ],
+  "labelDetected": false,
+  "layout": "horizontal"
+}

@@ -1,0 +1,105 @@
+{
+  "status": "partial",
+  "imageQuality": 0.941,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40_very_gentle",
+      "category": "wash",
+      "confidence": 0.951,
+      "confidenceLevel": "high",
+      "bbox": [
+        672,
+        1645,
+        269,
+        276
+      ],
+      "name": "Стирка до 40 °C, очень щадящий режим",
+      "components": [
+        "wash_40",
+        "wash_machine_very_gentle"
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.967,
+      "confidenceLevel": "high",
+      "bbox": [
+        981,
+        1658,
+        218,
+        225
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "iron_high",
+      "category": "iron",
+      "confidence": 0.97,
+      "confidenceLevel": "high",
+      "bbox": [
+        1462,
+        1662,
+        317,
+        225
+      ],
+      "name": "Глажение при высокой температуре",
+      "components": [
+        "iron_high"
+      ]
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.969,
+      "confidenceLevel": "high",
+      "bbox": [
+        1810,
+        1671,
+        229,
+        234
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ]
+    },
+    {
+      "id": "pro_dry_f",
+      "category": "professional_care",
+      "confidence": 0.837,
+      "confidenceLevel": "medium",
+      "bbox": [
+        902,
+        2436,
+        271,
+        379
+      ],
+      "name": "Профессиональная сухая чистка (F)",
+      "components": [
+        "pro_dry_f"
+      ]
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        1237,
+        1660,
+        201,
+        207
+      ],
+      "confidence": 0.658,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "dry_tumble"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": false,
+  "layout": "horizontal"
+}

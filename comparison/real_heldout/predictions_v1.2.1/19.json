@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "imageQuality": 0.939,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        923,
+        2009,
+        179,
+        166
+      ],
+      "name": "Стирка до 30 °C, щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ]
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        1673,
+        1987,
+        255,
+        177
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ]
+    }
+  ],
+  "labelDetected": false,
+  "layout": "horizontal"
+}

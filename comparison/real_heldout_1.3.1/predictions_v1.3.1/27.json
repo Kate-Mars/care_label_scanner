@@ -1,0 +1,143 @@
+{
+  "status": "partial",
+  "imageQuality": 0.918,
+  "recognizedSymbols": [
+    {
+      "id": "wash_50_gentle",
+      "category": "wash",
+      "confidence": 0.845,
+      "confidenceLevel": "medium",
+      "bbox": [
+        193,
+        144,
+        42,
+        38
+      ],
+      "name": "Стирка до 50 °C, щадящий режим",
+      "components": [
+        "wash_50",
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 50,
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 1,
+      "row": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        242,
+        136,
+        40,
+        42
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2,
+      "row": 1,
+      "repeats": 2
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        289,
+        130,
+        32,
+        48
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 3,
+      "row": 1
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        329,
+        123,
+        49,
+        55
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 4,
+      "row": 1
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        387,
+        117,
+        39,
+        35
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 5,
+      "row": 2,
+      "repeats": 1
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        348,
+        330,
+        20,
+        16
+      ],
+      "confidence": 0.441,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_no_steam"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal",
+  "duplicatesRemoved": 5
+}

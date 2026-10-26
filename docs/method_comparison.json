@@ -1,0 +1,47 @@
+{
+  "testSet": "2310 isolated crops, eval fonts, 30-110 px, 360 negatives",
+  "results": [
+    {
+      "method": "A template matching",
+      "top1Accuracy": 0.3205,
+      "recognizedCorrect@0.7": 0.1508,
+      "confidentWrong@0.7": 0.1344,
+      "negativesAcceptedAsSymbol@0.7": 0.1472
+    },
+    {
+      "method": "B HOG + MLP",
+      "top1Accuracy": 0.8641,
+      "recognizedCorrect@0.7": 0.8379,
+      "confidentWrong@0.7": 0.0867,
+      "negativesAcceptedAsSymbol@0.7": 0.0083
+    },
+    {
+      "method": "C CNN flat",
+      "top1Accuracy": 0.9749,
+      "recognizedCorrect@0.7": 0.9574,
+      "confidentWrong@0.7": 0.0087,
+      "negativesAcceptedAsSymbol@0.7": 0.0
+    },
+    {
+      "method": "D CNN hierarchical",
+      "top1Accuracy": 0.9733,
+      "recognizedCorrect@0.7": 0.9574,
+      "confidentWrong@0.7": 0.0087,
+      "negativesAcceptedAsSymbol@0.7": 0.0
+    },
+    {
+      "method": "E ensemble (D + verification + templates)",
+      "top1Accuracy": 0.9733,
+      "recognizedCorrect@0.7": 0.8995,
+      "confidentWrong@0.7": 0.0051,
+      "negativesAcceptedAsSymbol@0.7": 0.0
+    },
+    {
+      "method": "F D + verification only (no templates)",
+      "top1Accuracy": 0.9733,
+      "recognizedCorrect@0.7": 0.9056,
+      "confidentWrong@0.7": 0.0051,
+      "negativesAcceptedAsSymbol@0.7": 0.0
+    }
+  ]
+}

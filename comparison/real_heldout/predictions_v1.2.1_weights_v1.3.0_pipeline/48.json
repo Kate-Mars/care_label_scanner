@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "imageQuality": 0.857,
+  "recognizedSymbols": [
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.861,
+      "confidenceLevel": "medium",
+      "bbox": [
+        416,
+        499,
+        63,
+        50
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 1
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

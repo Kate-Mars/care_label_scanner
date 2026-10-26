@@ -1,0 +1,244 @@
+{
+  "status": "success",
+  "imageQuality": 0.934,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_chlorine",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        124,
+        480,
+        75,
+        69
+      ],
+      "name": "Хлорное отбеливание (CL)",
+      "components": [
+        "bleach_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "chlorine"
+      },
+      "position": 1,
+      "row": 1
+    },
+    {
+      "id": "dry_tumble_high",
+      "category": "dry",
+      "confidence": 0.733,
+      "confidenceLevel": "medium",
+      "bbox": [
+        240,
+        487,
+        77,
+        80
+      ],
+      "name": "Машинная сушка — высокая температура",
+      "components": [
+        "dry_tumble_high"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "high",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 2,
+      "row": 1
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "confidence": 0.989,
+      "confidenceLevel": "high",
+      "bbox": [
+        359,
+        522,
+        84,
+        51
+      ],
+      "name": "Глажение разрешено без ограничения по точкам",
+      "components": [
+        "iron_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron"
+      },
+      "position": 3,
+      "row": 1
+    },
+    {
+      "id": "dry_flat",
+      "category": "dry",
+      "confidence": 0.984,
+      "confidenceLevel": "high",
+      "bbox": [
+        484,
+        524,
+        80,
+        81
+      ],
+      "name": "Сушить в расправленном виде",
+      "components": [
+        "dry_flat"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "natural_dry",
+        "method": "flat"
+      },
+      "position": 4,
+      "row": 1
+    },
+    {
+      "id": "dry_tumble_gentle",
+      "category": "dry",
+      "confidence": 0.85,
+      "confidenceLevel": "medium",
+      "bbox": [
+        605,
+        538,
+        73,
+        80
+      ],
+      "name": "Машинная сушка — обычный режим, щадящий режим",
+      "components": [
+        "dry_tumble_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "any",
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 5,
+      "row": 1
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        119,
+        583,
+        75,
+        43
+      ],
+      "name": "Глажение запрещено",
+      "components": [
+        "iron_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "iron"
+      },
+      "position": 6,
+      "row": 2
+    },
+    {
+      "id": "wash_60_gentle",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        237,
+        594,
+        74,
+        59
+      ],
+      "name": "Стирка до 60 °C, щадящий режим",
+      "components": [
+        "wash_60",
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 60,
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 7,
+      "row": 2
+    },
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.859,
+      "confidenceLevel": "medium",
+      "bbox": [
+        354,
+        608,
+        78,
+        64
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 40,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 8,
+      "row": 2
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "confidence": 0.985,
+      "confidenceLevel": "high",
+      "bbox": [
+        476,
+        639,
+        78,
+        38
+      ],
+      "name": "Глажение разрешено без ограничения по точкам",
+      "components": [
+        "iron_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron"
+      },
+      "position": 9,
+      "row": 2
+    },
+    {
+      "id": "bleach_chlorine",
+      "category": "bleach",
+      "confidence": 0.989,
+      "confidenceLevel": "high",
+      "bbox": [
+        596,
+        637,
+        78,
+        73
+      ],
+      "name": "Хлорное отбеливание (CL)",
+      "components": [
+        "bleach_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "chlorine"
+      },
+      "position": 10,
+      "row": 2
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

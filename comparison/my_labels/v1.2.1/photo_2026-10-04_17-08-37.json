@@ -1,0 +1,89 @@
+{
+  "status": "success",
+  "imageQuality": 0.94,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "confidence": 0.97,
+      "confidenceLevel": "high",
+      "bbox": [
+        293,
+        633,
+        58,
+        44
+      ],
+      "name": "Стирка до 30 °C, щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.97,
+      "confidenceLevel": "high",
+      "bbox": [
+        360,
+        636,
+        59,
+        43
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.969,
+      "confidenceLevel": "high",
+      "bbox": [
+        415,
+        634,
+        70,
+        58
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.969,
+      "confidenceLevel": "high",
+      "bbox": [
+        499,
+        638,
+        54,
+        40
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ]
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.968,
+      "confidenceLevel": "high",
+      "bbox": [
+        554,
+        635,
+        73,
+        56
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ]
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

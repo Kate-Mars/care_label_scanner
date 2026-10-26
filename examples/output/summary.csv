@@ -1,0 +1,64 @@
+﻿фото;статус;класс;название;уверенность;x;y;ширина;высота
+label_01_clean_5_symbols.jpg;распознан;wash_no;Стирка запрещена;0.99;274;463;59;40
+label_01_clean_5_symbols.jpg;распознан;bleach_non_chlorine;Только бесхлорный (кислородный) отбеливатель;0.99;346;460;59;52
+label_01_clean_5_symbols.jpg;распознан;dry_tumble_high;Машинная сушка — высокая температура;0.99;418;456;60;59
+label_01_clean_5_symbols.jpg;распознан;iron_low;Глажение при низкой температуре;0.99;492;470;68;40
+label_01_clean_5_symbols.jpg;распознан;pro_dry_f;Профессиональная сухая чистка (F);0.805;574;460;58;59
+label_02_perspective.jpg;распознан;wash_60;Стирка до 60 °C;0.987;181;376;275;233
+label_02_perspective.jpg;распознан;iron_high;Глажение при высокой температуре;0.975;541;332;267;186
+label_02_perspective.jpg;распознан;dry_shade;Сушить в тени;0.989;892;226;249;292
+label_02_perspective.jpg;распознан;dry_tumble_gentle;Машинная сушка — обычный режим, щадящий режим;0.991;1223;197;221;288
+label_03_dark_woven.jpg;распознан;dry_tumble_low_gentle;Машинная сушка — низкая температура, щадящий режим;0.87;80;681;174;181
+label_03_dark_woven.jpg;распознан;iron_no;Глажение запрещено;0.98;374;701;194;109
+label_03_dark_woven.jpg;распознан;wash_30;Стирка до 30 °C;0.98;688;677;188;127
+label_03_dark_woven.jpg;распознан;pro_reduced_moisture;Химчистка - сниженная влажность;0.98;1006;658;172;166
+label_03_dark_woven.jpg;распознан;wash_30_gentle;Стирка до 30 °C, щадящий режим;0.978;1295;647;172;138
+label_04_three_symbols_shadow.jpg;распознан;wash_wring;Можно отжимать / выкручивать;0.99;424;618;96;55
+label_04_three_symbols_shadow.jpg;распознан;dry_drip;Капельная сушка;0.99;541;602;89;89
+label_04_three_symbols_shadow.jpg;распознан;iron_any;Глажение разрешено без ограничения по точкам;0.99;651;628;89;53
+label_05_long_row_blur.jpg;распознан;bleach_any;Отбеливание разрешено;0.95;343;556;76;63
+label_05_long_row_blur.jpg;распознан;bleach_chlorine;Хлорное отбеливание (CL);0.982;458;541;76;65
+label_05_long_row_blur.jpg;распознан;bleach_non_chlorine;Только бесхлорный (кислородный) отбеливатель;0.99;575;534;76;66
+label_05_long_row_blur.jpg;распознан;iron_any;Глажение разрешено без ограничения по точкам;0.975;697;540;73;35
+label_05_long_row_blur.jpg;распознан;iron_no;Глажение запрещено;0.99;818;525;82;50
+label_05_long_row_blur.jpg;распознан;bleach_any;Отбеливание разрешено;0.95;950;505;74;70
+label_05_long_row_blur.jpg;распознан;wash_30_very_gentle;Стирка до 30 °C, очень щадящий режим;0.99;1073;497;74;61
+label_08_touching_symbols_synthetic.jpg;распознан;wash_no_wring;Не отжимать / не выкручивать;0.938;234;375;105;84
+label_08_touching_symbols_synthetic.jpg;распознан;bleach_non_chlorine;Только бесхлорный (кислородный) отбеливатель;0.934;341;378;82;83
+label_08_touching_symbols_synthetic.jpg;распознан;dry_flat;Сушить в расправленном виде;0.934;425;376;93;95
+label_08_touching_symbols_synthetic.jpg;распознан;iron_any;Глажение разрешено без ограничения по точкам;0.937;520;409;90;51
+label_08_touching_symbols_synthetic.jpg;распознан;dry_tumble_no;Машинная сушка запрещена;0.874;609;385;171;102
+label_09_ruled_grid_synthetic.jpg;распознан;pro_wet;Профессиональная влажная чистка (W);0.997;79;683;97;95
+label_09_ruled_grid_synthetic.jpg;распознан;bleach_non_chlorine;Только бесхлорный (кислородный) отбеливатель;0.996;189;680;96;86
+label_09_ruled_grid_synthetic.jpg;распознан;iron_no_steam;Паровая обработка запрещена;0.992;299;677;107;87
+label_09_ruled_grid_synthetic.jpg;распознан;wash_hand;Ручная стирка;0.997;421;684;93;68
+label_09_ruled_grid_synthetic.jpg;распознан;wash_machine_gentle;Машинная стирка, щадящий режим;0.706;531;674;95;72
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;bleach_chlorine;Хлорное отбеливание (CL);0.99;124;480;75;69
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;dry_tumble_high;Машинная сушка — высокая температура;0.733;240;487;77;80
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;iron_any;Глажение разрешено без ограничения по точкам;0.989;359;522;84;51
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;dry_flat;Сушить в расправленном виде;0.984;484;524;80;81
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;dry_tumble_gentle;Машинная сушка — обычный режим, щадящий режим;0.85;605;538;73;80
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;iron_no;Глажение запрещено;0.99;119;583;75;43
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;wash_60_gentle;Стирка до 60 °C, щадящий режим;0.99;237;594;74;59
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;wash_40;Стирка до 40 °C;0.859;354;608;78;64
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;iron_any;Глажение разрешено без ограничения по точкам;0.985;476;639;78;38
+label_10_two_rows_10_symbols_synthetic.jpg;распознан;bleach_chlorine;Хлорное отбеливание (CL);0.989;596;637;78;73
+label_11_row_of_15_synthetic.jpg;распознан;bleach_non_chlorine;Только бесхлорный (кислородный) отбеливатель;0.926;75;689;67;59
+label_11_row_of_15_synthetic.jpg;распознан;dry_tumble_no_heat;Машинная сушка — без нагрева;0.925;169;688;67;68
+label_11_row_of_15_synthetic.jpg;распознан;iron_any;Глажение разрешено без ограничения по точкам;0.923;262;710;70;27
+label_11_row_of_15_synthetic.jpg;распознан;pro_dry_a;Профессиональная сухая чистка (A);0.908;359;689;66;67
+label_11_row_of_15_synthetic.jpg;распознан;iron_high;Глажение при высокой температуре;0.926;451;706;77;33
+label_11_row_of_15_synthetic.jpg;распознан;dry_no;Не сушить (ASTM);0.926;554;694;68;68
+label_11_row_of_15_synthetic.jpg;распознан;pro_dry_p_max_gentle;Сухая чистка P, максимально щадящий режим;0.926;648;694;66;68
+label_11_row_of_15_synthetic.jpg;распознан;dry_flat_drip;Сушить в расправленном виде без отжима;0.926;741;695;68;68
+label_11_row_of_15_synthetic.jpg;распознан;bleach_no;Отбеливание запрещено;0.926;835;701;67;62
+label_11_row_of_15_synthetic.jpg;распознан;iron_no;Глажение запрещено;0.926;929;710;68;41
+label_11_row_of_15_synthetic.jpg;распознан;bleach_any;Отбеливание разрешено;0.914;1022;706;67;61
+label_11_row_of_15_synthetic.jpg;распознан;wash_machine_gentle;Машинная стирка, щадящий режим;0.899;1117;713;66;50
+label_11_row_of_15_synthetic.jpg;распознан;wash_70;Стирка до 70 °C;0.8;1210;713;69;44
+label_11_row_of_15_synthetic.jpg;распознан;iron_low;Глажение при низкой температуре;0.926;1306;717;67;39
+label_12_faded_ink_synthetic.jpg;распознан;wash_60;Стирка до 60 °C;0.99;86;444;100;58
+label_12_faded_ink_synthetic.jpg;распознан;bleach_non_chlorine;Только бесхлорный (кислородный) отбеливатель;0.99;197;439;88;80
+label_12_faded_ink_synthetic.jpg;распознан;dry_tumble_medium_gentle;Машинная сушка — средняя температура, щадящий режим;0.868;297;443;86;87
+label_12_faded_ink_synthetic.jpg;распознан;iron_any;Глажение разрешено без ограничения по точкам;0.99;395;471;86;33
+label_12_faded_ink_synthetic.jpg;распознан;pro_dryclean;Сухая чистка (ASTM, пустой круг);0.891;497;443;88;86

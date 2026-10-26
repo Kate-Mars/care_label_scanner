@@ -1,0 +1,73 @@
+{
+  "status": "success",
+  "imageQuality": 0.822,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.728,
+      "confidenceLevel": "medium",
+      "bbox": [
+        94,
+        192,
+        23,
+        15
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 1
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.925,
+      "confidenceLevel": "high",
+      "bbox": [
+        124,
+        188,
+        26,
+        18
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 2
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.729,
+      "confidenceLevel": "medium",
+      "bbox": [
+        157,
+        183,
+        22,
+        20
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 3
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

@@ -1,0 +1,1605 @@
+{
+ "summary": {
+  "photos": 38,
+  "required_symbols": 181,
+  "correct": 158,
+  "recall": 0.8729,
+  "precision": 0.9693,
+  "f1": 0.9186,
+  "wrong_class": 4,
+  "wrong_class_rate": 0.0221,
+  "missed": 19,
+  "missed_rate": 0.105,
+  "extra": 1,
+  "extra_per_photo": 0.0263,
+  "uncertain": 22,
+  "exact_sequence": 19,
+  "exact_sequence_accuracy": 0.5
+ },
+ "by_group": {
+  "multi_row": {
+   "photos": 7,
+   "required_symbols": 35,
+   "correct": 31,
+   "recall": 0.8857,
+   "precision": 0.9394,
+   "f1": 0.9118,
+   "wrong_class": 1,
+   "wrong_class_rate": 0.0286,
+   "missed": 3,
+   "missed_rate": 0.0857,
+   "extra": 1,
+   "extra_per_photo": 0.1429,
+   "uncertain": 0,
+   "exact_sequence": 3,
+   "exact_sequence_accuracy": 0.4286
+  },
+  "short_lt8": {
+   "photos": 38,
+   "required_symbols": 181,
+   "correct": 158,
+   "recall": 0.8729,
+   "precision": 0.9693,
+   "f1": 0.9186,
+   "wrong_class": 4,
+   "wrong_class_rate": 0.0221,
+   "missed": 19,
+   "missed_rate": 0.105,
+   "extra": 1,
+   "extra_per_photo": 0.0263,
+   "uncertain": 0,
+   "exact_sequence": 19,
+   "exact_sequence_accuracy": 0.5
+  },
+  "single_row": {
+   "photos": 31,
+   "required_symbols": 146,
+   "correct": 127,
+   "recall": 0.8699,
+   "precision": 0.9769,
+   "f1": 0.9203,
+   "wrong_class": 3,
+   "wrong_class_rate": 0.0205,
+   "missed": 16,
+   "missed_rate": 0.1096,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 16,
+   "exact_sequence_accuracy": 0.5161
+  },
+  "split_test": {
+   "photos": 17,
+   "required_symbols": 78,
+   "correct": 66,
+   "recall": 0.8462,
+   "precision": 0.9851,
+   "f1": 0.9103,
+   "wrong_class": 1,
+   "wrong_class_rate": 0.0128,
+   "missed": 11,
+   "missed_rate": 0.141,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 7,
+   "exact_sequence_accuracy": 0.4118
+  },
+  "split_validation": {
+   "photos": 21,
+   "required_symbols": 103,
+   "correct": 92,
+   "recall": 0.8932,
+   "precision": 0.9583,
+   "f1": 0.9246,
+   "wrong_class": 3,
+   "wrong_class_rate": 0.0291,
+   "missed": 8,
+   "missed_rate": 0.0777,
+   "extra": 1,
+   "extra_per_photo": 0.0476,
+   "uncertain": 0,
+   "exact_sequence": 12,
+   "exact_sequence_accuracy": 0.5714
+  },
+  "tag_blur": {
+   "photos": 4,
+   "required_symbols": 17,
+   "correct": 17,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "wrong_class": 0,
+   "wrong_class_rate": 0.0,
+   "missed": 0,
+   "missed_rate": 0.0,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 4,
+   "exact_sequence_accuracy": 1.0
+  },
+  "tag_dark_label": {
+   "photos": 1,
+   "required_symbols": 5,
+   "correct": 4,
+   "recall": 0.8,
+   "precision": 1.0,
+   "f1": 0.8889,
+   "wrong_class": 0,
+   "wrong_class_rate": 0.0,
+   "missed": 1,
+   "missed_rate": 0.2,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 0,
+   "exact_sequence_accuracy": 0.0
+  },
+  "tag_low_contrast": {
+   "photos": 4,
+   "required_symbols": 20,
+   "correct": 14,
+   "recall": 0.7,
+   "precision": 0.875,
+   "f1": 0.7778,
+   "wrong_class": 2,
+   "wrong_class_rate": 0.1,
+   "missed": 4,
+   "missed_rate": 0.2,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 0,
+   "exact_sequence_accuracy": 0.0
+  },
+  "tag_rotated": {
+   "photos": 3,
+   "required_symbols": 14,
+   "correct": 14,
+   "recall": 1.0,
+   "precision": 1.0,
+   "f1": 1.0,
+   "wrong_class": 0,
+   "wrong_class_rate": 0.0,
+   "missed": 0,
+   "missed_rate": 0.0,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 3,
+   "exact_sequence_accuracy": 1.0
+  },
+  "tag_tiny_image": {
+   "photos": 1,
+   "required_symbols": 4,
+   "correct": 3,
+   "recall": 0.75,
+   "precision": 1.0,
+   "f1": 0.8571,
+   "wrong_class": 0,
+   "wrong_class_rate": 0.0,
+   "missed": 1,
+   "missed_rate": 0.25,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 0,
+   "exact_sequence_accuracy": 0.0
+  },
+  "tag_touching": {
+   "photos": 5,
+   "required_symbols": 24,
+   "correct": 21,
+   "recall": 0.875,
+   "precision": 1.0,
+   "f1": 0.9333,
+   "wrong_class": 0,
+   "wrong_class_rate": 0.0,
+   "missed": 3,
+   "missed_rate": 0.125,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 2,
+   "exact_sequence_accuracy": 0.4
+  },
+  "tag_vertical": {
+   "photos": 3,
+   "required_symbols": 13,
+   "correct": 12,
+   "recall": 0.9231,
+   "precision": 0.9231,
+   "f1": 0.9231,
+   "wrong_class": 1,
+   "wrong_class_rate": 0.0769,
+   "missed": 0,
+   "missed_rate": 0.0,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 2,
+   "exact_sequence_accuracy": 0.6667
+  },
+  "tag_woven": {
+   "photos": 3,
+   "required_symbols": 15,
+   "correct": 12,
+   "recall": 0.8,
+   "precision": 0.9231,
+   "f1": 0.8571,
+   "wrong_class": 1,
+   "wrong_class_rate": 0.0667,
+   "missed": 2,
+   "missed_rate": 0.1333,
+   "extra": 0,
+   "extra_per_photo": 0.0,
+   "uncertain": 0,
+   "exact_sequence": 1,
+   "exact_sequence_accuracy": 0.3333
+  }
+ },
+ "per_class": {
+  "bleach_any": {
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.0,
+   "recall": null,
+   "f1": 0.0
+  },
+  "bleach_no": {
+   "tp": 29,
+   "fp": 0,
+   "fn": 5,
+   "precision": 1.0,
+   "recall": 0.8529,
+   "f1": 0.9206
+  },
+  "bleach_non_chlorine": {
+   "tp": 4,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "dry_tumble": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 1,
+   "precision": 1.0,
+   "recall": 0.6667,
+   "f1": 0.8
+  },
+  "dry_tumble_low": {
+   "tp": 7,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "dry_tumble_medium": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "dry_tumble_no": {
+   "tp": 22,
+   "fp": 0,
+   "fn": 1,
+   "precision": 1.0,
+   "recall": 0.9565,
+   "f1": 0.9778
+  },
+  "iron_high": {
+   "tp": 2,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.6667,
+   "recall": 1.0,
+   "f1": 0.8
+  },
+  "iron_low": {
+   "tp": 22,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "iron_low|iron_medium": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "precision": null,
+   "recall": 0.0,
+   "f1": 0.0
+  },
+  "iron_medium": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 2,
+   "precision": 1.0,
+   "recall": 0.8182,
+   "f1": 0.9
+  },
+  "iron_no": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "pro_dry_p": {
+   "tp": 13,
+   "fp": 0,
+   "fn": 1,
+   "precision": 1.0,
+   "recall": 0.9286,
+   "f1": 0.963
+  },
+  "pro_dry_p_very_gentle": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "pro_no": {
+   "tp": 18,
+   "fp": 0,
+   "fn": 1,
+   "precision": 1.0,
+   "recall": 0.9474,
+   "f1": 0.973
+  },
+  "wash_30": {
+   "tp": 5,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "wash_30_gentle": {
+   "tp": 8,
+   "fp": 0,
+   "fn": 3,
+   "precision": 1.0,
+   "recall": 0.7273,
+   "f1": 0.8421
+  },
+  "wash_30_very_gentle": {
+   "tp": 1,
+   "fp": 2,
+   "fn": 0,
+   "precision": 0.3333,
+   "recall": 1.0,
+   "f1": 0.5
+  },
+  "wash_40": {
+   "tp": 6,
+   "fp": 0,
+   "fn": 2,
+   "precision": 1.0,
+   "recall": 0.75,
+   "f1": 0.8571
+  },
+  "wash_40_gentle": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "precision": null,
+   "recall": 0.0,
+   "f1": 0.0
+  },
+  "wash_40_very_gentle": {
+   "tp": 1,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "wash_hand": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 4,
+   "precision": null,
+   "recall": 0.0,
+   "f1": 0.0
+  },
+  "wash_hand_30": {
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "precision": 0.0,
+   "recall": null,
+   "f1": 0.0
+  },
+  "wash_no": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 1,
+   "precision": 1.0,
+   "recall": 0.6667,
+   "f1": 0.8
+  }
+ },
+ "confusion": {
+  "<none>": {
+   "wash_30_very_gentle": 1
+  },
+  "bleach_no": {
+   "bleach_no": 29,
+   "bleach_any": 1,
+   "<missed>": 4
+  },
+  "bleach_non_chlorine": {
+   "bleach_non_chlorine": 4
+  },
+  "dry_tumble": {
+   "dry_tumble": 2,
+   "<missed>": 1
+  },
+  "dry_tumble_low": {
+   "dry_tumble_low": 7
+  },
+  "dry_tumble_medium": {
+   "dry_tumble_medium": 3
+  },
+  "dry_tumble_no": {
+   "dry_tumble_no": 22,
+   "<missed>": 1
+  },
+  "iron_high": {
+   "iron_high": 2
+  },
+  "iron_low": {
+   "iron_low": 22
+  },
+  "iron_low|iron_medium": {
+   "<missed>": 1
+  },
+  "iron_medium": {
+   "iron_high": 1,
+   "iron_medium": 9,
+   "<missed>": 1
+  },
+  "iron_no": {
+   "iron_no": 3
+  },
+  "pro_dry_p": {
+   "pro_dry_p": 13,
+   "<missed>": 1
+  },
+  "pro_dry_p_very_gentle": {
+   "pro_dry_p_very_gentle": 1
+  },
+  "pro_no": {
+   "pro_no": 18,
+   "<missed>": 1
+  },
+  "wash_30": {
+   "wash_30": 5
+  },
+  "wash_30_gentle": {
+   "<missed>": 2,
+   "wash_30_gentle": 8,
+   "wash_30_very_gentle": 1
+  },
+  "wash_30|wash_30_gentle|wash_30_very_gentle": {
+   "wash_30_very_gentle": 1
+  },
+  "wash_40": {
+   "<missed>": 2,
+   "wash_40": 6
+  },
+  "wash_40_gentle": {
+   "<missed>": 1
+  },
+  "wash_40_very_gentle": {
+   "wash_40_very_gentle": 1
+  },
+  "wash_hand": {
+   "wash_hand_30": 1,
+   "<missed>": 3
+  },
+  "wash_no": {
+   "wash_no": 2,
+   "<missed>": 1
+  }
+ },
+ "photos": [
+  {
+   "file": "2.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "bleach_no",
+    "iron_low",
+    "dry_tumble_no",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no iron_low dry_tumble_no pro_dry_p"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_30_gentle",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "3.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30_gentle",
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no dry_tumble_no iron_low pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "7.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 3,
+   "wrong_class": 1,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "wash_30_gentle",
+    "bleach_any",
+    "iron_low",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no iron_low dry_tumble_no pro_dry_p"
+   ],
+   "errors": [
+    {
+     "op": "sub",
+     "gt": "bleach_no",
+     "pred": "bleach_any"
+    },
+    {
+     "op": "miss",
+     "gt": "dry_tumble_no",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "10.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 1,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": false,
+   "status": "success",
+   "predicted": [
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_no",
+    "wash_30_very_gentle"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no dry_tumble_no iron_low pro_no",
+    "?*"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_30_gentle",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "18.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 1,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 1,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": false,
+   "status": "success",
+   "predicted": [
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_no",
+    "iron_medium",
+    "wash_30_very_gentle"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no dry_tumble_no iron_low pro_no",
+    "?*"
+   ],
+   "errors": [
+    {
+     "op": "sub",
+     "gt": "wash_30_gentle",
+     "pred": "wash_30_very_gentle"
+    }
+   ]
+  },
+  {
+   "file": "19.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "wash_30_gentle",
+    "dry_tumble_low",
+    "iron_low",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no dry_tumble_low iron_low pro_no"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "bleach_no",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "22.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 1,
+   "optional_hit": 1,
+   "optional_wrong": 0,
+   "uncertain": 2,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "iron_no",
+    "wash_30_gentle",
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_no",
+    "wash_30_very_gentle"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no dry_tumble_no iron_low pro_no",
+    "?*"
+   ],
+   "errors": [
+    {
+     "op": "extra",
+     "gt": null,
+     "pred": "wash_30_very_gentle"
+    }
+   ]
+  },
+  {
+   "file": "23.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30_gentle",
+    "bleach_no",
+    "dry_tumble_low",
+    "iron_low",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no dry_tumble_low iron_low pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "27.jpg",
+   "split": "TEST",
+   "required": 4,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 1,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": true,
+   "status": "partial",
+   "predicted": [
+    "wash_50_gentle",
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_no"
+   ],
+   "expected": [
+    "pro_no iron_low dry_tumble_no bleach_no ?wash_30|wash_30_gentle|wash_30_very_gentle ?* ?* ?* ?* ?* ?* ?* ?* ?* ?* ?*"
+   ],
+   "errors": []
+  },
+  {
+   "file": "28.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 1,
+   "optional_wrong": 0,
+   "uncertain": 5,
+   "exact_sequence": true,
+   "status": "partial",
+   "predicted": [
+    "wash_30_gentle",
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_no",
+    "wash_no"
+   ],
+   "expected": [
+    "?wash_30_gentle|wash_30|wash_30_very_gentle bleach_no dry_tumble_no iron_low pro_no",
+    "?* ?*",
+    "wash_30_gentle",
+    "?*"
+   ],
+   "errors": []
+  },
+  {
+   "file": "36.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 1,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": false,
+   "status": "success",
+   "predicted": [
+    "wash_hand_30",
+    "iron_low",
+    "pro_dry_p",
+    "dry_tumble_no",
+    "bleach_no"
+   ],
+   "expected": [
+    "wash_hand iron_low pro_dry_p dry_tumble_no bleach_no ?*"
+   ],
+   "errors": [
+    {
+     "op": "sub",
+     "gt": "wash_hand",
+     "pred": "wash_hand_30"
+    }
+   ]
+  },
+  {
+   "file": "41.jpg",
+   "split": "TEST",
+   "required": 4,
+   "correct": 3,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": false,
+   "status": "success",
+   "predicted": [
+    "wash_no",
+    "iron_low",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_no bleach_no iron_low pro_dry_p"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "bleach_no",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "45.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_no",
+    "bleach_no",
+    "iron_low",
+    "dry_tumble_no",
+    "pro_dry_p_very_gentle"
+   ],
+   "expected": [
+    "wash_no bleach_no iron_low dry_tumble_no pro_dry_p_very_gentle"
+   ],
+   "errors": []
+  },
+  {
+   "file": "48.jpg",
+   "split": "VALIDATION",
+   "required": 4,
+   "correct": 1,
+   "wrong_class": 0,
+   "missed": 3,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "dry_tumble_no"
+   ],
+   "expected": [
+    "wash_no bleach_no dry_tumble_no iron_medium|iron_low"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_no",
+     "pred": null
+    },
+    {
+     "op": "miss",
+     "gt": "bleach_no",
+     "pred": null
+    },
+    {
+     "op": "miss",
+     "gt": "iron_low|iron_medium",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "53.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 3,
+   "wrong_class": 1,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": false,
+   "status": "success",
+   "predicted": [
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_high",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_40 bleach_no dry_tumble_no iron_medium pro_dry_p"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_40",
+     "pred": null
+    },
+    {
+     "op": "sub",
+     "gt": "iron_medium",
+     "pred": "iron_high"
+    }
+   ]
+  },
+  {
+   "file": "54.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30",
+    "bleach_no",
+    "dry_tumble_low",
+    "iron_low",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_30 bleach_no dry_tumble_low iron_low pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "55.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "wash_30",
+    "dry_tumble_no",
+    "pro_dry_p",
+    "iron_low"
+   ],
+   "expected": [
+    "wash_30 bleach_no dry_tumble_no pro_dry_p iron_low"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "bleach_no",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "56.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "wash_40",
+    "bleach_no",
+    "iron_medium",
+    "dry_tumble_low"
+   ],
+   "expected": [
+    "wash_40 bleach_no iron_medium pro_no dry_tumble_low"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "pro_no",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "63.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30_very_gentle",
+    "bleach_no",
+    "iron_low",
+    "pro_no",
+    "dry_tumble_no"
+   ],
+   "expected": [
+    "wash_30|wash_30_gentle|wash_30_very_gentle bleach_no iron_low pro_no dry_tumble_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "74.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_hand bleach_no dry_tumble_no iron_low pro_dry_p"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_hand",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "79.jpg",
+   "split": "TEST",
+   "required": 6,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 2,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 2,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_40_gentle bleach_no dry_tumble_no iron_low pro_no",
+    "iron_medium"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_40_gentle",
+     "pred": null
+    },
+    {
+     "op": "miss",
+     "gt": "iron_medium",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "80.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_medium",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_40 bleach_no dry_tumble_no iron_medium pro_no"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_40",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "85.jpg",
+   "split": "TEST",
+   "required": 3,
+   "correct": 3,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "bleach_non_chlorine",
+    "dry_tumble",
+    "iron_high"
+   ],
+   "expected": [
+    "?* bleach_non_chlorine dry_tumble iron_high"
+   ],
+   "errors": []
+  },
+  {
+   "file": "88.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "wash_40_very_gentle",
+    "bleach_no",
+    "iron_high",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_40_very_gentle bleach_no dry_tumble iron_high pro_dry_p"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "dry_tumble",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "92.jpg",
+   "split": "TEST",
+   "required": 4,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": true,
+   "status": "partial",
+   "predicted": [
+    "pro_no",
+    "bleach_no",
+    "dry_tumble_medium",
+    "iron_medium"
+   ],
+   "expected": [
+    "?* ?* ?* ?* ?*",
+    "?* bleach_no dry_tumble_medium iron_medium pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "86.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 4,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_40",
+    "bleach_no",
+    "iron_medium",
+    "bleach_non_chlorine",
+    "dry_tumble_medium",
+    "pro_dry_p",
+    "bleach_chlorine",
+    "pro_dryclean",
+    "dry_tumble"
+   ],
+   "expected": [
+    "wash_40 bleach_non_chlorine dry_tumble_medium iron_medium pro_dry_p ?* ?* ?* ?* ?* ?* ?* ?* ?* ?* ?*"
+   ],
+   "errors": []
+  },
+  {
+   "file": "94.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_40",
+    "bleach_no",
+    "dry_tumble_low",
+    "iron_medium",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_40 bleach_no dry_tumble_low iron_medium pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "100.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30",
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_no",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_30 bleach_no dry_tumble_no iron_no pro_dry_p"
+   ],
+   "errors": []
+  },
+  {
+   "file": "112.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30_gentle",
+    "bleach_no",
+    "iron_no",
+    "pro_no",
+    "dry_tumble_no"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no iron_no pro_no dry_tumble_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "118.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 2,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30",
+    "bleach_no",
+    "iron_medium",
+    "pro_dry_p",
+    "dry_tumble_medium",
+    "bleach_chlorine",
+    "dry_tumble"
+   ],
+   "expected": [
+    "wash_30 bleach_no dry_tumble_medium iron_medium pro_dry_p",
+    "?* ?* ?* ?* ?*",
+    "?* ?* ?* ?* ?*"
+   ],
+   "errors": []
+  },
+  {
+   "file": "126.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "wash_30",
+    "bleach_no",
+    "iron_low",
+    "dry_tumble"
+   ],
+   "expected": [
+    "wash_30 bleach_no iron_low pro_dry_p dry_tumble"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "pro_dry_p",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "152.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_40",
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_medium",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_40 bleach_no dry_tumble_no iron_medium pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "154.jpg",
+   "split": "TEST",
+   "required": 3,
+   "correct": 3,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "bleach_non_chlorine",
+    "dry_tumble_low",
+    "iron_medium"
+   ],
+   "expected": [
+    "bleach_non_chlorine dry_tumble_low iron_medium"
+   ],
+   "errors": []
+  },
+  {
+   "file": "167.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_40",
+    "bleach_non_chlorine",
+    "dry_tumble_low",
+    "iron_medium",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_40 bleach_non_chlorine dry_tumble_low iron_medium pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "168.jpg",
+   "split": "TEST",
+   "required": 4,
+   "correct": 3,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": false,
+   "status": "success",
+   "predicted": [
+    "bleach_no",
+    "iron_low",
+    "dry_tumble_no"
+   ],
+   "expected": [
+    "wash_hand bleach_no iron_low dry_tumble_no"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_hand",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "173.jpg",
+   "split": "TEST",
+   "required": 5,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 1,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 1,
+   "exact_sequence": false,
+   "status": "partial",
+   "predicted": [
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_low",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_hand bleach_no dry_tumble_no iron_low pro_dry_p"
+   ],
+   "errors": [
+    {
+     "op": "miss",
+     "gt": "wash_hand",
+     "pred": null
+    }
+   ]
+  },
+  {
+   "file": "185.jpg",
+   "split": "VALIDATION",
+   "required": 5,
+   "correct": 5,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_30_gentle",
+    "bleach_no",
+    "dry_tumble_no",
+    "iron_no",
+    "pro_no"
+   ],
+   "expected": [
+    "wash_30_gentle bleach_no dry_tumble_no iron_no pro_no"
+   ],
+   "errors": []
+  },
+  {
+   "file": "188.jpg",
+   "split": "VALIDATION",
+   "required": 4,
+   "correct": 4,
+   "wrong_class": 0,
+   "missed": 0,
+   "extra": 0,
+   "optional_hit": 0,
+   "optional_wrong": 0,
+   "uncertain": 0,
+   "exact_sequence": true,
+   "status": "success",
+   "predicted": [
+    "wash_40",
+    "bleach_no",
+    "iron_low",
+    "pro_dry_p"
+   ],
+   "expected": [
+    "wash_40 bleach_no iron_low pro_dry_p"
+   ],
+   "errors": []
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+# Manual fine-grained annotation of the 38 held-out st-den/thesis-project photos (TEST+VALIDATION).
+# One line per photo: <file> <split> | row1 tokens ; row2 tokens ; ...
+# 63.jpg: the base of the tub is a thick blurred band - one, two or no bars cannot be told apart -> any 30 variant accepted
+# token: class id = required; ?a|b = optional (non-ISO / unreadable variant, any of the listed ids accepted, not counted as miss); ?* = optional, any id
+2.jpg TEST WOVEN | wash_30_gentle bleach_no iron_low dry_tumble_no pro_dry_p
+3.jpg VALIDATION BLUR | wash_30_gentle bleach_no dry_tumble_no iron_low pro_no
+7.jpg VALIDATION LOW_CONTRAST | wash_30_gentle bleach_no iron_low dry_tumble_no pro_dry_p
+10.jpg VALIDATION | wash_30_gentle bleach_no dry_tumble_no iron_low pro_no ; ?* ?bleach_no ?iron_low|iron_any|iron_medium ?pro_no dry_tumble_no ; ?wash_30_very_gentle|wash_30_gentle|wash_30 bleach_no dry_tumble_no iron_low pro_no
+18.jpg VALIDATION | wash_30_gentle bleach_no dry_tumble_no iron_low pro_no ; ?* ?bleach_no ?iron_low|iron_any|iron_medium ?pro_no dry_tumble_no ; ?wash_30_very_gentle|wash_30_gentle|wash_30 bleach_no dry_tumble_no iron_low pro_no
+19.jpg TEST TOUCHING | wash_30_gentle bleach_no dry_tumble_low iron_low pro_no
+22.jpg VALIDATION | wash_30_gentle bleach_no dry_tumble_no iron_low pro_no ; ?* ?bleach_no ?iron_low|iron_any|iron_medium ?pro_no dry_tumble_no ; ?wash_30_very_gentle|wash_30_gentle|wash_30 bleach_no dry_tumble_no iron_low pro_no
+23.jpg TEST TOUCHING | wash_30_gentle bleach_no dry_tumble_low iron_low pro_no
+27.jpg TEST UNORDERED ROTATED | pro_no pro_no iron_low iron_low dry_tumble_no dry_tumble_no bleach_no bleach_no ?wash_30|wash_30_gentle|wash_30_very_gentle ?* ?* ?* ?* ?* ?* ?* ?* ?* ?* ?*
+28.jpg VALIDATION UNORDERED ROTATED | ?wash_30_gentle|wash_30|wash_30_very_gentle bleach_no dry_tumble_no iron_low pro_no ; ?* ?bleach_no ?iron_low|iron_any|iron_medium ?pro_no ?* ; wash_30_gentle bleach_no dry_tumble_no iron_low pro_no ; ?* ?bleach_no ?iron_low|iron_any|iron_medium ?pro_no dry_tumble_no
+36.jpg VALIDATION VERTICAL | wash_hand iron_low pro_dry_p dry_tumble_no bleach_no ?*
+41.jpg TEST | wash_no bleach_no iron_low pro_dry_p
+45.jpg VALIDATION | wash_no bleach_no iron_low dry_tumble_no pro_dry_p_very_gentle
+48.jpg VALIDATION | wash_no bleach_no dry_tumble_no iron_medium|iron_low
+53.jpg TEST WOVEN LOW_CONTRAST | wash_40 bleach_no dry_tumble_no iron_medium pro_dry_p
+54.jpg VALIDATION | wash_30 bleach_no dry_tumble_low iron_low pro_no
+55.jpg TEST | wash_30 bleach_no dry_tumble_no pro_dry_p iron_low
+56.jpg VALIDATION TOUCHING | wash_40 bleach_no iron_medium pro_no dry_tumble_low
+63.jpg VALIDATION WOVEN BLUR | wash_30|wash_30_gentle|wash_30_very_gentle bleach_no iron_low pro_no dry_tumble_no
+74.jpg VALIDATION LOW_CONTRAST | wash_hand bleach_no dry_tumble_no iron_low pro_dry_p
+79.jpg TEST | wash_40_gentle bleach_no dry_tumble_no iron_low pro_no ; ?wash_40_very_gentle|wash_40_gentle|wash_40 bleach_no dry_tumble_no iron_medium pro_no
+80.jpg TEST LOW_CONTRAST DARK_LABEL | wash_40 bleach_no dry_tumble_no iron_medium pro_no
+85.jpg TEST BLUR | ?* bleach_non_chlorine dry_tumble iron_high
+88.jpg TEST | wash_40_very_gentle bleach_no dry_tumble iron_high pro_dry_p
+92.jpg TEST BLUR | ?* ?* ?* ?* ?* ; ?* bleach_no dry_tumble_medium iron_medium pro_no
+86.jpg VALIDATION UNORDERED ROTATED | wash_40 bleach_non_chlorine dry_tumble_medium iron_medium pro_dry_p ?* ?* ?* ?* ?* ?* ?* ?* ?* ?* ?*
+94.jpg VALIDATION | wash_40 bleach_no dry_tumble_low iron_medium pro_no
+100.jpg VALIDATION | wash_30 bleach_no dry_tumble_no iron_no pro_dry_p
+112.jpg TEST VERTICAL | wash_30_gentle bleach_no iron_no pro_no dry_tumble_no
+118.jpg TEST | wash_30 bleach_no dry_tumble_medium iron_medium pro_dry_p ; wash_30 bleach_no dry_tumble_medium iron_medium pro_dry_p ; ?* ?* ?* ?* ?* ; ?* ?* ?* ?* ?*
+126.jpg VALIDATION TOUCHING | wash_30 bleach_no iron_low pro_dry_p dry_tumble
+152.jpg VALIDATION | wash_40 bleach_no dry_tumble_no iron_medium pro_no
+154.jpg TEST VERTICAL | bleach_non_chlorine dry_tumble_low iron_medium
+167.jpg VALIDATION | wash_40 bleach_non_chlorine dry_tumble_low iron_medium pro_no
+168.jpg TEST TINY_IMAGE | wash_hand bleach_no iron_low dry_tumble_no
+173.jpg TEST | wash_hand bleach_no dry_tumble_no iron_low pro_dry_p
+185.jpg VALIDATION | wash_30_gentle bleach_no dry_tumble_no iron_no pro_no
+188.jpg VALIDATION TOUCHING | wash_40 bleach_no iron_low pro_dry_p

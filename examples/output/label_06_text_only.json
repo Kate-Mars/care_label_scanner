@@ -1,0 +1,8 @@
+{
+  "status": "none",
+  "imageQuality": 0.844,
+  "recognizedSymbols": [],
+  "message": "Символы ухода за одеждой не обнаружены.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

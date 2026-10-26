@@ -1,0 +1,101 @@
+{
+  "status": "success",
+  "imageQuality": 0.948,
+  "recognizedSymbols": [
+    {
+      "id": "wash_60",
+      "category": "wash",
+      "confidence": 0.987,
+      "confidenceLevel": "high",
+      "bbox": [
+        181,
+        376,
+        275,
+        233
+      ],
+      "name": "Стирка до 60 °C",
+      "components": [
+        "wash_60"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 60,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 1
+    },
+    {
+      "id": "iron_high",
+      "category": "iron",
+      "confidence": 0.975,
+      "confidenceLevel": "high",
+      "bbox": [
+        541,
+        332,
+        267,
+        186
+      ],
+      "name": "Глажение при высокой температуре",
+      "components": [
+        "iron_high"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 3,
+        "maxSoleplateTemperatureC": 200
+      },
+      "position": 2
+    },
+    {
+      "id": "dry_shade",
+      "category": "dry",
+      "confidence": 0.989,
+      "confidenceLevel": "high",
+      "bbox": [
+        892,
+        226,
+        249,
+        292
+      ],
+      "name": "Сушить в тени",
+      "components": [
+        "dry_shade"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "natural_dry",
+        "shade": true
+      },
+      "position": 3
+    },
+    {
+      "id": "dry_tumble_gentle",
+      "category": "dry",
+      "confidence": 0.991,
+      "confidenceLevel": "high",
+      "bbox": [
+        1223,
+        197,
+        221,
+        288
+      ],
+      "name": "Машинная сушка — обычный режим, щадящий режим",
+      "components": [
+        "dry_tumble_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "any",
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 4
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

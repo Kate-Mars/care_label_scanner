@@ -1,0 +1,122 @@
+{
+  "status": "success",
+  "imageQuality": 0.837,
+  "recognizedSymbols": [
+    {
+      "id": "wash_no",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        274,
+        463,
+        59,
+        40
+      ],
+      "name": "Стирка запрещена",
+      "components": [
+        "wash_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "wash"
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        346,
+        460,
+        59,
+        52
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "non_chlorine_only"
+      },
+      "position": 2
+    },
+    {
+      "id": "dry_tumble_high",
+      "category": "dry",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        418,
+        456,
+        60,
+        59
+      ],
+      "name": "Машинная сушка — высокая температура",
+      "components": [
+        "dry_tumble_high"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "high",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 3
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        492,
+        470,
+        68,
+        40
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 1,
+        "maxSoleplateTemperatureC": 110
+      },
+      "position": 4
+    },
+    {
+      "id": "pro_dry_f",
+      "category": "professional_care",
+      "confidence": 0.805,
+      "confidenceLevel": "medium",
+      "bbox": [
+        574,
+        460,
+        58,
+        59
+      ],
+      "name": "Профессиональная сухая чистка (F)",
+      "components": [
+        "pro_dry_f"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "solvent": "F",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 5
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

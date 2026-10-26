@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "imageQuality": 0.914,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.966,
+      "confidenceLevel": "high",
+      "bbox": [
+        56,
+        2611,
+        216,
+        178
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ]
+    },
+    {
+      "id": "dry_tumble",
+      "category": "dry",
+      "confidence": 0.962,
+      "confidenceLevel": "high",
+      "bbox": [
+        328,
+        2599,
+        220,
+        178
+      ],
+      "name": "Машинная сушка — обычный режим",
+      "components": [
+        "dry_tumble"
+      ]
+    },
+    {
+      "id": "iron_high",
+      "category": "iron",
+      "confidence": 0.963,
+      "confidenceLevel": "high",
+      "bbox": [
+        600,
+        2602,
+        231,
+        166
+      ],
+      "name": "Глажение при высокой температуре",
+      "components": [
+        "iron_high"
+      ]
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

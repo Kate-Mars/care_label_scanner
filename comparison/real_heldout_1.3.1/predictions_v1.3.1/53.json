@@ -1,0 +1,73 @@
+{
+  "status": "partial",
+  "imageQuality": 0.929,
+  "recognizedSymbols": [
+    {
+      "id": "iron_high",
+      "category": "iron",
+      "confidence": 0.89,
+      "confidenceLevel": "medium",
+      "bbox": [
+        1618,
+        823,
+        240,
+        203
+      ],
+      "name": "Глажение при высокой температуре",
+      "components": [
+        "iron_high"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 3,
+        "maxSoleplateTemperatureC": 200
+      },
+      "position": 1
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.94,
+      "confidenceLevel": "high",
+      "bbox": [
+        1897,
+        816,
+        201,
+        196
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "solvent": "P",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 2
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        1024,
+        820,
+        631,
+        291
+      ],
+      "confidence": 0.247,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "bleach_no",
+        "iron_no",
+        "dry_tumble_no"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

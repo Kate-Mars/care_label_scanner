@@ -1,0 +1,72 @@
+{
+  "status": "success",
+  "imageQuality": 0.898,
+  "recognizedSymbols": [
+    {
+      "id": "wash_wring",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        424,
+        618,
+        96,
+        55
+      ],
+      "name": "Можно отжимать / выкручивать",
+      "components": [
+        "wash_wring"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wring"
+      },
+      "position": 1
+    },
+    {
+      "id": "dry_drip",
+      "category": "dry",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        541,
+        602,
+        89,
+        89
+      ],
+      "name": "Капельная сушка",
+      "components": [
+        "dry_drip"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "natural_dry",
+        "method": "drip"
+      },
+      "position": 2
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        651,
+        628,
+        89,
+        53
+      ],
+      "name": "Глажение разрешено без ограничения по точкам",
+      "components": [
+        "iron_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron"
+      },
+      "position": 3
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

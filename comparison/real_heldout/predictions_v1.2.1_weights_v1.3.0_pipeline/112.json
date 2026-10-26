@@ -1,0 +1,122 @@
+{
+  "status": "success",
+  "imageQuality": 0.914,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "confidence": 0.934,
+      "confidenceLevel": "high",
+      "bbox": [
+        251,
+        669,
+        78,
+        75
+      ],
+      "name": "Стирка до 30 °C, щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 1,
+      "row": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.934,
+      "confidenceLevel": "high",
+      "bbox": [
+        234,
+        763,
+        76,
+        79
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2,
+      "row": 2
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "confidence": 0.935,
+      "confidenceLevel": "high",
+      "bbox": [
+        227,
+        858,
+        79,
+        59
+      ],
+      "name": "Глажение запрещено",
+      "components": [
+        "iron_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "iron"
+      },
+      "position": 3,
+      "row": 3
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        226,
+        929,
+        69,
+        63
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "professional_dry_clean"
+      },
+      "position": 4,
+      "row": 4
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.938,
+      "confidenceLevel": "high",
+      "bbox": [
+        220,
+        1006,
+        70,
+        58
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "tumble_dry"
+      },
+      "position": 5,
+      "row": 5
+    }
+  ],
+  "labelDetected": false,
+  "layout": "vertical"
+}

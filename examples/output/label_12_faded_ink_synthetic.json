@@ -1,0 +1,123 @@
+{
+  "status": "success",
+  "imageQuality": 0.961,
+  "recognizedSymbols": [
+    {
+      "id": "wash_60",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        86,
+        444,
+        100,
+        58
+      ],
+      "name": "Стирка до 60 °C",
+      "components": [
+        "wash_60"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 60,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        197,
+        439,
+        88,
+        80
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "non_chlorine_only"
+      },
+      "position": 2
+    },
+    {
+      "id": "dry_tumble_medium_gentle",
+      "category": "dry",
+      "confidence": 0.868,
+      "confidenceLevel": "medium",
+      "bbox": [
+        297,
+        443,
+        86,
+        87
+      ],
+      "name": "Машинная сушка — средняя температура, щадящий режим",
+      "components": [
+        "dry_tumble_medium",
+        "dry_tumble_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "medium",
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 3
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        395,
+        471,
+        86,
+        33
+      ],
+      "name": "Глажение разрешено без ограничения по точкам",
+      "components": [
+        "iron_any"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron"
+      },
+      "position": 4
+    },
+    {
+      "id": "pro_dryclean",
+      "category": "professional_care",
+      "confidence": 0.891,
+      "confidenceLevel": "medium",
+      "bbox": [
+        497,
+        443,
+        88,
+        86
+      ],
+      "name": "Сухая чистка (ASTM, пустой круг)",
+      "components": [
+        "pro_dryclean"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "professional_dry_clean",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 5
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

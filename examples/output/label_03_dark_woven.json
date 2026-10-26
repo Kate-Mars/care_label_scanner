@@ -1,0 +1,125 @@
+{
+  "status": "success",
+  "imageQuality": 0.868,
+  "recognizedSymbols": [
+    {
+      "id": "dry_tumble_low_gentle",
+      "category": "dry",
+      "confidence": 0.87,
+      "confidenceLevel": "medium",
+      "bbox": [
+        80,
+        681,
+        174,
+        181
+      ],
+      "name": "Машинная сушка — низкая температура, щадящий режим",
+      "components": [
+        "dry_tumble_low",
+        "dry_tumble_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "low",
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 1
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "confidence": 0.98,
+      "confidenceLevel": "high",
+      "bbox": [
+        374,
+        701,
+        194,
+        109
+      ],
+      "name": "Глажение запрещено",
+      "components": [
+        "iron_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "iron"
+      },
+      "position": 2
+    },
+    {
+      "id": "wash_30",
+      "category": "wash",
+      "confidence": 0.98,
+      "confidenceLevel": "high",
+      "bbox": [
+        688,
+        677,
+        188,
+        127
+      ],
+      "name": "Стирка до 30 °C",
+      "components": [
+        "wash_30"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 3
+    },
+    {
+      "id": "pro_reduced_moisture",
+      "category": "professional_care",
+      "confidence": 0.98,
+      "confidenceLevel": "high",
+      "bbox": [
+        1006,
+        658,
+        172,
+        166
+      ],
+      "name": "Химчистка - сниженная влажность",
+      "components": [
+        "pro_reduced_moisture"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "restriction": "reduced_moisture",
+        "process": "professional_dry_clean"
+      },
+      "position": 4
+    },
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "confidence": 0.978,
+      "confidenceLevel": "high",
+      "bbox": [
+        1295,
+        647,
+        172,
+        138
+      ],
+      "name": "Стирка до 30 °C, щадящий режим",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 30,
+        "mechanicalAction": "mild",
+        "underlines": 1
+      },
+      "position": 5
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

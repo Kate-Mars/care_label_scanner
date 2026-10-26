@@ -1,0 +1,6 @@
+# Manual annotation of the three My Labels photos (regression set, never used for model selection).
+photo_2026-10-04_17-08-37.jpg MYLABELS WOVEN LONG_TEXT | wash_30_gentle bleach_no dry_tumble_no iron_low pro_no
+photo_2026-10-04_17-08-37 (2).jpg MYLABELS WOVEN | wash_hand_30 iron_low bleach_no dry_drip
+photo_2026-10-04_17-08-37 (3).jpg MYLABELS | wash_30_gentle bleach_no dry_tumble_low iron_low pro_dry_p_very_gentle
+photo_2026-10-25_sweater_hand_wash.png USER WOVEN | wash_hand bleach_no iron_no pro_dry_f_very_gentle dry_flat
+photo_2026-10-25_grid_repeated.png USER GRID UNORDERED | wash_no bleach_no dry_tumble_no iron_no pro_no ; wash_no bleach_no dry_tumble_no iron_no pro_no ; wash_no bleach_no dry_tumble_no iron_no pro_no ; wash_no bleach_no ?dry_no iron_no pro_no ; wash_no bleach_no dry_tumble_no iron_no pro_no

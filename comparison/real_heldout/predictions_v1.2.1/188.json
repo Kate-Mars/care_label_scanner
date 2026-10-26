@@ -1,0 +1,72 @@
+{
+  "status": "success",
+  "imageQuality": 0.819,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.97,
+      "confidenceLevel": "high",
+      "bbox": [
+        294,
+        423,
+        140,
+        85
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        362,
+        408,
+        147,
+        96
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        472,
+        400,
+        121,
+        93
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ]
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        575,
+        395,
+        86,
+        82
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ]
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

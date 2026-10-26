@@ -1,0 +1,3 @@
+# Two user photos sent on 25.10.2026. USED FOR TRAINING (user request) - therefore regression only, never a test of generalisation.
+photo_2026-10-25_sweater_hand_wash.png USER WOVEN | wash_hand bleach_no iron_no pro_dry_f_very_gentle dry_flat
+photo_2026-10-25_grid_repeated.png USER GRID UNORDERED | wash_no bleach_no dry_tumble_no iron_no pro_no ; wash_no bleach_no dry_tumble_no iron_no pro_no ; wash_no bleach_no dry_tumble_no iron_no pro_no ; wash_no bleach_no ?dry_no iron_no pro_no ; wash_no bleach_no dry_tumble_no iron_no pro_no

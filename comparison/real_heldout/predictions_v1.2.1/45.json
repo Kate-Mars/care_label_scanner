@@ -1,0 +1,88 @@
+{
+  "status": "success",
+  "imageQuality": 0.944,
+  "recognizedSymbols": [
+    {
+      "id": "wash_no",
+      "category": "wash",
+      "confidence": 0.922,
+      "confidenceLevel": "high",
+      "bbox": [
+        263,
+        807,
+        50,
+        85
+      ],
+      "name": "Стирка запрещена",
+      "components": [
+        "wash_no"
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.931,
+      "confidenceLevel": "high",
+      "bbox": [
+        320,
+        819,
+        52,
+        86
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.941,
+      "confidenceLevel": "high",
+      "bbox": [
+        379,
+        838,
+        64,
+        63
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ]
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.914,
+      "confidenceLevel": "high",
+      "bbox": [
+        452,
+        828,
+        68,
+        93
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ]
+    },
+    {
+      "id": "pro_dry_p_max_gentle",
+      "category": "professional_care",
+      "confidence": 0.935,
+      "confidenceLevel": "high",
+      "bbox": [
+        539,
+        847,
+        44,
+        76
+      ],
+      "name": "Сухая чистка P, максимально щадящий режим",
+      "components": [
+        "pro_dry_p_max_gentle"
+      ]
+    }
+  ],
+  "labelDetected": false,
+  "layout": "horizontal"
+}

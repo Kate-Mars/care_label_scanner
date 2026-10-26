@@ -1,0 +1,132 @@
+{
+  "status": "partial",
+  "imageQuality": 0.921,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.962,
+      "confidenceLevel": "high",
+      "bbox": [
+        858,
+        2438,
+        108,
+        99
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.966,
+      "confidenceLevel": "high",
+      "bbox": [
+        977,
+        2434,
+        112,
+        121
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.955,
+      "confidenceLevel": "high",
+      "bbox": [
+        1098,
+        2405,
+        115,
+        128
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ]
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "confidence": 0.967,
+      "confidenceLevel": "high",
+      "bbox": [
+        1371,
+        2363,
+        139,
+        119
+      ],
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "components": [
+        "pro_no"
+      ]
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        1067,
+        1120,
+        254,
+        185
+      ],
+      "confidence": 0.521,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_40"
+      ]
+    },
+    {
+      "bbox": [
+        604,
+        1525,
+        375,
+        245
+      ],
+      "confidence": 0.245,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_40",
+        "iron_no",
+        "iron_high"
+      ]
+    },
+    {
+      "bbox": [
+        767,
+        2160,
+        60,
+        53
+      ],
+      "confidence": 0.404,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_wet_no",
+        "wash_hand_30",
+        "pro_wet"
+      ]
+    },
+    {
+      "bbox": [
+        1212,
+        2398,
+        152,
+        112
+      ],
+      "confidence": 0.564,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "iron_medium",
+        "iron_low"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

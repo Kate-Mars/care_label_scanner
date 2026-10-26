@@ -1,0 +1,88 @@
+{
+ "label_01_clean_5_symbols.jpg": [
+  "wash_no",
+  "bleach_non_chlorine",
+  "dry_tumble_high",
+  "iron_low",
+  "pro_dry_f"
+ ],
+ "label_02_perspective.jpg": [
+  "wash_60",
+  "iron_high",
+  "dry_shade",
+  "dry_tumble_gentle"
+ ],
+ "label_03_dark_woven.jpg": [
+  "dry_tumble_low_gentle",
+  "iron_no",
+  "wash_30",
+  "pro_reduced_moisture",
+  "wash_30_gentle"
+ ],
+ "label_04_three_symbols_shadow.jpg": [
+  "wash_wring",
+  "dry_drip",
+  "iron_any"
+ ],
+ "label_05_long_row_blur.jpg": [
+  "bleach_any",
+  "bleach_chlorine",
+  "bleach_non_chlorine",
+  "iron_any",
+  "iron_no",
+  "bleach_any",
+  "wash_30_very_gentle"
+ ],
+ "label_06_text_only.jpg": [],
+ "label_07_no_label_object.jpg": [],
+ "label_08_touching_symbols_synthetic.jpg": [
+  "wash_no_wring",
+  "bleach_non_chlorine",
+  "dry_flat",
+  "iron_any",
+  "pro_no",
+  "dry_tumble_very_gentle"
+ ],
+ "label_09_ruled_grid_synthetic.jpg": [
+  "pro_wet",
+  "bleach_non_chlorine",
+  "iron_no_steam",
+  "wash_hand",
+  "wash_machine_gentle"
+ ],
+ "label_10_two_rows_10_symbols_synthetic.jpg": [
+  "bleach_chlorine",
+  "dry_tumble_high",
+  "iron_any",
+  "dry_flat",
+  "dry_tumble_gentle",
+  "iron_no",
+  "wash_60_gentle",
+  "wash_50",
+  "iron_any",
+  "bleach_chlorine"
+ ],
+ "label_11_row_of_15_synthetic.jpg": [
+  "bleach_non_chlorine",
+  "dry_tumble_no_heat",
+  "iron_any",
+  "pro_dry_a",
+  "iron_high",
+  "dry_no",
+  "pro_dry_p_max_gentle",
+  "dry_flat_drip",
+  "bleach_no",
+  "iron_no",
+  "bleach_any",
+  "wash_machine_gentle",
+  "wash_70",
+  "iron_low"
+ ],
+ "label_12_faded_ink_synthetic.jpg": [
+  "wash_60",
+  "bleach_non_chlorine",
+  "dry_tumble_medium_gentle",
+  "iron_any",
+  "pro_dryclean"
+ ]
+}

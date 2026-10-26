@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "imageQuality": 0.846,
+  "recognizedSymbols": [
+    {
+      "id": "wash_30",
+      "category": "wash",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        324,
+        906,
+        104,
+        74
+      ],
+      "name": "Стирка до 30 °C",
+      "components": [
+        "wash_30"
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        402,
+        921,
+        96,
+        70
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.743,
+      "confidenceLevel": "medium",
+      "bbox": [
+        463,
+        907,
+        121,
+        81
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ]
+    }
+  ],
+  "labelDetected": true,
+  "layout": "horizontal"
+}

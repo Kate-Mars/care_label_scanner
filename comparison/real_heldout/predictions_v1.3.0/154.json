@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "imageQuality": 0.969,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "confidence": 0.937,
+      "confidenceLevel": "high",
+      "bbox": [
+        164,
+        47,
+        52,
+        55
+      ],
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "bleach",
+        "bleachType": "non_chlorine_only"
+      },
+      "position": 1,
+      "row": 1
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.804,
+      "confidenceLevel": "medium",
+      "bbox": [
+        165,
+        167,
+        52,
+        56
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "low",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 2,
+      "row": 2
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.935,
+      "confidenceLevel": "high",
+      "bbox": [
+        164,
+        282,
+        53,
+        47
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 2,
+        "maxSoleplateTemperatureC": 150
+      },
+      "position": 3,
+      "row": 3
+    }
+  ],
+  "labelDetected": false,
+  "layout": "vertical"
+}

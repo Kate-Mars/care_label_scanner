@@ -1,0 +1,105 @@
+{
+  "status": "partial",
+  "imageQuality": 0.913,
+  "recognizedSymbols": [
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        819,
+        1852,
+        251,
+        277
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ]
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        1201,
+        1863,
+        286,
+        262
+      ],
+      "name": "Машинная сушка запрещена",
+      "components": [
+        "dry_tumble_no"
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        1555,
+        1871,
+        408,
+        270
+      ],
+      "name": "Глажение при низкой температуре",
+      "components": [
+        "iron_low"
+      ]
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "confidence": 0.99,
+      "confidenceLevel": "high",
+      "bbox": [
+        2057,
+        1898,
+        245,
+        246
+      ],
+      "name": "Профессиональная сухая чистка (P)",
+      "components": [
+        "pro_dry_p"
+      ]
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        405,
+        1879,
+        115,
+        220
+      ],
+      "confidence": 0.334,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "bleach_non_chlorine",
+        "bleach_no",
+        "pro_dryclean"
+      ]
+    },
+    {
+      "bbox": [
+        561,
+        1871,
+        152,
+        241
+      ],
+      "confidence": 0.507,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "wash_no",
+        "wash_machine_gentle",
+        "bleach_any"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}

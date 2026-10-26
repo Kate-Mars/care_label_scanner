@@ -1,0 +1,4 @@
+__pycache__/
+training/cache/
+debug_output/
+*.pyc

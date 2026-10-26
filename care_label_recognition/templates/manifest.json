@@ -1,0 +1,1024 @@
+[
+  {
+    "file": "wash/wash_70__docx1.png",
+    "class": "wash_70",
+    "variant": "iso_numeral",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 11, word/media/image1.png"
+  },
+  {
+    "file": "dry/dry_shade__docx2.png",
+    "class": "dry_shade",
+    "variant": "astm",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 24, word/media/image2.png"
+  },
+  {
+    "file": "wash/wash_95__docx3.png",
+    "class": "wash_95",
+    "variant": "iso_numeral",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 12, word/media/image3.png"
+  },
+  {
+    "file": "bleach/bleach_any__docx4.png",
+    "class": "bleach_any",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 41, word/media/image4.png"
+  },
+  {
+    "file": "dry/dry_tumble_very_gentle__docx5.png",
+    "class": "dry_tumble_very_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 27, word/media/image5.png"
+  },
+  {
+    "file": "dry/dry_tumble_low__docx6.png",
+    "class": "dry_tumble_low",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 20, word/media/image6.png"
+  },
+  {
+    "file": "dry/dry_tumble_no__docx7.png",
+    "class": "dry_tumble_no",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 30, word/media/image7.png"
+  },
+  {
+    "file": "professional_care/pro_dry_a__docx8.png",
+    "class": "pro_dry_a",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 37, word/media/image8.png"
+  },
+  {
+    "file": "dry/dry_tumble_medium__docx9.png",
+    "class": "dry_tumble_medium",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 21, word/media/image9.png"
+  },
+  {
+    "file": "professional_care/pro_dry_p_max_gentle__docx10.png",
+    "class": "pro_dry_p_max_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 49, word/media/image10.png"
+  },
+  {
+    "file": "dry/dry_tumble_no_heat__docx11.png",
+    "class": "dry_tumble_no_heat",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 25, word/media/image11.png"
+  },
+  {
+    "file": "wash/wash_hand__docx12.png",
+    "class": "wash_hand",
+    "variant": "iso",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 4, word/media/image12.png"
+  },
+  {
+    "file": "dry/dry_flat__docx13.png",
+    "class": "dry_flat",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 23, word/media/image13.png"
+  },
+  {
+    "file": "professional_care/pro_reduced_moisture__docx14.png",
+    "class": "pro_reduced_moisture",
+    "variant": "astm",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 32, word/media/image14.png"
+  },
+  {
+    "file": "dry/dry_drip__docx15.png",
+    "class": "dry_drip",
+    "variant": "astm",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 29, word/media/image15.png"
+  },
+  {
+    "file": "dry/dry_tumble_high__docx16.png",
+    "class": "dry_tumble_high",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 22, word/media/image16.png"
+  },
+  {
+    "file": "wash/wash_50__docx17.png",
+    "class": "wash_50",
+    "variant": "iso_numeral",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 9, word/media/image17.png"
+  },
+  {
+    "file": "dry/dry_shade__docx18.png",
+    "class": "dry_shade",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 24, word/media/image18.png"
+  },
+  {
+    "file": "professional_care/pro_low_heat__docx19.png",
+    "class": "pro_low_heat",
+    "variant": "astm",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 33, word/media/image19.png"
+  },
+  {
+    "file": "wash/wash_60__docx20.png",
+    "class": "wash_60",
+    "variant": "iso_numeral",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 10, word/media/image20.png"
+  },
+  {
+    "file": "professional_care/pro_wet_very_gentle__docx21.png",
+    "class": "pro_wet_very_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 46, word/media/image21.png"
+  },
+  {
+    "file": "wash/wash_machine__docx22.png",
+    "class": "wash_machine",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 1, word/media/image22.png"
+  },
+  {
+    "file": "professional_care/pro_short_cycle__docx23.png",
+    "class": "pro_short_cycle",
+    "variant": "astm",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 31, word/media/image23.png"
+  },
+  {
+    "file": "professional_care/pro_wet_no__docx24.png",
+    "class": "pro_wet_no",
+    "variant": "iso",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 36, word/media/image24.png"
+  },
+  {
+    "file": "professional_care/pro_wet_max_gentle__docx25.png",
+    "class": "pro_wet_max_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 47, word/media/image25.png"
+  },
+  {
+    "file": "professional_care/pro_wet__docx26.png",
+    "class": "pro_wet",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 40, word/media/image26.png"
+  },
+  {
+    "file": "professional_care/pro_dry_f_very_gentle__docx27.png",
+    "class": "pro_dry_f_very_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 44, word/media/image27.png"
+  },
+  {
+    "file": "professional_care/pro_dry_f__docx28.png",
+    "class": "pro_dry_f",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 39, word/media/image28.png"
+  },
+  {
+    "file": "professional_care/pro_wet_no__docx29.png",
+    "class": "pro_wet_no",
+    "variant": "app",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 36, word/media/image29.png"
+  },
+  {
+    "file": "professional_care/pro_dry_p_very_gentle__docx30.png",
+    "class": "pro_dry_p_very_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 48, word/media/image30.png"
+  },
+  {
+    "file": "wash/wash_30__docx31.png",
+    "class": "wash_30",
+    "variant": "iso_numeral",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 7, word/media/image31.png"
+  },
+  {
+    "file": "professional_care/pro_no_steam__docx32.png",
+    "class": "pro_no_steam",
+    "variant": "astm",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 34, word/media/image32.png"
+  },
+  {
+    "file": "dry/dry_drip__docx33.png",
+    "class": "dry_drip",
+    "variant": "astm",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 29, word/media/image33.png"
+  },
+  {
+    "file": "wash/wash_machine_very_gentle__docx34.png",
+    "class": "wash_machine_very_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 3, word/media/image34.png"
+  },
+  {
+    "file": "dry/dry_tumble_gentle__docx35.png",
+    "class": "dry_tumble_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 26, word/media/image35.png"
+  },
+  {
+    "file": "wash/wash_machine_gentle__docx36.png",
+    "class": "wash_machine_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 2, word/media/image36.png"
+  },
+  {
+    "file": "bleach/bleach_non_chlorine__docx37.png",
+    "class": "bleach_non_chlorine",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 42, word/media/image37.png"
+  },
+  {
+    "file": "wash/wash_no__docx38.png",
+    "class": "wash_no",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 5, word/media/image38.png"
+  },
+  {
+    "file": "wash/wash_hand__docx39.png",
+    "class": "wash_hand",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 4, word/media/image39.png"
+  },
+  {
+    "file": "wash/wash_70__docx40.png",
+    "class": "wash_70",
+    "variant": "astm_dots",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 11, word/media/image40.png"
+  },
+  {
+    "file": "wash/wash_40__docx41.png",
+    "class": "wash_40",
+    "variant": "astm_dots",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 8, word/media/image41.png"
+  },
+  {
+    "file": "iron/iron_low__docx42.png",
+    "class": "iron_low",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 13, word/media/image42.png"
+  },
+  {
+    "file": "wash/wash_50__docx43.png",
+    "class": "wash_50",
+    "variant": "astm_dots",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 9, word/media/image43.png"
+  },
+  {
+    "file": "wash/wash_95__docx44.png",
+    "class": "wash_95",
+    "variant": "astm_dots",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 12, word/media/image44.png"
+  },
+  {
+    "file": "professional_care/pro_no__docx45.png",
+    "class": "pro_no",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 35, word/media/image45.png"
+  },
+  {
+    "file": "dry/dry_tumble__docx46.png",
+    "class": "dry_tumble",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 19, word/media/image46.png"
+  },
+  {
+    "file": "iron/iron_any__docx47.png",
+    "class": "iron_any",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 16, word/media/image47.png"
+  },
+  {
+    "file": "wash/wash_no_wring__docx48.png",
+    "class": "wash_no_wring",
+    "variant": "astm",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 6, word/media/image48.png"
+  },
+  {
+    "file": "wash/wash_30__docx49.png",
+    "class": "wash_30",
+    "variant": "astm_dots",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 7, word/media/image49.png"
+  },
+  {
+    "file": "wash/wash_60__docx50.png",
+    "class": "wash_60",
+    "variant": "astm_dots",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 10, word/media/image50.png"
+  },
+  {
+    "file": "bleach/bleach_no__docx51.png",
+    "class": "bleach_no",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 43, word/media/image51.png"
+  },
+  {
+    "file": "iron/iron_high__docx52.png",
+    "class": "iron_high",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 15, word/media/image52.png"
+  },
+  {
+    "file": "dry/dry_line__docx53.png",
+    "class": "dry_line",
+    "variant": "astm",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 28, word/media/image53.png"
+  },
+  {
+    "file": "iron/iron_no_steam__docx54.png",
+    "class": "iron_no_steam",
+    "variant": "iso",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 18, word/media/image54.png"
+  },
+  {
+    "file": "iron/iron_no_steam__docx55.png",
+    "class": "iron_no_steam",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 18, word/media/image55.png"
+  },
+  {
+    "file": "wash/wash_40__docx56.png",
+    "class": "wash_40",
+    "variant": "iso_numeral",
+    "role": "alt",
+    "source": "Таблица ярлыков.docx, row 8, word/media/image56.png"
+  },
+  {
+    "file": "iron/iron_medium__docx57.png",
+    "class": "iron_medium",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 14, word/media/image57.png"
+  },
+  {
+    "file": "iron/iron_no__docx58.png",
+    "class": "iron_no",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 17, word/media/image58.png"
+  },
+  {
+    "file": "professional_care/pro_dry_p__docx59.png",
+    "class": "pro_dry_p",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 38, word/media/image59.png"
+  },
+  {
+    "file": "professional_care/pro_dry_f_max_gentle__docx60.png",
+    "class": "pro_dry_f_max_gentle",
+    "variant": "iso",
+    "role": "app",
+    "source": "Таблица ярлыков.docx, row 45, word/media/image60.png"
+  },
+  {
+    "file": "wash/wash_machine__proc_iso.png",
+    "class": "wash_machine",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_machine_gentle__proc_iso.png",
+    "class": "wash_machine_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_machine_very_gentle__proc_iso.png",
+    "class": "wash_machine_very_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_30__proc_iso_numeral.png",
+    "class": "wash_30",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_30__proc_astm_dots.png",
+    "class": "wash_30",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_30_gentle__proc_iso_numeral.png",
+    "class": "wash_30_gentle",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_30_gentle__proc_astm_dots.png",
+    "class": "wash_30_gentle",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_30_very_gentle__proc_iso_numeral.png",
+    "class": "wash_30_very_gentle",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_30_very_gentle__proc_astm_dots.png",
+    "class": "wash_30_very_gentle",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_40__proc_iso_numeral.png",
+    "class": "wash_40",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_40__proc_astm_dots.png",
+    "class": "wash_40",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_40_gentle__proc_iso_numeral.png",
+    "class": "wash_40_gentle",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_40_gentle__proc_astm_dots.png",
+    "class": "wash_40_gentle",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_40_very_gentle__proc_iso_numeral.png",
+    "class": "wash_40_very_gentle",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_40_very_gentle__proc_astm_dots.png",
+    "class": "wash_40_very_gentle",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_50__proc_iso_numeral.png",
+    "class": "wash_50",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_50__proc_astm_dots.png",
+    "class": "wash_50",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_50_gentle__proc_iso_numeral.png",
+    "class": "wash_50_gentle",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_50_gentle__proc_astm_dots.png",
+    "class": "wash_50_gentle",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_60__proc_iso_numeral.png",
+    "class": "wash_60",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_60__proc_astm_dots.png",
+    "class": "wash_60",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_60_gentle__proc_iso_numeral.png",
+    "class": "wash_60_gentle",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_60_gentle__proc_astm_dots.png",
+    "class": "wash_60_gentle",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_70__proc_iso_numeral.png",
+    "class": "wash_70",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_70__proc_astm_dots.png",
+    "class": "wash_70",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_95__proc_iso_numeral.png",
+    "class": "wash_95",
+    "variant": "iso_numeral",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / GINETEX (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_95__proc_astm_dots.png",
+    "class": "wash_95",
+    "variant": "astm_dots",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_hand__proc_iso.png",
+    "class": "wash_hand",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_hand_30__proc_iso_hand_30.png",
+    "class": "wash_hand_30",
+    "variant": "iso_hand_30",
+    "role": "procedural",
+    "source": "procedural drawing per ISO-inspired combined label variant (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_no__proc_iso.png",
+    "class": "wash_no",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_wring__proc_astm.png",
+    "class": "wash_wring",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "wash/wash_no_wring__proc_astm.png",
+    "class": "wash_no_wring",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / ISO 3758:1991 (synth/renderer.py)"
+  },
+  {
+    "file": "bleach/bleach_any__proc_iso.png",
+    "class": "bleach_any",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "bleach/bleach_non_chlorine__proc_iso.png",
+    "class": "bleach_non_chlorine",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "bleach/bleach_no__proc_iso_filled.png",
+    "class": "bleach_no",
+    "variant": "iso_filled",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "bleach/bleach_no__proc_ginetex_2023.png",
+    "class": "bleach_no",
+    "variant": "ginetex_2023",
+    "role": "procedural",
+    "source": "procedural drawing per GINETEX (контурный треугольник) (synth/renderer.py)"
+  },
+  {
+    "file": "bleach/bleach_chlorine__proc_legacy.png",
+    "class": "bleach_chlorine",
+    "variant": "legacy",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758:1991 / ASTM D5489-96c (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble__proc_iso.png",
+    "class": "dry_tumble",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_gentle__proc_iso.png",
+    "class": "dry_tumble_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_very_gentle__proc_iso.png",
+    "class": "dry_tumble_very_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_low__proc_iso.png",
+    "class": "dry_tumble_low",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_low_gentle__proc_iso.png",
+    "class": "dry_tumble_low_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_low_very_gentle__proc_iso.png",
+    "class": "dry_tumble_low_very_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_medium__proc_iso.png",
+    "class": "dry_tumble_medium",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_medium_gentle__proc_iso.png",
+    "class": "dry_tumble_medium_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_high__proc_iso.png",
+    "class": "dry_tumble_high",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_no_heat__proc_iso.png",
+    "class": "dry_tumble_no_heat",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_tumble_no__proc_iso.png",
+    "class": "dry_tumble_no",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_no__proc_astm.png",
+    "class": "dry_no",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_natural__proc_iso.png",
+    "class": "dry_natural",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_line__proc_astm.png",
+    "class": "dry_line",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_line__proc_iso.png",
+    "class": "dry_line",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_drip__proc_astm.png",
+    "class": "dry_drip",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_drip__proc_iso.png",
+    "class": "dry_drip",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_flat__proc_iso.png",
+    "class": "dry_flat",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_flat_drip__proc_iso.png",
+    "class": "dry_flat_drip",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_shade__proc_iso.png",
+    "class": "dry_shade",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / приложение (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_shade__proc_astm.png",
+    "class": "dry_shade",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_line_shade__proc_iso.png",
+    "class": "dry_line_shade",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_drip_shade__proc_iso.png",
+    "class": "dry_drip_shade",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 (synth/renderer.py)"
+  },
+  {
+    "file": "dry/dry_flat_shade__proc_iso.png",
+    "class": "dry_flat_shade",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 (synth/renderer.py)"
+  },
+  {
+    "file": "iron/iron_any__proc_iso.png",
+    "class": "iron_any",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "iron/iron_low__proc_iso.png",
+    "class": "iron_low",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "iron/iron_medium__proc_iso.png",
+    "class": "iron_medium",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "iron/iron_high__proc_iso.png",
+    "class": "iron_high",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "iron/iron_no__proc_iso.png",
+    "class": "iron_no",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "iron/iron_no_steam__proc_iso.png",
+    "class": "iron_no_steam",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dry_a__proc_iso.png",
+    "class": "pro_dry_a",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dry_p__proc_iso.png",
+    "class": "pro_dry_p",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dry_p_very_gentle__proc_iso.png",
+    "class": "pro_dry_p_very_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dry_p_max_gentle__proc_iso.png",
+    "class": "pro_dry_p_max_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dry_f__proc_iso.png",
+    "class": "pro_dry_f",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dry_f_very_gentle__proc_iso.png",
+    "class": "pro_dry_f_very_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dry_f_max_gentle__proc_iso.png",
+    "class": "pro_dry_f_max_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_wet__proc_iso.png",
+    "class": "pro_wet",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_wet_very_gentle__proc_iso.png",
+    "class": "pro_wet_very_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_wet_max_gentle__proc_iso.png",
+    "class": "pro_wet_max_gentle",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_dryclean__proc_astm.png",
+    "class": "pro_dryclean",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_short_cycle__proc_astm.png",
+    "class": "pro_short_cycle",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_reduced_moisture__proc_astm.png",
+    "class": "pro_reduced_moisture",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_low_heat__proc_astm.png",
+    "class": "pro_low_heat",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_no_steam__proc_astm.png",
+    "class": "pro_no_steam",
+    "variant": "astm",
+    "role": "procedural",
+    "source": "procedural drawing per ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_no__proc_iso.png",
+    "class": "pro_no",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_wet_no__proc_iso.png",
+    "class": "pro_wet_no",
+    "variant": "iso",
+    "role": "procedural",
+    "source": "procedural drawing per ISO 3758 / ASTM D5489-18 (synth/renderer.py)"
+  },
+  {
+    "file": "professional_care/pro_wet_no__proc_app.png",
+    "class": "pro_wet_no",
+    "variant": "app",
+    "role": "procedural",
+    "source": "procedural drawing per приложение (DOCX) (synth/renderer.py)"
+  },
+  {
+    "file": "bleach/bleach_no__proc_filled_legacy.png",
+    "class": "bleach_no",
+    "variant": "filled_legacy",
+    "role": "procedural",
+    "source": "procedural drawing per legacy ISO / JIS-style solid triangle (synth/renderer.py)"
+  }
+]

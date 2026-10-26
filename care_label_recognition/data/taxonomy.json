@@ -1,0 +1,2219 @@
+{
+  "version": "1.3.0",
+  "sources": {
+    "docx": "Таблица ярлыков.docx (основная таксономия приложения)",
+    "ISO 3758": "ISO 3758:2023 / GINETEX care labelling code",
+    "ASTM D5489": "ASTM D5489-18 Standard Guide for Care Symbols (FTC Care Labeling Rule, 16 CFR 423)"
+  },
+  "categories": {
+    "wash": {
+      "name": "Стирка",
+      "order": 1
+    },
+    "bleach": {
+      "name": "Отбеливание",
+      "order": 2
+    },
+    "dry": {
+      "name": "Сушка",
+      "order": 3
+    },
+    "iron": {
+      "name": "Глажение",
+      "order": 4
+    },
+    "professional_care": {
+      "name": "Профессиональная чистка",
+      "order": 5
+    }
+  },
+  "categoryOrder": [
+    "wash",
+    "bleach",
+    "dry",
+    "iron",
+    "professional_care"
+  ],
+  "rejectClass": "not_symbol",
+  "baseSymbols": [
+    {
+      "id": "wash_machine",
+      "category": "wash",
+      "name": "Машинная стирка, обычный режим",
+      "description": "Стирать в машине. Максимальная температура задается отдельным значком/числом",
+      "source": "docx",
+      "docxRow": 1,
+      "docxImages": [
+        22
+      ]
+    },
+    {
+      "id": "wash_machine_gentle",
+      "category": "wash",
+      "name": "Машинная стирка, щадящий режим",
+      "description": "Сниженная механическая нагрузка / режим для синтетики",
+      "source": "docx",
+      "docxRow": 2,
+      "docxImages": [
+        36
+      ]
+    },
+    {
+      "id": "wash_machine_very_gentle",
+      "category": "wash",
+      "name": "Машинная стирка, очень щадящий режим",
+      "description": "Очень мягкая стирка с минимальным воздействием",
+      "source": "docx",
+      "docxRow": 3,
+      "docxImages": [
+        34
+      ]
+    },
+    {
+      "id": "wash_hand",
+      "category": "wash",
+      "name": "Ручная стирка",
+      "description": "Стирать вручную. Обычно при температуре не выше 40 °C.",
+      "source": "docx",
+      "docxRow": 4,
+      "docxImages": [
+        39,
+        12
+      ]
+    },
+    {
+      "id": "wash_no",
+      "category": "wash",
+      "name": "Стирка запрещена",
+      "description": "Водная стирка не допускается",
+      "source": "docx",
+      "docxRow": 5,
+      "docxImages": [
+        38
+      ]
+    },
+    {
+      "id": "wash_no_wring",
+      "category": "wash",
+      "name": "Не отжимать / не выкручивать",
+      "description": "Не выкручивать изделие для удаления воды",
+      "source": "docx",
+      "docxRow": 6,
+      "docxImages": [
+        48
+      ]
+    },
+    {
+      "id": "wash_30",
+      "category": "wash",
+      "name": "Стирка до 30 °C",
+      "description": "Максимальная температура воды - 30 °C.",
+      "source": "docx",
+      "docxRow": 7,
+      "docxImages": [
+        49,
+        31
+      ]
+    },
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "name": "Стирка до 40 °C",
+      "description": "Максимальная температура воды - 40 °C.",
+      "source": "docx",
+      "docxRow": 8,
+      "docxImages": [
+        41,
+        56
+      ]
+    },
+    {
+      "id": "wash_50",
+      "category": "wash",
+      "name": "Стирка до 50 °C",
+      "description": "Максимальная температура воды - 50 °C.",
+      "source": "docx",
+      "docxRow": 9,
+      "docxImages": [
+        43,
+        17
+      ]
+    },
+    {
+      "id": "wash_60",
+      "category": "wash",
+      "name": "Стирка до 60 °C",
+      "description": "Максимальная температура воды - 60 °C.",
+      "source": "docx",
+      "docxRow": 10,
+      "docxImages": [
+        50,
+        20
+      ]
+    },
+    {
+      "id": "wash_70",
+      "category": "wash",
+      "name": "Стирка до 70 °C",
+      "description": "Максимальная температура воды - 70 °C.",
+      "source": "docx",
+      "docxRow": 11,
+      "docxImages": [
+        40,
+        1
+      ]
+    },
+    {
+      "id": "wash_95",
+      "category": "wash",
+      "name": "Стирка до 95 °C",
+      "description": "Максимальная температура воды - 95 °C.",
+      "source": "docx",
+      "docxRow": 12,
+      "docxImages": [
+        44,
+        3
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "name": "Глажение при низкой температуре",
+      "description": "Максимальная температура подошвы утюга - около 110 °C.",
+      "source": "docx",
+      "docxRow": 13,
+      "docxImages": [
+        42
+      ]
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "name": "Глажение при средней температуре",
+      "description": "Максимальная температура подошвы утюга - около 150 °C.",
+      "source": "docx",
+      "docxRow": 14,
+      "docxImages": [
+        57
+      ]
+    },
+    {
+      "id": "iron_high",
+      "category": "iron",
+      "name": "Глажение при высокой температуре",
+      "description": "Максимальная температура подошвы утюга - около 200 °C.",
+      "source": "docx",
+      "docxRow": 15,
+      "docxImages": [
+        52
+      ]
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "name": "Глажение разрешено без ограничения по точкам",
+      "description": "Глажение разрешено; на значке нет ограничения по температуре",
+      "source": "docx",
+      "docxRow": 16,
+      "docxImages": [
+        47
+      ]
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "name": "Глажение запрещено",
+      "description": "Утюжить изделие нельзя",
+      "source": "docx",
+      "docxRow": 17,
+      "docxImages": [
+        58
+      ]
+    },
+    {
+      "id": "iron_no_steam",
+      "category": "iron",
+      "name": "Паровая обработка запрещена",
+      "description": "Не использовать пар при глажении",
+      "source": "docx",
+      "docxRow": 18,
+      "docxImages": [
+        55,
+        54
+      ]
+    },
+    {
+      "id": "dry_tumble",
+      "category": "dry",
+      "name": "Машинная сушка - обычный режим",
+      "description": "Сушка в барабанной сушильной машине разрешена",
+      "source": "docx",
+      "docxRow": 19,
+      "docxImages": [
+        46
+      ]
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "name": "Машинная сушка - низкая температура",
+      "description": "Сушка в барабане при низкой температуре",
+      "source": "docx",
+      "docxRow": 20,
+      "docxImages": [
+        6
+      ]
+    },
+    {
+      "id": "dry_tumble_medium",
+      "category": "dry",
+      "name": "Машинная сушка - средняя температура",
+      "description": "Сушка в барабане при средней температуре",
+      "source": "docx",
+      "docxRow": 21,
+      "docxImages": [
+        9
+      ]
+    },
+    {
+      "id": "dry_tumble_high",
+      "category": "dry",
+      "name": "Машинная сушка - высокая температура",
+      "description": "Сушка в барабане при высокой температуре",
+      "source": "docx",
+      "docxRow": 22,
+      "docxImages": [
+        16
+      ]
+    },
+    {
+      "id": "dry_flat",
+      "category": "dry",
+      "name": "Сушить в расправленном виде",
+      "description": "Естественная сушка в горизонтальном положении",
+      "source": "docx",
+      "docxRow": 23,
+      "docxImages": [
+        13
+      ]
+    },
+    {
+      "id": "dry_shade",
+      "category": "dry",
+      "name": "Сушить в тени",
+      "description": "Сушить без прямого солнечного света",
+      "source": "docx",
+      "docxRow": 24,
+      "docxImages": [
+        18,
+        2
+      ]
+    },
+    {
+      "id": "dry_tumble_no_heat",
+      "category": "dry",
+      "name": "Машинная сушка без нагрева",
+      "description": "Барабанная сушка допускается только без нагрева",
+      "source": "docx",
+      "docxRow": 25,
+      "docxImages": [
+        11
+      ]
+    },
+    {
+      "id": "dry_tumble_gentle",
+      "category": "dry",
+      "name": "Машинная сушка - щадящий режим",
+      "description": "Сниженная интенсивность/щадящий цикл сушки",
+      "source": "docx",
+      "docxRow": 26,
+      "docxImages": [
+        35
+      ]
+    },
+    {
+      "id": "dry_tumble_very_gentle",
+      "category": "dry",
+      "name": "Машинная сушка - очень щадящий режим",
+      "description": "Две полоски - очень щадящий режим сушки",
+      "source": "docx",
+      "docxRow": 27,
+      "docxImages": [
+        5
+      ]
+    },
+    {
+      "id": "dry_line",
+      "category": "dry",
+      "name": "Сушить на веревке / в подвешенном виде",
+      "description": "Естественная сушка в подвешенном виде",
+      "source": "docx",
+      "docxRow": 28,
+      "docxImages": [
+        53
+      ]
+    },
+    {
+      "id": "dry_drip",
+      "category": "dry",
+      "name": "Капельная сушка",
+      "description": "Сушить подвешенным, позволяя воде стекать. Без интенсивного отжима.",
+      "source": "docx",
+      "docxRow": 29,
+      "docxImages": [
+        15,
+        33
+      ]
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "name": "Машинная сушка запрещена",
+      "description": "Не использовать барабанную сушилку",
+      "source": "docx",
+      "docxRow": 30,
+      "docxImages": [
+        7
+      ]
+    },
+    {
+      "id": "pro_short_cycle",
+      "category": "professional_care",
+      "name": "Химчистка - короткий цикл",
+      "description": "Диагональная отметка означает специальное ограничение процесса. Этот вариант - короткий цикл профессиональной чистки",
+      "source": "docx",
+      "docxRow": 31,
+      "docxImages": [
+        23
+      ]
+    },
+    {
+      "id": "pro_reduced_moisture",
+      "category": "professional_care",
+      "name": "Химчистка - сниженная влажность",
+      "description": "Ограничение по влажности при профессиональной чистке",
+      "source": "docx",
+      "docxRow": 32,
+      "docxImages": [
+        14
+      ]
+    },
+    {
+      "id": "pro_low_heat",
+      "category": "professional_care",
+      "name": "Химчистка - низкая температура",
+      "description": "Профессиональная чистка с ограничением температуры",
+      "source": "docx",
+      "docxRow": 33,
+      "docxImages": [
+        19
+      ]
+    },
+    {
+      "id": "pro_no_steam",
+      "category": "professional_care",
+      "name": "Химчистка - без паровой отделки",
+      "description": "После профессиональной чистки не применять паровую финишную обработку",
+      "source": "docx",
+      "docxRow": 34,
+      "docxImages": [
+        32
+      ]
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "name": "Профессиональная чистка запрещена",
+      "description": "Профессиональная чистка в химчистке не допускается",
+      "source": "docx",
+      "docxRow": 35,
+      "docxImages": [
+        45
+      ]
+    },
+    {
+      "id": "pro_wet_no",
+      "category": "professional_care",
+      "name": "Профессиональная обработка запрещена",
+      "description": "Влажная профессиональная чистка в химчистке не допускается",
+      "source": "docx",
+      "docxRow": 36,
+      "docxImages": [
+        29,
+        24
+      ]
+    },
+    {
+      "id": "pro_dry_a",
+      "category": "professional_care",
+      "name": "Профессиональная сухая чистка (A)",
+      "description": "Профессиональная сухая чистка с разрешенными растворителями категории A.",
+      "source": "docx",
+      "docxRow": 37,
+      "docxImages": [
+        8
+      ]
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "name": "Профессиональная сухая чистка (P)",
+      "description": "Профессиональная сухая чистка с растворителями, разрешенными для категории P.",
+      "source": "docx",
+      "docxRow": 38,
+      "docxImages": [
+        59
+      ]
+    },
+    {
+      "id": "pro_dry_f",
+      "category": "professional_care",
+      "name": "Профессиональная сухая чистка (F)",
+      "description": "Профессиональная сухая чистка с растворителями категории F (углеводородные).",
+      "source": "docx",
+      "docxRow": 39,
+      "docxImages": [
+        28
+      ]
+    },
+    {
+      "id": "pro_wet",
+      "category": "professional_care",
+      "name": "Профессиональная влажная чистка (W)",
+      "description": "Профессиональная влажная чистка.",
+      "source": "docx",
+      "docxRow": 40,
+      "docxImages": [
+        26
+      ]
+    },
+    {
+      "id": "bleach_any",
+      "category": "bleach",
+      "name": "Отбеливание разрешено",
+      "description": "Отбеливание разрешено. Можно использовать отбеливающие средства, подходящие для этой ткани.",
+      "source": "docx",
+      "docxRow": 41,
+      "docxImages": [
+        4
+      ]
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "name": "Отбеливание разрешено (только кислородные/бесхлорные средства)",
+      "description": "Отбеливание разрешено; точный вид средства зависит от полного стандарта ярлыка.",
+      "source": "docx",
+      "docxRow": 42,
+      "docxImages": [
+        37
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "name": "Отбеливание запрещено",
+      "description": "Не использовать отбеливатели.",
+      "source": "docx",
+      "docxRow": 43,
+      "docxImages": [
+        51
+      ]
+    },
+    {
+      "id": "pro_dry_f_very_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка F, очень щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории F, очень щадящий режим",
+      "source": "docx",
+      "docxRow": 44,
+      "docxImages": [
+        27
+      ]
+    },
+    {
+      "id": "pro_dry_f_max_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка F, максимально щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории F, максимально щадящая обработка",
+      "source": "docx",
+      "docxRow": 45,
+      "docxImages": [
+        60
+      ]
+    },
+    {
+      "id": "pro_wet_very_gentle",
+      "category": "professional_care",
+      "name": "Влажная чистка, очень щадящий режим",
+      "description": "Профессиональная влажная чистка в очень щадящем режиме",
+      "source": "docx",
+      "docxRow": 46,
+      "docxImages": [
+        21
+      ]
+    },
+    {
+      "id": "pro_wet_max_gentle",
+      "category": "professional_care",
+      "name": "Влажная чистка, максимально щадящий режим",
+      "description": "Профессиональная влажная чистка в максимально щадящем режиме",
+      "source": "docx",
+      "docxRow": 47,
+      "docxImages": [
+        25
+      ]
+    },
+    {
+      "id": "pro_dry_p_very_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка P, очень щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории P, очень щадящий режим",
+      "source": "docx",
+      "docxRow": 48,
+      "docxImages": [
+        30
+      ]
+    },
+    {
+      "id": "pro_dry_p_max_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка P, максимально щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории P, максимально щадящая обработка",
+      "source": "docx",
+      "docxRow": 49,
+      "docxImages": [
+        10
+      ]
+    },
+    {
+      "id": "pro_dryclean",
+      "category": "professional_care",
+      "name": "Профессиональная сухая чистка (ASTM, без буквы)",
+      "description": "ASTM D5489: пустой круг — сухая чистка любым растворителем, обычный цикл.",
+      "source": "ASTM D5489",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "bleach_chlorine",
+      "category": "bleach",
+      "name": "Хлорное отбеливание (треугольник с CL)",
+      "description": "Устаревший вариант ISO/ASTM: допускается хлорсодержащий отбеливатель.",
+      "source": "ISO 3758:1991 / ASTM D5489-96c",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "dry_no",
+      "category": "dry",
+      "name": "Не сушить (ASTM)",
+      "description": "ASTM D5489: перечёркнутый квадрат — не сушить.",
+      "source": "ASTM D5489",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "dry_flat_drip",
+      "category": "dry",
+      "name": "Сушить в расправленном виде без отжима",
+      "description": "ISO 3758: две горизонтальные линии — сушка на горизонтальной поверхности без отжима.",
+      "source": "ISO 3758",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "dry_line_shade",
+      "category": "dry",
+      "name": "Сушить на верёвке в тени",
+      "description": "ISO 3758: вертикальная линия + диагональ в углу.",
+      "source": "ISO 3758",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "dry_drip_shade",
+      "category": "dry",
+      "name": "Капельная сушка в тени",
+      "description": "ISO 3758: две вертикальные линии + диагональ в углу.",
+      "source": "ISO 3758",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "dry_natural",
+      "category": "dry",
+      "name": "Естественная сушка",
+      "description": "ISO 3758 / ASTM D5489: пустой квадрат — сушка разрешена (естественная).",
+      "source": "ISO 3758 / ASTM D5489 (Roboflow: natural_dry)",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "wash_wring",
+      "category": "wash",
+      "name": "Можно отжимать / выкручивать",
+      "description": "ASTM D5489: перекрученная ткань без креста — отжим выкручиванием допускается.",
+      "source": "ASTM D5489 (Roboflow: wring)",
+      "docxRow": null,
+      "docxImages": []
+    },
+    {
+      "id": "dry_flat_shade",
+      "category": "dry",
+      "name": "Сушить в расправленном виде в тени",
+      "description": "ISO 3758: горизонтальная линия + диагональ в углу.",
+      "source": "ISO 3758",
+      "docxRow": null,
+      "docxImages": []
+    }
+  ],
+  "classes": [
+    {
+      "id": "wash_machine",
+      "category": "wash",
+      "name": "Машинная стирка, обычный режим",
+      "description": "Стирать в машине. Максимальная температура задается отдельным значком/числом",
+      "components": [
+        "wash_machine"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "tub",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_machine_gentle",
+      "category": "wash",
+      "name": "Машинная стирка, щадящий режим",
+      "description": "Сниженная механическая нагрузка / режим для синтетики",
+      "components": [
+        "wash_machine_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "tub",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_machine_very_gentle",
+      "category": "wash",
+      "name": "Машинная стирка, очень щадящий режим",
+      "description": "Очень мягкая стирка с минимальным воздействием",
+      "components": [
+        "wash_machine_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "tub",
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_30",
+      "category": "wash",
+      "name": "Стирка до 30 °C",
+      "description": "Максимальная температура воды - 30 °C.",
+      "components": [
+        "wash_30"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 30,
+            "temp_style": "numeral",
+            "bars": 0
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 30,
+            "temp_style": "dots",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_30_gentle",
+      "category": "wash",
+      "name": "Стирка до 30 °C, щадящий режим",
+      "description": "Максимальная температура воды - 30 °C. Сниженная механическая нагрузка / режим для синтетики",
+      "components": [
+        "wash_30",
+        "wash_machine_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 30,
+            "temp_style": "numeral",
+            "bars": 1
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 30,
+            "temp_style": "dots",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_30_very_gentle",
+      "category": "wash",
+      "name": "Стирка до 30 °C, очень щадящий режим",
+      "description": "Максимальная температура воды - 30 °C. Очень мягкая стирка с минимальным воздействием",
+      "components": [
+        "wash_30",
+        "wash_machine_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 30,
+            "temp_style": "numeral",
+            "bars": 2
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 30,
+            "temp_style": "dots",
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "name": "Стирка до 40 °C",
+      "description": "Максимальная температура воды - 40 °C.",
+      "components": [
+        "wash_40"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 40,
+            "temp_style": "numeral",
+            "bars": 0
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 40,
+            "temp_style": "dots",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_40_gentle",
+      "category": "wash",
+      "name": "Стирка до 40 °C, щадящий режим",
+      "description": "Максимальная температура воды - 40 °C. Сниженная механическая нагрузка / режим для синтетики",
+      "components": [
+        "wash_40",
+        "wash_machine_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 40,
+            "temp_style": "numeral",
+            "bars": 1
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 40,
+            "temp_style": "dots",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_40_very_gentle",
+      "category": "wash",
+      "name": "Стирка до 40 °C, очень щадящий режим",
+      "description": "Максимальная температура воды - 40 °C. Очень мягкая стирка с минимальным воздействием",
+      "components": [
+        "wash_40",
+        "wash_machine_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 40,
+            "temp_style": "numeral",
+            "bars": 2
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 40,
+            "temp_style": "dots",
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_50",
+      "category": "wash",
+      "name": "Стирка до 50 °C",
+      "description": "Максимальная температура воды - 50 °C.",
+      "components": [
+        "wash_50"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 50,
+            "temp_style": "numeral",
+            "bars": 0
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 50,
+            "temp_style": "dots",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_50_gentle",
+      "category": "wash",
+      "name": "Стирка до 50 °C, щадящий режим",
+      "description": "Максимальная температура воды - 50 °C. Сниженная механическая нагрузка / режим для синтетики",
+      "components": [
+        "wash_50",
+        "wash_machine_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 50,
+            "temp_style": "numeral",
+            "bars": 1
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 50,
+            "temp_style": "dots",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_60",
+      "category": "wash",
+      "name": "Стирка до 60 °C",
+      "description": "Максимальная температура воды - 60 °C.",
+      "components": [
+        "wash_60"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 60,
+            "temp_style": "numeral",
+            "bars": 0
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 60,
+            "temp_style": "dots",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_60_gentle",
+      "category": "wash",
+      "name": "Стирка до 60 °C, щадящий режим",
+      "description": "Максимальная температура воды - 60 °C. Сниженная механическая нагрузка / режим для синтетики",
+      "components": [
+        "wash_60",
+        "wash_machine_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 60,
+            "temp_style": "numeral",
+            "bars": 1
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 60,
+            "temp_style": "dots",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_70",
+      "category": "wash",
+      "name": "Стирка до 70 °C",
+      "description": "Максимальная температура воды - 70 °C.",
+      "components": [
+        "wash_70"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 70,
+            "temp_style": "numeral",
+            "bars": 0
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 70,
+            "temp_style": "dots",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_95",
+      "category": "wash",
+      "name": "Стирка до 95 °C",
+      "description": "Максимальная температура воды - 95 °C.",
+      "components": [
+        "wash_95"
+      ],
+      "variants": [
+        {
+          "name": "iso_numeral",
+          "standard": "ISO 3758 / GINETEX",
+          "render": {
+            "shape": "tub",
+            "temp": 95,
+            "temp_style": "numeral",
+            "bars": 0
+          }
+        },
+        {
+          "name": "astm_dots",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "tub",
+            "temp": 95,
+            "temp_style": "dots",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_hand",
+      "category": "wash",
+      "name": "Ручная стирка",
+      "description": "Стирать вручную. Обычно при температуре не выше 40 °C.",
+      "components": [
+        "wash_hand"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "tub_hand"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_hand_30",
+      "category": "wash",
+      "name": "Ручная стирка при температуре до 30 °C",
+      "description": "Стирать вручную. Обычно при температуре не выше 40 °C. Максимальная температура воды - 30 °C.",
+      "components": [
+        "wash_hand",
+        "wash_30"
+      ],
+      "variants": [
+        {
+          "name": "iso_hand_30",
+          "standard": "ISO-inspired combined label variant",
+          "render": {
+            "shape": "tub_hand",
+            "temp": 30,
+            "temp_style": "numeral"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_no",
+      "category": "wash",
+      "name": "Стирка запрещена",
+      "description": "Водная стирка не допускается",
+      "components": [
+        "wash_no"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "tub",
+            "cross": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_wring",
+      "category": "wash",
+      "name": "Можно отжимать / выкручивать",
+      "description": "ASTM D5489: перекрученная ткань без креста — отжим выкручиванием допускается.",
+      "components": [
+        "wash_wring"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "twist"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wash_no_wring",
+      "category": "wash",
+      "name": "Не отжимать / не выкручивать",
+      "description": "Не выкручивать изделие для удаления воды",
+      "components": [
+        "wash_no_wring"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489 / ISO 3758:1991",
+          "render": {
+            "shape": "twist",
+            "cross": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "bleach_any",
+      "category": "bleach",
+      "name": "Отбеливание разрешено",
+      "description": "Отбеливание разрешено. Можно использовать отбеливающие средства, подходящие для этой ткани.",
+      "components": [
+        "bleach_any"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "triangle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bleach_non_chlorine",
+      "category": "bleach",
+      "name": "Только бесхлорный (кислородный) отбеливатель",
+      "description": "Отбеливание разрешено; точный вид средства зависит от полного стандарта ярлыка.",
+      "components": [
+        "bleach_non_chlorine"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "triangle",
+            "inner": "stripes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "name": "Отбеливание запрещено",
+      "description": "Не использовать отбеливатели.",
+      "components": [
+        "bleach_no"
+      ],
+      "variants": [
+        {
+          "name": "iso_filled",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "triangle",
+            "cross": true
+          }
+        },
+        {
+          "name": "ginetex_2023",
+          "standard": "GINETEX (контурный треугольник)",
+          "render": {
+            "shape": "triangle",
+            "cross": true,
+            "thin": true
+          }
+        },
+        {
+          "name": "filled_legacy",
+          "standard": "legacy ISO / JIS-style solid triangle",
+          "render": {
+            "shape": "triangle",
+            "cross": true,
+            "filled": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "bleach_chlorine",
+      "category": "bleach",
+      "name": "Хлорное отбеливание (CL)",
+      "description": "Устаревший вариант ISO/ASTM: допускается хлорсодержащий отбеливатель.",
+      "components": [
+        "bleach_chlorine"
+      ],
+      "variants": [
+        {
+          "name": "legacy",
+          "standard": "ISO 3758:1991 / ASTM D5489-96c",
+          "render": {
+            "shape": "triangle",
+            "inner": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble",
+      "category": "dry",
+      "name": "Машинная сушка — обычный режим",
+      "description": "Сушка в барабанной сушильной машине разрешена",
+      "components": [
+        "dry_tumble"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 0,
+            "filled": false,
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_gentle",
+      "category": "dry",
+      "name": "Машинная сушка — обычный режим, щадящий режим",
+      "description": "Сниженная интенсивность/щадящий цикл сушки",
+      "components": [
+        "dry_tumble_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 0,
+            "filled": false,
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_very_gentle",
+      "category": "dry",
+      "name": "Машинная сушка — обычный режим, очень щадящий режим",
+      "description": "Две полоски - очень щадящий режим сушки",
+      "components": [
+        "dry_tumble_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 0,
+            "filled": false,
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "name": "Машинная сушка — низкая температура",
+      "description": "Сушка в барабане при низкой температуре",
+      "components": [
+        "dry_tumble_low"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 1,
+            "filled": false,
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_low_gentle",
+      "category": "dry",
+      "name": "Машинная сушка — низкая температура, щадящий режим",
+      "description": "Сушка в барабане при низкой температуре Сниженная интенсивность/щадящий цикл сушки",
+      "components": [
+        "dry_tumble_low",
+        "dry_tumble_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 1,
+            "filled": false,
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_low_very_gentle",
+      "category": "dry",
+      "name": "Машинная сушка — низкая температура, очень щадящий режим",
+      "description": "Сушка в барабане при низкой температуре Две полоски - очень щадящий режим сушки",
+      "components": [
+        "dry_tumble_low",
+        "dry_tumble_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 1,
+            "filled": false,
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_medium",
+      "category": "dry",
+      "name": "Машинная сушка — средняя температура",
+      "description": "Сушка в барабане при средней температуре",
+      "components": [
+        "dry_tumble_medium"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 2,
+            "filled": false,
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_medium_gentle",
+      "category": "dry",
+      "name": "Машинная сушка — средняя температура, щадящий режим",
+      "description": "Сушка в барабане при средней температуре Сниженная интенсивность/щадящий цикл сушки",
+      "components": [
+        "dry_tumble_medium",
+        "dry_tumble_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 2,
+            "filled": false,
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_high",
+      "category": "dry",
+      "name": "Машинная сушка — высокая температура",
+      "description": "Сушка в барабане при высокой температуре",
+      "components": [
+        "dry_tumble_high"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 3,
+            "filled": false,
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_no_heat",
+      "category": "dry",
+      "name": "Машинная сушка — без нагрева",
+      "description": "Барабанная сушка допускается только без нагрева",
+      "components": [
+        "dry_tumble_no_heat"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "dots": 0,
+            "filled": true,
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_tumble_no",
+      "category": "dry",
+      "name": "Машинная сушка запрещена",
+      "description": "Не использовать барабанную сушилку",
+      "components": [
+        "dry_tumble_no"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "circle",
+            "cross": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_no",
+      "category": "dry",
+      "name": "Не сушить (ASTM)",
+      "description": "ASTM D5489: перечёркнутый квадрат — не сушить.",
+      "components": [
+        "dry_no"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "square",
+            "cross": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_natural",
+      "category": "dry",
+      "name": "Естественная сушка",
+      "description": "ISO 3758 / ASTM D5489: пустой квадрат — сушка разрешена (естественная).",
+      "components": [
+        "dry_natural"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_line",
+      "category": "dry",
+      "name": "Сушить на верёвке / в подвешенном виде",
+      "description": "Естественная сушка в подвешенном виде",
+      "components": [
+        "dry_line"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "square",
+            "inner": "sag"
+          }
+        },
+        {
+          "name": "iso",
+          "standard": "ISO 3758",
+          "render": {
+            "shape": "square",
+            "inner": "vlines",
+            "n": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_drip",
+      "category": "dry",
+      "name": "Капельная сушка",
+      "description": "Сушить подвешенным, позволяя воде стекать. Без интенсивного отжима.",
+      "components": [
+        "dry_drip"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489 / приложение",
+          "render": {
+            "shape": "square",
+            "inner": "vlines",
+            "n": 3
+          }
+        },
+        {
+          "name": "iso",
+          "standard": "ISO 3758",
+          "render": {
+            "shape": "square",
+            "inner": "vlines",
+            "n": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_flat",
+      "category": "dry",
+      "name": "Сушить в расправленном виде",
+      "description": "Естественная сушка в горизонтальном положении",
+      "components": [
+        "dry_flat"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "square",
+            "inner": "hlines",
+            "n": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_flat_drip",
+      "category": "dry",
+      "name": "Сушить в расправленном виде без отжима",
+      "description": "ISO 3758: две горизонтальные линии — сушка на горизонтальной поверхности без отжима.",
+      "components": [
+        "dry_flat_drip"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758",
+          "render": {
+            "shape": "square",
+            "inner": "hlines",
+            "n": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_shade",
+      "category": "dry",
+      "name": "Сушить в тени",
+      "description": "Сушить без прямого солнечного света",
+      "components": [
+        "dry_shade"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / приложение",
+          "render": {
+            "shape": "square",
+            "shade": 1
+          }
+        },
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "square",
+            "shade": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_line_shade",
+      "category": "dry",
+      "name": "Сушить на верёвке в тени",
+      "description": "ISO 3758: вертикальная линия + диагональ в углу.",
+      "components": [
+        "dry_line_shade"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758",
+          "render": {
+            "shape": "square",
+            "inner": "vlines",
+            "n": 1,
+            "shade": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_drip_shade",
+      "category": "dry",
+      "name": "Капельная сушка в тени",
+      "description": "ISO 3758: две вертикальные линии + диагональ в углу.",
+      "components": [
+        "dry_drip_shade"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758",
+          "render": {
+            "shape": "square",
+            "inner": "vlines",
+            "n": 2,
+            "shade": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "dry_flat_shade",
+      "category": "dry",
+      "name": "Сушить в расправленном виде в тени",
+      "description": "ISO 3758: горизонтальная линия + диагональ в углу.",
+      "components": [
+        "dry_flat_shade"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758",
+          "render": {
+            "shape": "square",
+            "inner": "hlines",
+            "n": 1,
+            "shade": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "iron_any",
+      "category": "iron",
+      "name": "Глажение разрешено без ограничения по точкам",
+      "description": "Глажение разрешено; на значке нет ограничения по температуре",
+      "components": [
+        "iron_any"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "iron",
+            "dots": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "iron_low",
+      "category": "iron",
+      "name": "Глажение при низкой температуре",
+      "description": "Максимальная температура подошвы утюга - около 110 °C.",
+      "components": [
+        "iron_low"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "iron",
+            "dots": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "name": "Глажение при средней температуре",
+      "description": "Максимальная температура подошвы утюга - около 150 °C.",
+      "components": [
+        "iron_medium"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "iron",
+            "dots": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "iron_high",
+      "category": "iron",
+      "name": "Глажение при высокой температуре",
+      "description": "Максимальная температура подошвы утюга - около 200 °C.",
+      "components": [
+        "iron_high"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "iron",
+            "dots": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "iron_no",
+      "category": "iron",
+      "name": "Глажение запрещено",
+      "description": "Утюжить изделие нельзя",
+      "components": [
+        "iron_no"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "iron",
+            "cross": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "iron_no_steam",
+      "category": "iron",
+      "name": "Паровая обработка запрещена",
+      "description": "Не использовать пар при глажении",
+      "components": [
+        "iron_no_steam"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "iron",
+            "steam_cross": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dry_a",
+      "category": "professional_care",
+      "name": "Профессиональная сухая чистка (A)",
+      "description": "Профессиональная сухая чистка с разрешенными растворителями категории A.",
+      "components": [
+        "pro_dry_a"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "A",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dry_p",
+      "category": "professional_care",
+      "name": "Профессиональная сухая чистка (P)",
+      "description": "Профессиональная сухая чистка с растворителями, разрешенными для категории P.",
+      "components": [
+        "pro_dry_p"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "P",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dry_p_very_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка P, очень щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории P, очень щадящий режим",
+      "components": [
+        "pro_dry_p_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "P",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dry_p_max_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка P, максимально щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории P, максимально щадящая обработка",
+      "components": [
+        "pro_dry_p_max_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "P",
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dry_f",
+      "category": "professional_care",
+      "name": "Профессиональная сухая чистка (F)",
+      "description": "Профессиональная сухая чистка с растворителями категории F (углеводородные).",
+      "components": [
+        "pro_dry_f"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "F",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dry_f_very_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка F, очень щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории F, очень щадящий режим",
+      "components": [
+        "pro_dry_f_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "F",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dry_f_max_gentle",
+      "category": "professional_care",
+      "name": "Сухая чистка F, максимально щадящий режим",
+      "description": "Профессиональная сухая чистка с растворителями категории F, максимально щадящая обработка",
+      "components": [
+        "pro_dry_f_max_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "F",
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_wet",
+      "category": "professional_care",
+      "name": "Профессиональная влажная чистка (W)",
+      "description": "Профессиональная влажная чистка.",
+      "components": [
+        "pro_wet"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "W",
+            "bars": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_wet_very_gentle",
+      "category": "professional_care",
+      "name": "Влажная чистка, очень щадящий режим",
+      "description": "Профессиональная влажная чистка в очень щадящем режиме",
+      "components": [
+        "pro_wet_very_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "W",
+            "bars": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_wet_max_gentle",
+      "category": "professional_care",
+      "name": "Влажная чистка, максимально щадящий режим",
+      "description": "Профессиональная влажная чистка в максимально щадящем режиме",
+      "components": [
+        "pro_wet_max_gentle"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "W",
+            "bars": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_dryclean",
+      "category": "professional_care",
+      "name": "Сухая чистка (ASTM, пустой круг)",
+      "description": "ASTM D5489: пустой круг — сухая чистка любым растворителем, обычный цикл.",
+      "components": [
+        "pro_dryclean"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "circle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_short_cycle",
+      "category": "professional_care",
+      "name": "Химчистка - короткий цикл",
+      "description": "Диагональная отметка означает специальное ограничение процесса. Этот вариант - короткий цикл профессиональной чистки",
+      "components": [
+        "pro_short_cycle"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "circle",
+            "tick": "ll"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_reduced_moisture",
+      "category": "professional_care",
+      "name": "Химчистка - сниженная влажность",
+      "description": "Ограничение по влажности при профессиональной чистке",
+      "components": [
+        "pro_reduced_moisture"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "circle",
+            "tick": "ul"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_low_heat",
+      "category": "professional_care",
+      "name": "Химчистка - низкая температура",
+      "description": "Профессиональная чистка с ограничением температуры",
+      "components": [
+        "pro_low_heat"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "circle",
+            "tick": "lr"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_no_steam",
+      "category": "professional_care",
+      "name": "Химчистка - без паровой отделки",
+      "description": "После профессиональной чистки не применять паровую финишную обработку",
+      "components": [
+        "pro_no_steam"
+      ],
+      "variants": [
+        {
+          "name": "astm",
+          "standard": "ASTM D5489",
+          "render": {
+            "shape": "circle",
+            "tick": "ur"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_no",
+      "category": "professional_care",
+      "name": "Профессиональная (сухая) чистка запрещена",
+      "description": "Профессиональная чистка в химчистке не допускается",
+      "components": [
+        "pro_no"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489",
+          "render": {
+            "shape": "circle",
+            "cross": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "pro_wet_no",
+      "category": "professional_care",
+      "name": "Профессиональная влажная чистка запрещена",
+      "description": "Влажная профессиональная чистка в химчистке не допускается",
+      "components": [
+        "pro_wet_no"
+      ],
+      "variants": [
+        {
+          "name": "iso",
+          "standard": "ISO 3758 / ASTM D5489-18",
+          "render": {
+            "shape": "circle",
+            "letter": "W",
+            "cross": true
+          }
+        },
+        {
+          "name": "app",
+          "standard": "приложение (DOCX)",
+          "render": {
+            "shape": "circle",
+            "filled": true,
+            "cross": true
+          }
+        }
+      ]
+    }
+  ]
+}

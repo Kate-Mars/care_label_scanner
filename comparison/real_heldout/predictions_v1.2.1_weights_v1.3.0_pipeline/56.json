@@ -1,0 +1,116 @@
+{
+  "status": "partial",
+  "imageQuality": 0.916,
+  "recognizedSymbols": [
+    {
+      "id": "wash_40",
+      "category": "wash",
+      "confidence": 0.817,
+      "confidenceLevel": "medium",
+      "bbox": [
+        1118,
+        1933,
+        249,
+        159
+      ],
+      "name": "Стирка до 40 °C",
+      "components": [
+        "wash_40"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "wash",
+        "maxTemperatureC": 40,
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 1
+    },
+    {
+      "id": "bleach_no",
+      "category": "bleach",
+      "confidence": 0.837,
+      "confidenceLevel": "medium",
+      "bbox": [
+        1371,
+        1900,
+        327,
+        222
+      ],
+      "name": "Отбеливание запрещено",
+      "components": [
+        "bleach_no"
+      ],
+      "attributes": {
+        "prohibited": true,
+        "process": "bleach"
+      },
+      "position": 2
+    },
+    {
+      "id": "iron_medium",
+      "category": "iron",
+      "confidence": 0.937,
+      "confidenceLevel": "high",
+      "bbox": [
+        1709,
+        1942,
+        240,
+        159
+      ],
+      "name": "Глажение при средней температуре",
+      "components": [
+        "iron_medium"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "iron",
+        "dots": 2,
+        "maxSoleplateTemperatureC": 150
+      },
+      "position": 3
+    },
+    {
+      "id": "dry_tumble_low",
+      "category": "dry",
+      "confidence": 0.926,
+      "confidenceLevel": "high",
+      "bbox": [
+        2359,
+        1967,
+        193,
+        190
+      ],
+      "name": "Машинная сушка — низкая температура",
+      "components": [
+        "dry_tumble_low"
+      ],
+      "attributes": {
+        "prohibited": false,
+        "process": "tumble_dry",
+        "heat": "low",
+        "mechanicalAction": "normal",
+        "underlines": 0
+      },
+      "position": 4
+    }
+  ],
+  "uncertainSymbols": [
+    {
+      "bbox": [
+        1973,
+        1915,
+        307,
+        217
+      ],
+      "confidence": 0.327,
+      "confidenceLevel": "low",
+      "possibleClasses": [
+        "pro_no"
+      ]
+    }
+  ],
+  "message": "Часть символов распознана неуверенно.",
+  "labelDetected": true,
+  "layout": "horizontal"
+}
